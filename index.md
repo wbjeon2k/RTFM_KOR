@@ -21,9 +21,9 @@ How To Ask Questions The Smart Way
 
 Copyright © 2001,2006,2014 Eric S. Raymond, Rick Moen
 
-#### 전웅배 (한국어 번역자)
+### 전웅배 (한국어 번역자)
 
-[woongbae@unist.ac.kr](mailto:woongbae@unist.ac.kr)
+[woongbae@unist.ac.kr](https://wbjeon2k.github.io/about)
 
 **목차 Table of Contents**
 
@@ -132,24 +132,27 @@ Copyright © 2001,2006,2014 Eric S. Raymond, Rick Moen
 
 <!-- We have learned the hard way that without such a notice, we will repeatedly be pestered by idiots who think having published this document makes it our job to solve all the world's technical problems. -->
 
-위 경고문이 없다면, 우리(*역주 : 원 저자들*) 들은 본 문서를 작성했다는 이유 하나 만으로
-전 세계의 모든 기술적인 문제들을 해결하는 것이 우리의 일 인것 마냥 착각하는 멍청이들로 부터 고통을 받는다는 사실을
-쓰라린 과정을 통해서 알아 내었습니다.
+위 경고문이 없다면, 우리(*역주 : 원저자들*)는 본 문서를 작성했다는 이유 하나만으로 전 세계의 모든 기술적인 문제들을 해결하는 것이 우리의 일인 것처럼 착각하는 멍청이들로부터 고통을 받는다는 사실을 쓰라린 과정을 통해서 알아내었습니다.
 
 <!-- If you're reading this document because you need help, and you walk away with the impression you can get it directly from the authors of this document, _you_ are one of the idiots we are talking about. -->
-도움이 필요해서 이 글을 읽으러 오신 분들 중에서 이 글을 읽고 본 문서를 적은 저자들로 부터 직접적인 도움을 받을 수 있겠다는 생각을 하셨다면, **당신은** 바로 우리가 말하는 멍청이들 중 하나입니다.
+도움이 필요해서 이 글을 읽으러 오신 분 중에서 이 글을 읽고 본 문서를 적은 저자들로부터 직접적인 도움을 받을 수 있겠다고 생각하셨다면, **당신은** 바로 우리가 말하는 멍청이 중 하나입니다.
 <!-- Don't ask _us_ questions. We'll just ignore you. We are here to show you how to get help from people who actually know about the software or hardware you're dealing with, but 99.9% of the time that will not be us. -->
-**저자들에게** 질문을 하지 마세요. 우리는 그냥 당신 요청을 무시할겁니다. 우리는 당신들이 도움을 필요로 하는 SW나 HW를 잘 알고있는 사람들로부터 도움을 받는 법을 보여주기 위해 문서를 작성하였고, 99.9%의 경우에는 우리는 도움을 줄 수 있는 사람이 아닙니다.
+**저자들에게** 질문을 하지 마세요. 우리는 그냥 당신 요청을 무시할 겁니다. 우리는 당신들이 도움을 필요로 하는 SW나 HW를 잘 알고 있는 사람들로부터 도움을 받는 법을 보여주기 위해 문서를 작성하였고, 99.9%의 경우에는 우리는 도움을 줄 수 있는 사람이 아닙니다.
 <!-- Unless you know for _certain_ that one of the authors is an expert on what you're dealing with, leave us alone and everybody will be happier. -->
-저자들 중 한 명이 당신의 문제를 겪고 있는 사항에 대한 전문가 라는 사실을 **확실히** 아는 것이 아니라면, 모두의 행복을 위해서라도 우리를 괴롭히지 말아주세요.
+저자 중 한 명이 당신의 문제를 겪고 있는 사항에 대한 전문가라는 사실을 **확실히** 아는 것이 아니라면, 모두의 행복을 위해서라도 우리를 괴롭히지 말아 주세요.
 
-(*역주 : 번역자 에게도 질문 금지 입니다*)
+(*역주 : 번역자에게도 질문 금지입니다*)
 
 서론
 ------------
 
-In the world of [hackers](http://www.catb.org/~esr/faqs/hacker-howto.html), the kind of answers you get to your technical questions depends as much on the way you ask the questions as on the difficulty of developing the answer. This guide will teach you how to ask questions in a way more likely to get you a satisfactory answer.
+<!-- In the world of [hackers](http://www.catb.org/~esr/faqs/hacker-howto.html), the kind of answers you get to your technical questions depends as much on the way you ask the questions as on the difficulty of developing the answer. -->
+이쪽 [해커](http://www.catb.org/~esr/faqs/hacker-howto.html)들의 바닥에서는, 여러분들이 가진 기술적인 문제에 대한 답변을 받기 위해 질문을 하는 방법이 해당 질문의 난이도만큼이나 중요합니다.  
+(*역주 : 본 문서에서 '해커'는 '전문가'의 의미에 더 가깝습니다.*)
+<!-- This guide will teach you how to ask questions in a way more likely to get you a satisfactory answer. -->
+본 가이드는 여러분들이 더욱더 높은 확률로 만족스러운 답변을 받기 위해서 질문을 제대로 하는 법을 가르쳐 드릴 겁니다.
 
+<!-- TODO: 여기서부터 -->
 Now that use of open source has become widespread, you can often get as good answers from other, more experienced users as from hackers. This is a Good Thing; users tend to be just a little bit more tolerant of the kind of failures newbies often have. Still, treating experienced users like hackers in the ways we recommend here will generally be the most effective way to get useful answers out of them, too.
 
 The first thing to understand is that hackers actually like hard problems and good, thought-provoking questions about them. If we didn't, we wouldn't be here. If you give us an interesting question to chew on we'll be grateful to you; good questions are a stimulus and a gift. Good questions help us develop our understanding, and often reveal problems we might not have noticed or thought about otherwise. Among hackers, “Good question!” is a strong and sincere compliment.
