@@ -7,19 +7,25 @@ layout: home
 How To Ask Questions The Smart Way
 ----------------------------------
 
+### 저자 및 역자
+
 ### Eric Steven Raymond
 
 [Thyrsus Enterprises](http://www.catb.org/~esr/)  
 
-    `<[esr@thyrsus.com](mailto:esr@thyrsus.com)>`  
+[esr@thyrsus.com](mailto:esr@thyrsus.com)
 
 ### Rick Moen
 
-    `<[respond-auto@linuxmafia.com](mailto:respond-auto@linuxmafia.com)>`  
+[respond-auto@linuxmafia.com](mailto:respond-auto@linuxmafia.com)  
 
 Copyright © 2001,2006,2014 Eric S. Raymond, Rick Moen
 
-**Table of Contents**
+#### 전웅배 (한국어 번역자)
+
+[woongbae@unist.ac.kr](mailto:woongbae@unist.ac.kr)
+
+**목차 Table of Contents**
 
 [번역본](#번역본)
 
@@ -101,10 +107,18 @@ Copyright © 2001,2006,2014 Eric S. Raymond, Rick Moen
 
 [Revision History](#revision-history)
 
+역자의 서문
+------------
+역자는 전문 번역가가 아니며, 심심해서 본 문서를 번역 하였습니다.  
+다소 과격한 어휘의 사용은 원래 영어 본문에서 전달하려는 느낌을 살리기 위함을 알립니다.  
+번역에 수정 사항을 제안하고 싶으시다면 PR을 남겨주세요.  
+맞춤법 검사기는 해당 링크의 검사기를 사용 하였습니다. [맞춤법검사기](http://speller.cs.pusan.ac.kr/results)  
+맞춤법이 많이 틀려서 읽기 불편 하시다면, 더 좋은 검사기로 고치도록 하겠습니다.
+
 번역본
 ------------
 
-번역본: [Original English](http://www.catb.org/~esr/faqs/smart-questions.html)[Brazilo-Portuguese](http://blogofscience.com/perguntas.html) [Chinese (Traditional)](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way) [Czech](http://scientificachievements.com/jak-se-ptat-chytry-zpusob/) [Dutch](http://docs.jaspervries.nl/smart-questions/) [Estonian](http://glory4cars.com/edu/kuidas-esitada-kusimusi-nutikas-viis/) [French](http://www.gnurou.org/documents/smart-questions-fr.html) [Georgian](http://maxo127.narod.ru/Geo/Articles/smart-questions_ge.html) [German](https://www.privatkreditsofort.ch/wie-man-fragen-richtig-stellt/) [Greek](http://www.dionyziz.com/howto-smart-questions-gr/) [Hindi](http://kntuniversity.org/how-to-ask-questions-the-smart-way/) [Hungarian](http://www.forallworld.com/milyen-kerdeseket-okosan/) [Indonesion](https://www.chameleonjohn.com/translations/smart-questions-Indonesian) [Japanese](http://www.ranvis.com/articles/smart-questions.ja.html) [Lithuanian](http://myscres.com/articles/kaip-uzduoti-klausimus-protinga-buda.html) [Polish](http://rtfm.killfile.pl) [Portuguese](https://www.homeyou.com/~edu/perguntar-de-forma-inteligente) [Russian](http://maddog.sitengine.ru/smart-question-ru.html) [Spanish](http://www.sindominio.net/ayuda/preguntas-inteligentes.html) [Ukrainian](http://eustudiesweb.com/yak-staviti-zapitannya-rozumno/) [Uzbek](http://www.bestcarzin.com/blog/smart-questions-uzb/) If you want to copy, mirror, translate, or excerpt this document, please see my [copying policy](http://www.catb.org/~esr/copying.html).
+번역본들: [Original English](http://www.catb.org/~esr/faqs/smart-questions.html)[Brazilo-Portuguese](http://blogofscience.com/perguntas.html) [Chinese (Traditional)](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way) [Czech](http://scientificachievements.com/jak-se-ptat-chytry-zpusob/) [Dutch](http://docs.jaspervries.nl/smart-questions/) [Estonian](http://glory4cars.com/edu/kuidas-esitada-kusimusi-nutikas-viis/) [French](http://www.gnurou.org/documents/smart-questions-fr.html) [Georgian](http://maxo127.narod.ru/Geo/Articles/smart-questions_ge.html) [German](https://www.privatkreditsofort.ch/wie-man-fragen-richtig-stellt/) [Greek](http://www.dionyziz.com/howto-smart-questions-gr/) [Hindi](http://kntuniversity.org/how-to-ask-questions-the-smart-way/) [Hungarian](http://www.forallworld.com/milyen-kerdeseket-okosan/) [Indonesion](https://www.chameleonjohn.com/translations/smart-questions-Indonesian) [Japanese](http://www.ranvis.com/articles/smart-questions.ja.html) [Lithuanian](http://myscres.com/articles/kaip-uzduoti-klausimus-protinga-buda.html) [Polish](http://rtfm.killfile.pl) [Portuguese](https://www.homeyou.com/~edu/perguntar-de-forma-inteligente) [Russian](http://maddog.sitengine.ru/smart-question-ru.html) [Spanish](http://www.sindominio.net/ayuda/preguntas-inteligentes.html) [Ukrainian](http://eustudiesweb.com/yak-staviti-zapitannya-rozumno/) [Uzbek](http://www.bestcarzin.com/blog/smart-questions-uzb/) If you want to copy, mirror, translate, or excerpt this document, please see my [copying policy](http://www.catb.org/~esr/copying.html).
 
 경고문
 ----------
@@ -116,9 +130,20 @@ Copyright © 2001,2006,2014 Eric S. Raymond, Rick Moen
 해당 링크 옆에 잘 보이도록 아래 경고문을 꼭 써주세요.  
 **"!!여기는 당신네 프로젝트를 위한 안내 데스크가 아닙니다!!"**
 
-We have learned the hard way that without such a notice, we will repeatedly be pestered by idiots who think having published this document makes it our job to solve all the world's technical problems.
+<!-- We have learned the hard way that without such a notice, we will repeatedly be pestered by idiots who think having published this document makes it our job to solve all the world's technical problems. -->
 
-If you're reading this document because you need help, and you walk away with the impression you can get it directly from the authors of this document, _you_ are one of the idiots we are talking about. Don't ask _us_ questions. We'll just ignore you. We are here to show you how to get help from people who actually know about the software or hardware you're dealing with, but 99.9% of the time that will not be us. Unless you know for _certain_ that one of the authors is an expert on what you're dealing with, leave us alone and everybody will be happier.
+위 경고문이 없다면, 우리(*역주 : 원 저자들*) 들은 본 문서를 작성했다는 이유 하나 만으로
+전 세계의 모든 기술적인 문제들을 해결하는 것이 우리의 일 인것 마냥 착각하는 멍청이들로 부터 고통을 받는다는 사실을
+쓰라린 과정을 통해서 알아 내었습니다.
+
+<!-- If you're reading this document because you need help, and you walk away with the impression you can get it directly from the authors of this document, _you_ are one of the idiots we are talking about. -->
+도움이 필요해서 이 글을 읽으러 오신 분들 중에서 이 글을 읽고 본 문서를 적은 저자들로 부터 직접적인 도움을 받을 수 있겠다는 생각을 하셨다면, **당신은** 바로 우리가 말하는 멍청이들 중 하나입니다.
+<!-- Don't ask _us_ questions. We'll just ignore you. We are here to show you how to get help from people who actually know about the software or hardware you're dealing with, but 99.9% of the time that will not be us. -->
+**저자들에게** 질문을 하지 마세요. 우리는 그냥 당신 요청을 무시할겁니다. 우리는 당신들이 도움을 필요로 하는 SW나 HW를 잘 알고있는 사람들로부터 도움을 받는 법을 보여주기 위해 문서를 작성하였고, 99.9%의 경우에는 우리는 도움을 줄 수 있는 사람이 아닙니다.
+<!-- Unless you know for _certain_ that one of the authors is an expert on what you're dealing with, leave us alone and everybody will be happier. -->
+저자들 중 한 명이 당신의 문제를 겪고 있는 사항에 대한 전문가 라는 사실을 **확실히** 아는 것이 아니라면, 모두의 행복을 위해서라도 우리를 괴롭히지 말아주세요.
+
+(*역주 : 번역자 에게도 질문 금지 입니다*)
 
 서론
 ------------
