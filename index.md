@@ -19,44 +19,15 @@ How To Ask Questions The Smart Way
 
 Copyright © 2001,2006,2014 Eric S. Raymond, Rick Moen
 
-| **Revision History** |     |     |
-| --- | --- | --- |
-| Revision 3.10 | 21 May 2014 | esr |
-| New section on Stack Overflow. |     |     |
-| Revision 3.9 | 23 Apr 2013 | esr |
-| URL fixes. |     |     |
-| Revision 3.8 | 19 Jun 2012 | esr |
-| URL fix. |     |     |
-| Revision 3.7 | 06 Dec 2010 | esr |
-| Helpful hints for ESL speakers. |     |     |
-| Revision 3.7 | 02 Nov 2010 | esr |
-| Several translations have disappeared. |     |     |
-| Revision 3.6 | 19 Mar 2008 | esr |
-| Minor update and new links. |     |     |
-| Revision 3.5 | 2 Jan 2008 | esr |
-| Typo fix and some translation links. |     |     |
-| Revision 3.4 | 24 Mar 2007 | esr |
-| New section, "When asking about code". |     |     |
-| Revision 3.3 | 29 Sep 2006 | esr |
-| Folded in a good suggestion from Kai Niggemann. |     |     |
-| Revision 3.2 | 10 Jan 2006 | esr |
-| Folded in edits from Rick Moen. |     |     |
-| Revision 3.1 | 28 Oct 2004 | esr |
-| Document 'Google is your friend!' |     |     |
-| Revision 3.0 | 2 Feb 2004 | esr |
-| Major addition of stuff about proper etiquette on Web forums. |     |     |
-
-* * *
-
 **Table of Contents**
 
-[Translations](#translations)
+[번역본](#번역본)
 
-[Disclaimer](#disclaimer)
+[경고문](#경고문)
 
-[Introduction](#intro)
+[서론](#서론)
 
-[Before You Ask](#before)
+[질문을 하기에 앞서서](#질문을-하기에-앞서서)
 
 [When You Ask](#asking)
 
@@ -128,21 +99,28 @@ Copyright © 2001,2006,2014 Eric S. Raymond, Rick Moen
 
 [Acknowledgements](#idm696)
 
-Translations
+[Revision History](#revision-history)
+
+번역본
 ------------
 
-Translations: [Brazilo-Portuguese](http://blogofscience.com/perguntas.html) [Chinese (Traditional)](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way) [Czech](http://scientificachievements.com/jak-se-ptat-chytry-zpusob/) [Dutch](http://docs.jaspervries.nl/smart-questions/) [Estonian](http://glory4cars.com/edu/kuidas-esitada-kusimusi-nutikas-viis/) [French](http://www.gnurou.org/documents/smart-questions-fr.html) [Georgian](http://maxo127.narod.ru/Geo/Articles/smart-questions_ge.html) [German](https://www.privatkreditsofort.ch/wie-man-fragen-richtig-stellt/) [Greek](http://www.dionyziz.com/howto-smart-questions-gr/) [Hindi](http://kntuniversity.org/how-to-ask-questions-the-smart-way/) [Hungarian](http://www.forallworld.com/milyen-kerdeseket-okosan/) [Indonesion](https://www.chameleonjohn.com/translations/smart-questions-Indonesian) [Japanese](http://www.ranvis.com/articles/smart-questions.ja.html) [Lithuanian](http://myscres.com/articles/kaip-uzduoti-klausimus-protinga-buda.html) [Polish](http://rtfm.killfile.pl) [Portuguese](https://www.homeyou.com/~edu/perguntar-de-forma-inteligente) [Russian](http://maddog.sitengine.ru/smart-question-ru.html) [Spanish](http://www.sindominio.net/ayuda/preguntas-inteligentes.html) [Ukrainian](http://eustudiesweb.com/yak-staviti-zapitannya-rozumno/) [Uzbek](http://www.bestcarzin.com/blog/smart-questions-uzb/) If you want to copy, mirror, translate, or excerpt this document, please see my [copying policy](http://www.catb.org/~esr/copying.html).
+번역본: [Original English](http://www.catb.org/~esr/faqs/smart-questions.html)[Brazilo-Portuguese](http://blogofscience.com/perguntas.html) [Chinese (Traditional)](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way) [Czech](http://scientificachievements.com/jak-se-ptat-chytry-zpusob/) [Dutch](http://docs.jaspervries.nl/smart-questions/) [Estonian](http://glory4cars.com/edu/kuidas-esitada-kusimusi-nutikas-viis/) [French](http://www.gnurou.org/documents/smart-questions-fr.html) [Georgian](http://maxo127.narod.ru/Geo/Articles/smart-questions_ge.html) [German](https://www.privatkreditsofort.ch/wie-man-fragen-richtig-stellt/) [Greek](http://www.dionyziz.com/howto-smart-questions-gr/) [Hindi](http://kntuniversity.org/how-to-ask-questions-the-smart-way/) [Hungarian](http://www.forallworld.com/milyen-kerdeseket-okosan/) [Indonesion](https://www.chameleonjohn.com/translations/smart-questions-Indonesian) [Japanese](http://www.ranvis.com/articles/smart-questions.ja.html) [Lithuanian](http://myscres.com/articles/kaip-uzduoti-klausimus-protinga-buda.html) [Polish](http://rtfm.killfile.pl) [Portuguese](https://www.homeyou.com/~edu/perguntar-de-forma-inteligente) [Russian](http://maddog.sitengine.ru/smart-question-ru.html) [Spanish](http://www.sindominio.net/ayuda/preguntas-inteligentes.html) [Ukrainian](http://eustudiesweb.com/yak-staviti-zapitannya-rozumno/) [Uzbek](http://www.bestcarzin.com/blog/smart-questions-uzb/) If you want to copy, mirror, translate, or excerpt this document, please see my [copying policy](http://www.catb.org/~esr/copying.html).
 
-Disclaimer
+경고문
 ----------
 
-Many project websites link to this document in their sections on how to get help. That's fine, it's the use we intended — but if you are a webmaster creating such a link for your project page, please display prominently near the link notice that _we are not a help desk for your project!_
+<!-- Many project websites link to this document in their sections on how to get help. That's fine, it's the use we intended — but if you are a webmaster creating such a link for your project page, please display prominently near the link notice that _we are not a help desk for your project!_ -->
+
+많은 프로젝트 페이지가 도움을 얻기 위한 방법을 안내하는 섹션에서 본 문서를 링크합니다.  
+그것이 본 문서의 목적이기는 하다 마는 - 이 글을 보는 당신이 본 문서로 안내 링크를 거는 프로젝트의 웹 마스터라면,  
+해당 링크 옆에 잘 보이도록 아래 경고문을 꼭 써주세요.  
+**"!!여기는 당신네 프로젝트를 위한 안내 데스크가 아닙니다!!"**
 
 We have learned the hard way that without such a notice, we will repeatedly be pestered by idiots who think having published this document makes it our job to solve all the world's technical problems.
 
 If you're reading this document because you need help, and you walk away with the impression you can get it directly from the authors of this document, _you_ are one of the idiots we are talking about. Don't ask _us_ questions. We'll just ignore you. We are here to show you how to get help from people who actually know about the software or hardware you're dealing with, but 99.9% of the time that will not be us. Unless you know for _certain_ that one of the authors is an expert on what you're dealing with, leave us alone and everybody will be happier.
 
-Introduction
+서론
 ------------
 
 In the world of [hackers](http://www.catb.org/~esr/faqs/hacker-howto.html), the kind of answers you get to your technical questions depends as much on the way you ask the questions as on the difficulty of developing the answer. This guide will teach you how to ask questions in a way more likely to get you a satisfactory answer.
@@ -167,7 +145,7 @@ If you decide to come to us for help, you don't want to be one of the losers. Yo
 
 (Improvements to this guide are welcome. You can mail suggestions to [esr@thyrsus.com](mailto:esr@thyrsus.com) or [respond-auto@linuxmafia.com](mailto:respond-auto@linuxmafia.com). Note however that this document is not intended to be a general guide to [netiquette](http://www.ietf.org/rfc/rfc1855.txt), and we will generally reject suggestions that are not specifically related to eliciting useful answers in a technical forum.)
 
-Before You Ask
+질문을 하기에 앞서서
 --------------
 
 Before asking a technical question by e-mail, or in a newsgroup, or on a website chat board, do the following:
@@ -391,7 +369,7 @@ This is useful for at least three reasons. One: being seen to invest effort in s
 
 When you are having problems with a piece of software, don't claim you have found a bug unless you are very, _very_ sure of your ground. Hint: unless you can provide a source-code patch that fixes the problem, or a regression test against a previous version that demonstrates incorrect behavior, you are probably not sure enough. This applies to webpages and documentation, too; if you have found a documentation “bug”, you should supply replacement text and which pages it should go on.
 
-Remember, there are many other users that are not experiencing your problem. Otherwise you would have learned about it while reading the documentation and searching the Web (you did do that before complaining, [didn't you](#before "Before You Ask")?). This means that very probably it is you who are doing something wrong, not the software.
+Remember, there are many other users that are not experiencing your problem. Otherwise you would have learned about it while reading the documentation and searching the Web (you did do that before complaining, [didn't you](#질문을-하기에-앞서서 "Before You Ask")?). This means that very probably it is you who are doing something wrong, not the software.
 
 The people who wrote the software work very hard to make it work as well as possible. If you claim you have found a bug, you'll be impugning their competence, which may offend some of them even if you are correct. It's especially undiplomatic to yell “bug” in the Subject line.
 
@@ -711,3 +689,35 @@ Acknowledgements
 ----------------
 
 Evelyn Mitchell contributed some example stupid questions and inspired the “How To Give A Good Answer” section. Mikhail Ramendik contributed some particularly valuable suggestions for improvements.
+
+
+Revision History
+------------------
+| **Revision History** |     |     |
+| --- | --- | --- |
+| Revision 3.10 | 21 May 2014 | esr |
+| New section on Stack Overflow. |     |     |
+| Revision 3.9 | 23 Apr 2013 | esr |
+| URL fixes. |     |     |
+| Revision 3.8 | 19 Jun 2012 | esr |
+| URL fix. |     |     |
+| Revision 3.7 | 06 Dec 2010 | esr |
+| Helpful hints for ESL speakers. |     |     |
+| Revision 3.7 | 02 Nov 2010 | esr |
+| Several translations have disappeared. |     |     |
+| Revision 3.6 | 19 Mar 2008 | esr |
+| Minor update and new links. |     |     |
+| Revision 3.5 | 2 Jan 2008 | esr |
+| Typo fix and some translation links. |     |     |
+| Revision 3.4 | 24 Mar 2007 | esr |
+| New section, "When asking about code". |     |     |
+| Revision 3.3 | 29 Sep 2006 | esr |
+| Folded in a good suggestion from Kai Niggemann. |     |     |
+| Revision 3.2 | 10 Jan 2006 | esr |
+| Folded in edits from Rick Moen. |     |     |
+| Revision 3.1 | 28 Oct 2004 | esr |
+| Document 'Google is your friend!' |     |     |
+| Revision 3.0 | 2 Feb 2004 | esr |
+| Major addition of stuff about proper etiquette on Web forums. |     |     |
+
+* * *
