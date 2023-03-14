@@ -118,7 +118,8 @@ Copyright © 2001,2006,2014 Eric S. Raymond, Rick Moen
 번역본
 ------------
 
-번역본들: [Original English](http://www.catb.org/~esr/faqs/smart-questions.html)[Brazilo-Portuguese](http://blogofscience.com/perguntas.html) [Chinese (Traditional)](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way) [Czech](http://scientificachievements.com/jak-se-ptat-chytry-zpusob/) [Dutch](http://docs.jaspervries.nl/smart-questions/) [Estonian](http://glory4cars.com/edu/kuidas-esitada-kusimusi-nutikas-viis/) [French](http://www.gnurou.org/documents/smart-questions-fr.html) [Georgian](http://maxo127.narod.ru/Geo/Articles/smart-questions_ge.html) [German](https://www.privatkreditsofort.ch/wie-man-fragen-richtig-stellt/) [Greek](http://www.dionyziz.com/howto-smart-questions-gr/) [Hindi](http://kntuniversity.org/how-to-ask-questions-the-smart-way/) [Hungarian](http://www.forallworld.com/milyen-kerdeseket-okosan/) [Indonesion](https://www.chameleonjohn.com/translations/smart-questions-Indonesian) [Japanese](http://www.ranvis.com/articles/smart-questions.ja.html) [Lithuanian](http://myscres.com/articles/kaip-uzduoti-klausimus-protinga-buda.html) [Polish](http://rtfm.killfile.pl) [Portuguese](https://www.homeyou.com/~edu/perguntar-de-forma-inteligente) [Russian](http://maddog.sitengine.ru/smart-question-ru.html) [Spanish](http://www.sindominio.net/ayuda/preguntas-inteligentes.html) [Ukrainian](http://eustudiesweb.com/yak-staviti-zapitannya-rozumno/) [Uzbek](http://www.bestcarzin.com/blog/smart-questions-uzb/) If you want to copy, mirror, translate, or excerpt this document, please see my [copying policy](http://www.catb.org/~esr/copying.html).
+번역본들: [Original English](http://www.catb.org/~esr/faqs/smart-questions.html) [Brazilo-Portuguese](http://blogofscience.com/perguntas.html) [Chinese (Traditional)](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way) [Czech](http://scientificachievements.com/jak-se-ptat-chytry-zpusob/) [Dutch](http://docs.jaspervries.nl/smart-questions/) [Estonian](http://glory4cars.com/edu/kuidas-esitada-kusimusi-nutikas-viis/) [French](http://www.gnurou.org/documents/smart-questions-fr.html) [Georgian](http://maxo127.narod.ru/Geo/Articles/smart-questions_ge.html) [German](https://www.privatkreditsofort.ch/wie-man-fragen-richtig-stellt/) [Greek](http://www.dionyziz.com/howto-smart-questions-gr/) [Hindi](http://kntuniversity.org/how-to-ask-questions-the-smart-way/) [Hungarian](http://www.forallworld.com/milyen-kerdeseket-okosan/) [Indonesion](https://www.chameleonjohn.com/translations/smart-questions-Indonesian) [Japanese](http://www.ranvis.com/articles/smart-questions.ja.html) [Lithuanian](http://myscres.com/articles/kaip-uzduoti-klausimus-protinga-buda.html) [Polish](http://rtfm.killfile.pl) [Portuguese](https://www.homeyou.com/~edu/perguntar-de-forma-inteligente) [Russian](http://maddog.sitengine.ru/smart-question-ru.html) [Spanish](http://www.sindominio.net/ayuda/preguntas-inteligentes.html) [Ukrainian](http://eustudiesweb.com/yak-staviti-zapitannya-rozumno/) [Uzbek](http://www.bestcarzin.com/blog/smart-questions-uzb/)  
+If you want to copy, mirror, translate, or excerpt this document, please see my [copying policy](http://www.catb.org/~esr/copying.html).
 
 경고문
 ----------
@@ -148,16 +149,26 @@ Copyright © 2001,2006,2014 Eric S. Raymond, Rick Moen
 
 <!-- In the world of [hackers](http://www.catb.org/~esr/faqs/hacker-howto.html), the kind of answers you get to your technical questions depends as much on the way you ask the questions as on the difficulty of developing the answer. -->
 이쪽 [해커](http://www.catb.org/~esr/faqs/hacker-howto.html)들의 바닥에서는, 여러분들이 가진 기술적인 문제에 대한 답변을 받기 위해 질문을 하는 방법이 해당 질문의 난이도만큼이나 중요합니다.  
-(*역주 : 본 문서에서 '해커'는 '전문가'의 의미에 더 가깝습니다.*)
+(*역주 : 본 문서에서 '해커'는 '전문가'의 의미에 더 가깝습니다. 초보자(newbie) 의 반대.*)
 <!-- This guide will teach you how to ask questions in a way more likely to get you a satisfactory answer. -->
 본 가이드는 여러분들이 더욱더 높은 확률로 만족스러운 답변을 받기 위해서 질문을 제대로 하는 법을 가르쳐 드릴 겁니다.
 
+<!-- Now that use of open source has become widespread, you can often get as good answers from other, more experienced users as from hackers. -->
+오늘날에는 오픈소스가 널리 보급되어서, 숙련된 해커들 뿐만 아니라 경험이 풍부한 사용자들로 부터도 종종 좋은 답을 얻을 수 있습니다.
+<!-- This is a Good Thing; users tend to be just a little bit more tolerant of the kind of failures newbies often have. -->
+이는 좋은 현상입니다. 사용자들은 해커들 보다 대체로 뉴비들이 겪는 문제들에 대해서 조금 더 인내심을 발휘하는 편 입니다.
+
+<!-- Still, treating experienced users like hackers in the ways we recommend here will generally be the most effective way to get useful answers out of them, too. -->
+하지만, 경험이 풍부한 사용자들 에게도 본 문서에서 안내하는 숙련된 해커에게 질문 하는 법을 그대로 사용하는 것이 일반적으로는 여전히 제일 효과적입니다.
+
+<!-- The first thing to understand is that hackers actually like hard problems and good, thought-provoking questions about them. If we didn't, we wouldn't be here. -->
+모든 것에 앞서서 하나 이해를 해야하는 것은, 해커들은 사실 어려운 문제들과 그 문제들에 대한 수준 높은, 생각을 많이 필요로 하는 질문을 좋아합니다. 그렇지 않다면, 우리는 이 자리에 있지 않을 것입니다.
+
+<!-- If you give us an interesting question to chew on we'll be grateful to you; good questions are a stimulus and a gift. Good questions help us develop our understanding, and often reveal problems we might not have noticed or thought about otherwise. Among hackers, “Good question!” is a strong and sincere compliment. -->
+여러분이 우리 해커들에게 뜯고 씹고 맛보고 즐길만한 좋은 질문거리를 던져 주신다면 정말 감사하겠습니다. 좋은 질문은 자극제 이며 일종의 선물입니다. 좋은 질문들은 우리 스스로가 가진 이해의 폭을 넓히며, 질문을 보지 않았다면 무심코 지나쳤거나 떠올리지 못했을 주제에 대한 문제를 새로이 밝혀냅니다. 해커들의 세계에서는, "좋은 질문이네요!" 라는 말은 강력하고도 진실된 칭찬입니다.
+
 <!-- TODO: 여기서부터 -->
-Now that use of open source has become widespread, you can often get as good answers from other, more experienced users as from hackers. This is a Good Thing; users tend to be just a little bit more tolerant of the kind of failures newbies often have. Still, treating experienced users like hackers in the ways we recommend here will generally be the most effective way to get useful answers out of them, too.
-
-The first thing to understand is that hackers actually like hard problems and good, thought-provoking questions about them. If we didn't, we wouldn't be here. If you give us an interesting question to chew on we'll be grateful to you; good questions are a stimulus and a gift. Good questions help us develop our understanding, and often reveal problems we might not have noticed or thought about otherwise. Among hackers, “Good question!” is a strong and sincere compliment.
-
-Despite this, hackers have a reputation for meeting simple questions with what looks like hostility or arrogance. It sometimes looks like we're reflexively rude to newbies and the ignorant. But this isn't really true.
+<!-- Despite this, hackers have a reputation for meeting simple questions with what looks like hostility or arrogance. It sometimes looks like we're reflexively rude to newbies and the ignorant. But this isn't really true. -->
 
 What we are, unapologetically, is hostile to people who seem to be unwilling to think or to do their own homework before asking questions. People like that are time sinks — they take without giving back, and they waste time we could have spent on another question more interesting and another person more worthy of an answer. We call people like this “losers” (and for historical reasons we sometimes spell it “lusers”).
 
