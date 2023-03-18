@@ -193,7 +193,6 @@ People like that are time sinks — they take without giving back, and they wast
 <!-- (Improvements to this guide are welcome. You can mail suggestions to [esr@thyrsus.com](mailto:esr@thyrsus.com) or [respond-auto@linuxmafia.com](mailto:respond-auto@linuxmafia.com). Note however that this document is not intended to be a general guide to [netiquette](http://www.ietf.org/rfc/rfc1855.txt), and we will generally reject suggestions that are not specifically related to eliciting useful answers in a technical forum.) -->
 (본 가이드를 개정하기 위한 도움은 환영합니다. [esr@thyrsus.com](mailto:esr@thyrsus.com) 또는 [respond-auto@linuxmafia.com](mailto:respond-auto@linuxmafia.com)에 이메일로 제안을 하실 수 있습니다. 본 문서는 일반적인 [네티켓](http://www.ietf.org/rfc/rfc1855.txt)에 관한 안내가 아니기에, 기술적인 포럼에서 유용한 대답을 끌어내는 방법과 관련이 없는 내용들은 보내지 말아 주세요.)
 
-
 <!-- TODO: 여기서부터 -->
 질문을 하기에 앞서서
 --------------
