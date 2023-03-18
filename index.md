@@ -2,9 +2,9 @@
 title: Home
 layout: home
 ---
-# How To Ask Questions The Smart Way
+# 병신같이 질문하지 않는 법
 
-How To Ask Questions The Smart Way
+영어 원제 : How To Ask Questions The Smart Way
 ----------------------------------
 
 ### 저자 및 역자
@@ -110,7 +110,7 @@ Copyright © 2001,2006,2014 Eric S. Raymond, Rick Moen
 역자의 서문
 ------------
 역자는 전문 번역가가 아니며, 심심해서 본 문서를 번역 하였습니다.  
-다소 과격한 어휘의 사용은 원래 영어 본문에서 전달하려는 느낌을 살리기 위함을 알립니다.  
+다소 과격한 어휘의 사용은 원래 영어 본문에서 전달하려는 시니컬한 느낌을 살리기 위함을 알립니다.  
 번역에 수정 사항을 제안하고 싶으시다면 PR을 남겨주세요.  
 맞춤법 검사기는 해당 링크의 검사기를 사용 하였습니다. [맞춤법검사기](http://speller.cs.pusan.ac.kr/results)  
 맞춤법이 많이 틀려서 읽기 불편 하시다면, 더 좋은 검사기로 고치도록 하겠습니다.
@@ -167,13 +167,20 @@ If you want to copy, mirror, translate, or excerpt this document, please see my 
 <!-- If you give us an interesting question to chew on we'll be grateful to you; good questions are a stimulus and a gift. Good questions help us develop our understanding, and often reveal problems we might not have noticed or thought about otherwise. Among hackers, “Good question!” is a strong and sincere compliment. -->
 여러분이 우리 해커들에게 뜯고 씹고 맛보고 즐길만한 좋은 질문거리를 던져 주신다면 정말 감사하겠습니다. 좋은 질문은 자극제 이며 일종의 선물입니다. 좋은 질문들은 우리 스스로가 가진 이해의 폭을 넓히며, 질문을 보지 않았다면 무심코 지나쳤거나 떠올리지 못했을 주제에 대한 문제를 새로이 밝혀냅니다. 해커들의 세계에서는, "좋은 질문이네요!" 라는 말은 강력하고도 진실된 칭찬입니다.
 
-<!-- TODO: 여기서부터 -->
 <!-- Despite this, hackers have a reputation for meeting simple questions with what looks like hostility or arrogance. It sometimes looks like we're reflexively rude to newbies and the ignorant. But this isn't really true. -->
+그럼에도 불구하고, 해커들은 간단한 질문들에 대해서는 적대적이거나 건방지게 대한다는 나쁜 평판을 가지고 있습니다.
+이는 때때로 우리들이 무조건 초심자들 이나 무지한 사람들에게 못되게 구는것 처럼 보여지게 합니다. 하지만 이것은 사실이 아닙니다.
 
-What we are, unapologetically, is hostile to people who seem to be unwilling to think or to do their own homework before asking questions. People like that are time sinks — they take without giving back, and they waste time we could have spent on another question more interesting and another person more worthy of an answer. We call people like this “losers” (and for historical reasons we sometimes spell it “lusers”).
+<!-- What we are, unapologetically, is hostile to people who seem to be unwilling to think or to do their own homework before asking questions.
+People like that are time sinks — they take without giving back, and they waste time we could have spent on another question more interesting and another person more worthy of an answer. We call people like this “losers” (and for historical reasons we sometimes spell it “lusers”). -->
+우리는 질문을 하기 전에 아무 생각도 하기 싫어하거나, 질문을 하기 전에 자기가 스스로 해야 하는 일들을 하지 않고 질문 하는 사람들에게 적대적으로 굽니다. 그리고 여기에 대해서는 전혀 미안한 마음이 없습니다.
+그런 사람들은 시간을 잡아먹기만 합니다. 그 사람들은 도움을 받기만 하고 다시 돌려주는 법이 없으며, 더 흥미로운 질문이나 더욱 도움이 필요한 사람들에게 사용될 수 있었던 시간을 낭비하게 만듭니다. 우리는 이런 사람들을 "병신(loser)" 이라고 부릅니다. ( 또한 과거부터 쌓인 여러 이유로 우리는 때때로 이 사람들을 "lusers" 라고도 부릅니다.)
+(*역주 : "lusers" 는 "loser" + "user" 로, 해커들의 slang 입니다. ["lusers"](https://en.wiktionary.org/wiki/luser)*)
 
-We realize that there are many people who just want to use the software we write, and who have no interest in learning technical details. For most people, a computer is merely a tool, a means to an end; they have more important things to do and lives to live. We acknowledge that, and don't expect everyone to take an interest in the technical matters that fascinate us. Nevertheless, our style of answering questions is tuned for people who _do_ take such an interest and are willing to be active participants in problem-solving. That's not going to change. Nor should it; if it did, we would become less effective at the things we do best.
+<!-- We realize that there are many people who just want to use the software we write, and who have no interest in learning technical details. For most people, a computer is merely a tool, a means to an end; they have more important things to do and lives to live. We acknowledge that, and don't expect everyone to take an interest in the technical matters that fascinate us. Nevertheless, our style of answering questions is tuned for people who _do_ take such an interest and are willing to be active participants in problem-solving. That's not going to change. Nor should it; if it did, we would become less effective at the things we do best. -->
+우리는 우리들이 만든 소프트웨어의 기술적인 디테일에는 전혀 관심이 없고 그냥 갖다 쓰고만 싶은 사람들이 정말 많다는 것을 깨달았습니다. 대부분의 사람들 에게 있어서 컴퓨터는 그냥 도구일 뿐, 그 이상의 의미는 없습니다. 그 사람들은 인생에 있어서 더 중요한게 있는 것이겠죠. 우리 해커들은 그 사실을 받아들이며, 우리는 모든 사람들이 우리들이 재미있어 하는 기술적인 주제들에 대해서 재미를 가질것이라 기대하지 않습니다. 그럼에도 불구하고, 우리들이 사용하는 답변 양식은 기술적인 주제들에 대해 **관심이 있으며**, 적극적으로 문제를 해결하고자 하는 사람들에게 맞춰져 있습니다. 이것은 앞으로도 변하지 않을 사실이며, 바뀌어서도 안됩니다. 그렇지 않았다면, 우리는 우리가 제일 잘 하는 이 일을 더 잘 하지 못하게 되었을 것입니다.
 
+<!-- TODO: 여기서부터 -->
 We're (largely) volunteers. We take time out of busy lives to answer questions, and at times we're overwhelmed with them. So we filter ruthlessly. In particular, we throw away questions from people who appear to be losers in order to spend our question-answering time more efficiently, on winners.
 
 If you find this attitude obnoxious, condescending, or arrogant, check your assumptions. We're not asking you to genuflect to us — in fact, most of us would love nothing more than to deal with you as an equal and welcome you into our culture, if you put in the effort required to make that possible. But it's simply not efficient for us to try to help people who are not willing to help themselves. It's OK to be ignorant; it's not OK to play stupid.
