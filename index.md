@@ -193,40 +193,57 @@ People like that are time sinks — they take without giving back, and they wast
 <!-- (Improvements to this guide are welcome. You can mail suggestions to [esr@thyrsus.com](mailto:esr@thyrsus.com) or [respond-auto@linuxmafia.com](mailto:respond-auto@linuxmafia.com). Note however that this document is not intended to be a general guide to [netiquette](http://www.ietf.org/rfc/rfc1855.txt), and we will generally reject suggestions that are not specifically related to eliciting useful answers in a technical forum.) -->
 (본 가이드를 개정하기 위한 도움은 환영합니다. [esr@thyrsus.com](mailto:esr@thyrsus.com) 또는 [respond-auto@linuxmafia.com](mailto:respond-auto@linuxmafia.com)에 이메일로 제안을 하실 수 있습니다. 본 문서는 일반적인 [네티켓](http://www.ietf.org/rfc/rfc1855.txt)에 관한 안내가 아니기에, 기술적인 포럼에서 유용한 대답을 끌어내는 방법과 관련이 없는 내용들은 보내지 말아 주세요.)
 
-<!-- TODO: 여기서부터 -->
+<div id='질문을-하기에-앞서서'/>  
+
 질문을 하기에 앞서서
 --------------
 
-Before asking a technical question by e-mail, or in a newsgroup, or on a website chat board, do the following:
+<!-- Before asking a technical question by e-mail, or in a newsgroup, or on a website chat board, do the following: -->
+기술적인 문제에 대해 이메일, 뉴스 그룹, 인터넷 게시판 등에 질문을 하기 전에, 아래 사항들을 미리 하세요 :
 
-1. Try to find an answer by searching the archives of the forum or mailing list you plan to post to.
+<!-- 1. Try to find an answer by searching the archives of the forum or mailing list you plan to post to. -->
+1. 질문을 올리려고 하는 포럼에 이미 올라왔던 자료들에서 답을 찾으려고 해보세요.  
 
-2. Try to find an answer by searching the Web.
+<!-- 2. Try to find an answer by searching the Web. -->
+2. 인터넷 검색을 해보세요.
 
-3. Try to find an answer by reading the manual.
+<!-- 3. Try to find an answer by reading the manual. -->
+3. 매뉴얼/공식 문서를 읽어보세요.
 
-4. Try to find an answer by reading a FAQ.
+<!-- 4. Try to find an answer by reading a FAQ. -->
+4. 자주 묻는 질문(FAQ) 를 읽어보세요.
 
-5. Try to find an answer by inspection or experimentation.
+<!-- 5. Try to find an answer by inspection or experimentation. -->
+5. 직접 문제를 분석 하거나 실험을 해보면서 답을 찾으려고 해보세요.
 
-6. Try to find an answer by asking a skilled friend.
+<!-- 6. Try to find an answer by asking a skilled friend. -->
+6. 실력 있는 친구에게 물어보세요.
 
-7. If you're a programmer, try to find an answer by reading the source code.
+<!-- 7. If you're a programmer, try to find an answer by reading the source code. -->
+7. 당신이 진짜 프로그래머 라면, 소스코드를 읽어서 직접 답을 찾아보려고 하세요.
 
-When you ask your question, display the fact that you have done these things first; this will help establish that you're not being a lazy sponge and wasting people's time. Better yet, display what you have _learned_ from doing these things. We like answering questions for people who have demonstrated they can learn from the answers.
+<!-- When you ask your question, display the fact that you have done these things first; this will help establish that you're not being a lazy sponge and wasting people's time. Better yet, display what you have _learned_ from doing these things. We like answering questions for people who have demonstrated they can learn from the answers. -->
+질문을 할 때, 위 사항들에서 제시한 문제를 해결하려는 방법들을 시도해 봤다는 것을 보여줘야 합니다. 시도한 것을 보여 줘야 당신이 게을러터진 사람이 아니며, 사람들의 시간을 낭비하려는 게 아니라는 걸 증명할 수 있습니다. 더 좋은 방법은, 당신이 문제를 해결하려는 과정에서 **무엇을 배웠는지**도 같이 보여주세요. 우리는 우리의 답변을 통해 무언가를 배울 수 있는 사람들에게 답변하는 것을 좋아합니다.
 
-Use tactics like doing a Google search on the text of whatever error message you get (searching [Google groups](http://groups.google.com/) as well as Web pages). This might well take you straight to fix documentation or a mailing list thread answering your question. Even if it doesn't, saying “I googled on the following phrase but didn't get anything that looked promising” is a good thing to do in e-mail or news postings requesting help, if only because it records what searches won't help. It will also help to direct other people with similar problems to your thread by linking the search terms to what will hopefully be your problem and resolution thread.
+<!-- Use tactics like doing a Google search on the text of whatever error message you get (searching [Google groups](http://groups.google.com/) as well as Web pages). This might well take you straight to fix documentation or a mailing list thread answering your question. Even if it doesn't, saying “I googled on the following phrase but didn't get anything that looked promising” is a good thing to do in e-mail or news postings requesting help, if only because it records what searches won't help. It will also help to direct other people with similar problems to your thread by linking the search terms to what will hopefully be your problem and resolution thread. -->
+여러분들이 맞닥뜨린 에러 메시지에 대해서 Google 검색을 해보세요. ([Google groups](http://groups.google.com/)와 웹 페이지를 찾는 것을 모두 포함합니다.). 이 방법은 해결 방법이 적힌 문서나 댓글 스레드에 여러분들을 바로 데려다줄 수도 있습니다. 검색해서 나오지 않더라고, "구글에 해당 문구로 검색을 해봤는데 도움이 될만한 내용이 없었습니다."라는 말을 질문 글에 넣는다면, 다른 사람들이 해당 방법으로 검색하면 답을 찾을 수 없다는 것을 알려줄 수 있기에 도움이 됩니다. 또한, 이는 비슷한 문제를 가진 다른 사람들이 당신이 남긴 글을 통해 문제를 해결할 수도 있는 자료에 접근하는 것을 도와줄 수 있습니다.
 
-Take your time. Do not expect to be able to solve a complicated problem with a few seconds of Googling. Read and understand the FAQs, sit back, relax and give the problem some thought before approaching experts. Trust us, they will be able to tell from your questions how much reading and thinking you did, and will be more willing to help if you come prepared. Don't instantly fire your whole arsenal of questions just because your first search turned up no answers (or too many).
+<!-- Take your time. Do not expect to be able to solve a complicated problem with a few seconds of Googling. Read and understand the FAQs, sit back, relax and give the problem some thought before approaching experts. Trust us, they will be able to tell from your questions how much reading and thinking you did, and will be more willing to help if you come prepared. Don't instantly fire your whole arsenal of questions just because your first search turned up no answers (or too many). -->
+충분히 시간을 두고 찾아보세요. 어려운 문제에 대한 답을 구글링 몇 초 찔끔해서 찾을 수 있으리라 기대하지는 마세요. FAQ들을 읽고 이해를 한 다음 가만히 앉아서 문제에 대한 생각을 곰곰이 해 본 다음에 전문가들에게 물어보려고 하세요. 우리가 제시한 방법을 믿어보세요. 전문가들은 여러분들이 하는 질문을 통해서 여러분들이 문제에 대해서 얼마나 생각을 해봤는지, 얼마나 자료를 읽어봤는지 대번에 알 수 있습니다. 또한 전문가들은 준비해 온 사람들을 더 도와주고 싶어 합니다. 처음 한 번 검색해보고 아무 답을 찾을 수 없다고 (또는 너무 많은 답이 있어서 헷갈린다고) 여러분의 질문들을 와르르 쏟아내지 마세요.
 
-Prepare your question. Think it through. Hasty-sounding questions get hasty answers, or none at all. The more you do to demonstrate that having put thought and effort into solving your problem before seeking help, the more likely you are to actually get help.
+<!-- Prepare your question. Think it through. Hasty-sounding questions get hasty answers, or none at all. The more you do to demonstrate that having put thought and effort into solving your problem before seeking help, the more likely you are to actually get help. -->
+질문할 내용을 잘 정리해서 질문할 준비를 하세요. 질문에 대해서 곰곰이 생각을 해보세요. 대충 적은 것 같은 질문은 답변도 대충 받거나, 아니면 아무 답변을 받을 수 없습니다. 도움을 요청하기 전에 여러분들이 문제를 해결하기 위해서 생각을 충분히 하고, 상당한 노력을 했다는 걸 보여줄수록 실질적으로 도움이 되는 답변을 받을 확률이 높습니다.
 
-Beware of asking the wrong question. If you ask one that is based on faulty assumptions, J. Random Hacker is quite likely to reply with a uselessly literal answer while thinking “Stupid question...”, and hoping the experience of getting what you asked for rather than what you needed will teach you a lesson.
+<!-- Beware of asking the wrong question. If you ask one that is based on faulty assumptions, J. Random Hacker is quite likely to reply with a uselessly literal answer while thinking “Stupid question...”, and hoping the experience of getting what you asked for rather than what you needed will teach you a lesson. -->
+잘못된 질문을 하지 않도록 조심하세요. 잘못된 전제 조건을 바탕으로 한 질문을 하게 된다면, 임의의 해커 Gildong Hong 씨는 그다지 쓸모가 없을 정도로 당연한 답변을 달면서 속으로 "병신같은 질문이군..." 이란 생각을 할 겁니다. 또한 여러분들이 한 질문에 대한 답변이 여러분들이 필요로 했던 답변이 아니라는 사실을 알게 되실 겁니다.
 
-Never assume you are _entitled_ to an answer. You are not; you aren't, after all, paying for the service. You will earn an answer, if you earn it, by asking a substantial, interesting, and thought-provoking question — one that implicitly contributes to the experience of the community rather than merely passively demanding knowledge from others.
+<!-- Never assume you are _entitled_ to an answer. You are not; you aren't, after all, paying for the service. You will earn an answer, if you earn it, by asking a substantial, interesting, and thought-provoking question — one that implicitly contributes to the experience of the community rather than merely passively demanding knowledge from others. -->
+답변을 반드시 받아야 할 권리가 있다고 **착각하지 마세요**. 당신에게는 그런 권리가 없습니다. 당신은 답변받기 위해서 돈 내는 것도 아닌걸요. 당신은 중요성이 높고, 흥미로우며, 생각을 불러일으키는 좋은 질문을 해야 답변을 얻어낼 수 있습니다. 답변받을 만한 가치가 있는 좋은 질문들은 다른 사람들이 알고 있는 것을 수동적으로 받아내려고만 하는 게 아니라, 우리 커뮤니티의 발전에 도움을 주는 질문들입니다.
 
-On the other hand, making it clear that you are able and willing to help in the process of developing the solution is a very good start. “Would someone provide a pointer?”, “What is my example missing?”, and “What site should I have checked?” are more likely to get answered than “Please post the exact procedure I should use.” because you're making it clear that you're truly willing to complete the process if someone can just point you in the right direction.
+<!-- On the other hand, making it clear that you are able and willing to help in the process of developing the solution is a very good start. “Would someone provide a pointer?”, “What is my example missing?”, and “What site should I have checked?” are more likely to get answered than “Please post the exact procedure I should use.” because you're making it clear that you're truly willing to complete the process if someone can just point you in the right direction. -->
+한 편으로는, 당신이 해답을 만들 능력이 있거나, 만들려는 의지가 있다는 것을 확실히 보여주는 것은 답변을 만들어 가는 데 있어서 매우 좋은 시작점입니다. "어디를 찾아봐야 하는지 포인터를 알려주실 수 있나요?", "예시에서 빠뜨린 것이 있나요?", "어느 사이트에서 찾아보면 좋을까요?"와 같은 질문들은 "내가 뭘 어떻게 해야 하는지 정확히 다 알려주세요" 따위의 질문보다는 답변받을 가능성이 높습니다. 왜냐하면 당신은 방향만 잘 잡아준다면 해답을 찾아 나설 의지가 있다는 것을 보여주었기 때문입니다.
 
+<!-- TODO: 여기서부터 -->
 When You Ask
 ------------
 
