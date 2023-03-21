@@ -260,21 +260,21 @@ People like that are time sinks — they take without giving back, and they wast
 * cross-post to too many different newsgroups
 
 * post a personal e-mail to somebody who is neither an acquaintance of yours nor personally responsible for solving your problem -->
-어디에 질문을 하려고 하는지 신경을 써서 골라야 합니다. 당신은 아래와 같은 짓을 하면 무시 당하거나 병신 취급을 받을겁니다. 만약...
+어디에 질문을 하려고 하는지 신경을 써서 골라야 합니다. 당신은 아래와 같은 짓을 하면 무시당하거나 병신 취급을 받을 겁니다. 만약…
 
-* 질문 하려는 주제와 맞지 않는 포럼에 질문을 올리는 경우
+* 질문하려는 주제와 맞지 않는 포럼에 질문을 올리는 경우
 
-* 지식 수준이 어느정도 이상 갖춰진 전문적인 질문을 올리는 포럼에 너무 기초적인 질문을 하거나, 반대로 기초적인 질문을 하는 포럼에 너무 전문적인 질문을 하는 경우
+* 지식수준이 어느 정도 이상 갖춰진 전문적인 질문을 올리는 포럼에 너무 기초적인 질문을 하거나, 반대로 기초적인 질문을 하는 포럼에 너무 전문적인 질문을 하는 경우
 
 * 여러 뉴스그룹에 같은 질문을 중복하여 너무 많이 올리는 경우
 
 * 안면이 있는 사람이 아니거나, 당신의 질문에 반드시 개인적으로 답변을 해 주어야 할 의무가 없는 사람들에게 이메일 주소를 적어놓고 메일로 답변을 요구하는 경우
 
 <!-- Hackers blow off questions that are inappropriately targeted in order to try to protect their communications channels from being drowned in irrelevance. You don't want this to happen to you. -->
-해커들은 잘못 들어온 질문들을 쳐냅니다. 이는 해커들의 커뮤니티 채널이 관련 없는 내용들로 넘치는 것을 막기 위함입니다. 여러분들도 본인에게 그런 일이 발생하는건 원하지 않을겁니다.
+해커들은 잘못 들어온 질문들을 쳐냅니다. 이는 해커들의 커뮤니티 채널이 관련 없는 내용들로 넘치는 것을 막기 위함입니다. 여러분들도 본인에게 그런 일이 발생하는 건 원하지 않을 겁니다.
 
 <!-- The first step, therefore, is to find the right forum. Again, Google and other Web-searching methods are your friend. Use them to find the project webpage most closely associated with the hardware or software giving you difficulties. Usually it will have links to a FAQ (Frequently Asked Questions) list, and to project mailing lists and their archives. These mailing lists are the final places to go for help, if your own efforts (including _reading_ those FAQs you found) do not find you a solution. The project page may also describe a bug-reporting procedure, or have a link to one; if so, follow it. -->
-그러므로 질문을 하는데 있어서 가장 먼저 해야하는 것은 적절한 포럼을 찾는겁니다. 다시 말씀드리지만, 구글과 다른 인터넷 검색 도구들은 당신들의 친구랍니다. 당신이 문제를 겪고 있는 SW나 HW와 가장 밀접한 관련이 있는 프로젝트 웹페이지를 찾기 위해서 검색을 하세요. 보통은 FAQ(자주 하는 질문) 목록이나 프로젝트 관련 연락처 목록, 프로젝트 아카이브 등에 대한 링크를 찾을 수 있습니다. 프로젝트 관련 연락처(mailing list)로 문의를 넣는 것은 여러분들이 스스로 문제를 해결하려는 노력( *FAQ를 읽는 등*)을 해보고도 해결을 할 수 없다면 마지막으로 써야하는 방법입니다. 해당 프로젝트 페이지에는 버그를 신고하는 절차가 적혀있거나, 신고하는 링크가 달려있는 경우가 있습니다. 그렇다면, 해당 링크를 참고하세요.
+그러므로 질문을 하는 데 있어서 가장 먼저 해야 하는 것은 적절한 포럼을 찾는 겁니다. 다시 말씀드리지만, 구글과 다른 인터넷 검색 도구들은 당신들의 친구랍니다. 당신이 문제를 겪고 있는 SW나 HW와 가장 밀접한 관련이 있는 프로젝트 웹페이지를 찾기 위해서 검색을 하세요. 보통은 FAQ(자주 하는 질문) 목록이나 프로젝트 관련 연락처 목록, 프로젝트 아카이브 등에 대한 링크를 찾을 수 있습니다. 프로젝트 관련 연락처(mailing list)로 문의를 하는 것은 여러분들이 스스로 문제를 해결하려고 노력(*FAQ를 읽는 등*)해보고도 해결을 할 수 없다면 마지막으로 써야 하는 방법입니다. 해당 프로젝트 페이지에는 버그를 신고하는 절차가 적혀있거나, 신고하는 링크가 달린 경우가 있습니다. 그렇다면, 해당 링크를 참고하세요.
 
 <!-- TODO: 여기서부터 -->
 Shooting off an e-mail to a person or forum which you are not familiar with is risky at best. For example, do not assume that the author of an informative webpage wants to be your free consultant. Do not make optimistic guesses about whether your question will be welcome — if you're unsure, send it elsewhere, or refrain from sending it at all.
