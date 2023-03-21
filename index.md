@@ -35,7 +35,7 @@ Copyright © 2001,2006,2014 Eric S. Raymond, Rick Moen
 
 [질문을 하기에 앞서서](#질문을-하기에-앞서서)
 
-[When You Ask](#asking)
+[질문을 할 때](#질문을-할-때)
 
 [Choose your forum carefully](#forum)
 
@@ -243,13 +243,15 @@ People like that are time sinks — they take without giving back, and they wast
 <!-- On the other hand, making it clear that you are able and willing to help in the process of developing the solution is a very good start. “Would someone provide a pointer?”, “What is my example missing?”, and “What site should I have checked?” are more likely to get answered than “Please post the exact procedure I should use.” because you're making it clear that you're truly willing to complete the process if someone can just point you in the right direction. -->
 한 편으로는, 당신이 해답을 만들 능력이 있거나, 만들려는 의지가 있다는 것을 확실히 보여주는 것은 답변을 만들어 가는 데 있어서 매우 좋은 시작점입니다. "어디를 찾아봐야 하는지 포인터를 알려주실 수 있나요?", "예시에서 빠뜨린 것이 있나요?", "어느 사이트에서 찾아보면 좋을까요?"와 같은 질문들은 "내가 뭘 어떻게 해야 하는지 정확히 다 알려주세요" 따위의 질문보다는 답변받을 가능성이 높습니다. 왜냐하면 당신은 방향만 잘 잡아준다면 해답을 찾아 나설 의지가 있다는 것을 보여주었기 때문입니다.
 
-<!-- TODO: 여기서부터 -->
-When You Ask
+<div id='질문을-할-때'/>
+
+질문을 할 때
 ------------
 
-### Choose your forum carefully
+<!-- ### Choose your forum carefully -->
+### 질문하려는 포럼을 신중히 고르세요
 
-Be sensitive in choosing where you ask your question. You are likely to be ignored, or written off as a loser, if you:
+<!-- Be sensitive in choosing where you ask your question. You are likely to be ignored, or written off as a loser, if you:
 
 * post your question to a forum where it's off topic
 
@@ -257,12 +259,24 @@ Be sensitive in choosing where you ask your question. You are likely to be ignor
 
 * cross-post to too many different newsgroups
 
-* post a personal e-mail to somebody who is neither an acquaintance of yours nor personally responsible for solving your problem
+* post a personal e-mail to somebody who is neither an acquaintance of yours nor personally responsible for solving your problem -->
+어디에 질문을 하려고 하는지 신경을 써서 골라야 합니다. 당신은 아래와 같은 짓을 하면 무시 당하거나 병신 취급을 받을겁니다. 만약...
 
-Hackers blow off questions that are inappropriately targeted in order to try to protect their communications channels from being drowned in irrelevance. You don't want this to happen to you.
+* 질문 하려는 주제와 맞지 않는 포럼에 질문을 올리는 경우
 
-The first step, therefore, is to find the right forum. Again, Google and other Web-searching methods are your friend. Use them to find the project webpage most closely associated with the hardware or software giving you difficulties. Usually it will have links to a FAQ (Frequently Asked Questions) list, and to project mailing lists and their archives. These mailing lists are the final places to go for help, if your own efforts (including _reading_ those FAQs you found) do not find you a solution. The project page may also describe a bug-reporting procedure, or have a link to one; if so, follow it.
+* 지식 수준이 어느정도 이상 갖춰진 전문적인 질문을 올리는 포럼에 너무 기초적인 질문을 하거나, 반대로 기초적인 질문을 하는 포럼에 너무 전문적인 질문을 하는 경우
 
+* 여러 뉴스그룹에 같은 질문을 중복하여 너무 많이 올리는 경우
+
+* 안면이 있는 사람이 아니거나, 당신의 질문에 반드시 개인적으로 답변을 해 주어야 할 의무가 없는 사람들에게 이메일 주소를 적어놓고 메일로 답변을 요구하는 경우
+
+<!-- Hackers blow off questions that are inappropriately targeted in order to try to protect their communications channels from being drowned in irrelevance. You don't want this to happen to you. -->
+해커들은 잘못 들어온 질문들을 쳐냅니다. 이는 해커들의 커뮤니티 채널이 관련 없는 내용들로 넘치는 것을 막기 위함입니다. 여러분들도 본인에게 그런 일이 발생하는건 원하지 않을겁니다.
+
+<!-- The first step, therefore, is to find the right forum. Again, Google and other Web-searching methods are your friend. Use them to find the project webpage most closely associated with the hardware or software giving you difficulties. Usually it will have links to a FAQ (Frequently Asked Questions) list, and to project mailing lists and their archives. These mailing lists are the final places to go for help, if your own efforts (including _reading_ those FAQs you found) do not find you a solution. The project page may also describe a bug-reporting procedure, or have a link to one; if so, follow it. -->
+그러므로 질문을 하는데 있어서 가장 먼저 해야하는 것은 적절한 포럼을 찾는겁니다. 다시 말씀드리지만, 구글과 다른 인터넷 검색 도구들은 당신들의 친구랍니다. 당신이 문제를 겪고 있는 SW나 HW와 가장 밀접한 관련이 있는 프로젝트 웹페이지를 찾기 위해서 검색을 하세요. 보통은 FAQ(자주 하는 질문) 목록이나 프로젝트 관련 연락처 목록, 프로젝트 아카이브 등에 대한 링크를 찾을 수 있습니다. 프로젝트 관련 연락처(mailing list)로 문의를 넣는 것은 여러분들이 스스로 문제를 해결하려는 노력( *FAQ를 읽는 등*)을 해보고도 해결을 할 수 없다면 마지막으로 써야하는 방법입니다. 해당 프로젝트 페이지에는 버그를 신고하는 절차가 적혀있거나, 신고하는 링크가 달려있는 경우가 있습니다. 그렇다면, 해당 링크를 참고하세요.
+
+<!-- TODO: 여기서부터 -->
 Shooting off an e-mail to a person or forum which you are not familiar with is risky at best. For example, do not assume that the author of an informative webpage wants to be your free consultant. Do not make optimistic guesses about whether your question will be welcome — if you're unsure, send it elsewhere, or refrain from sending it at all.
 
 When selecting a Web forum, newsgroup or mailing list, don't trust the name by itself too far; look for a FAQ or charter to verify your question is on-topic. Read some of the back traffic before posting so you'll get a feel for how things are done there. In fact, it's a very good idea to do a keyword search for words relating to your problem on the newsgroup or mailing list archives before you post. It may find you an answer, and if not it will help you formulate a better question.
