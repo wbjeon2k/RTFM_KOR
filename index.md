@@ -277,22 +277,22 @@ People like that are time sinks — they take without giving back, and they wast
 그러므로 질문을 하는 데 있어서 가장 먼저 해야 하는 것은 적절한 포럼을 찾는 겁니다. 다시 말씀드리지만, 구글과 다른 인터넷 검색 도구들은 당신들의 친구랍니다. 당신이 문제를 겪고 있는 SW나 HW와 가장 밀접한 관련이 있는 프로젝트 웹페이지를 찾기 위해서 검색을 하세요. 보통은 FAQ(자주 하는 질문) 목록이나 프로젝트 관련 연락처 목록, 프로젝트 아카이브 등에 대한 링크를 찾을 수 있습니다. 프로젝트 관련 연락처(mailing list)로 문의를 하는 것은 여러분들이 스스로 문제를 해결하려고 노력(*FAQ를 읽는 등*)해보고도 해결을 할 수 없다면 마지막으로 써야 하는 방법입니다. 해당 프로젝트 페이지에는 버그를 신고하는 절차가 적혀있거나, 신고하는 링크가 달린 경우가 있습니다. 그렇다면, 해당 링크를 참고하세요.
 
 <!-- Shooting off an e-mail to a person or forum which you are not familiar with is risky at best. For example, do not assume that the author of an informative webpage wants to be your free consultant. Do not make optimistic guesses about whether your question will be welcome — if you're unsure, send it elsewhere, or refrain from sending it at all. -->
-기존에 면식이 없던 사람이나 포럼에 질문을 난사하는건 잘 쳐줘도 확률이 낮은 방법입니다. 예를 들어서, 알찬 정보가 들어있는 웹페이지를 작성한 사람이 당신의 무료 컨설턴트가 되어줄것이라 생각하지 마세요. 당신의 질문이 환영받으리라고 낙관적으로 생각하지 마세요. 환영 받을지 잘 모르겠다면 다른 곳에 질문을 보내거나, 질문을 보내는 것을 처음부터 삼가는 것이 좋습니다.
+기존에 면식이 없던 사람이나 포럼에 질문을 난사하는 건 잘 쳐줘도 확률이 낮은 방법입니다. 예를 들어서, 알찬 정보가 들어있는 웹페이지를 작성한 사람이 당신의 무료 컨설턴트가 되어줄 것으로 생각하지 마세요. 당신의 질문이 환영받으리라고 낙관적으로 생각하지 마세요. 환영받을지 잘 모르겠다면 다른 곳에 질문을 보내거나, 질문을 보내는 것을 처음부터 삼가는 것이 좋습니다.
 
 <!-- When selecting a Web forum, newsgroup or mailing list, don't trust the name by itself too far; look for a FAQ or charter to verify your question is on-topic. Read some of the back traffic before posting so you'll get a feel for how things are done there. In fact, it's a very good idea to do a keyword search for words relating to your problem on the newsgroup or mailing list archives before you post. It may find you an answer, and if not it will help you formulate a better question. -->
-인터넷 포럼, 뉴스그룹, 메일링 리스트 등을 선택할 때 단체의 이름을 너무 믿지는 마세요. FAQ나 운영 안내문을 찾아서 당신이 하려는 질문의 주제와 부합하는지 확인하세요. 새로운 게시물을 올리기 전에 과거 게시물들을 보면서 게시판이 어떻게 굴러 가는지 감을 잡아보세요. 사실 질문을 하기 전에, 당신의 문제와 관련된 키워드를 뉴스그룹이나 메일링 리스트 과거 기록에서 찾아보는건 매우 좋은 생각입니다. 당신이 원하는 답을 찾을수도 있고, 그렇지 않더라도 더 나은 질문을 작성하는데 도움이 됩니다.
+인터넷 포럼, 뉴스그룹, 메일링 리스트 등을 선택할 때 단체의 이름을 너무 믿지는 마세요. FAQ나 운영 안내문을 찾아서 당신이 하려는 질문의 주제와 부합하는지 확인하세요. 새로운 게시물을 올리기 전에 과거 게시물들을 보면서 게시판이 어떻게 굴러가는지 감을 잡아보세요. 사실 질문을 하기 전에, 당신의 문제와 관련된 키워드를 뉴스그룹이나 메일링 리스트 과거 기록에서 찾아보는 건 매우 좋은 생각입니다. 당신이 원하는 답을 찾을 수도 있고, 그렇지 않더라도 더 나은 질문을 작성하는 데 도움이 됩니다.
 
 <!-- Don't shotgun-blast all the available help channels at once, that's like yelling and irritates people. Step through them softly. -->
-모든 채널에다가 당신이 하고싶은 말을 도배하듯 쏟아내지 마세요. 그건 마치 사람들에게 소리를 지르는 것과 같고 다른 사람들을 불편하게 만듭니다. 부드럽게 다가가세요.
+모든 채널에다가 당신이 하고 싶은 말을 도배하듯 쏟아내지 마세요. 그건 마치 사람들에게 소리를 지르는 것과 같고 다른 사람들을 불편하게 만듭니다. 부드럽게 다가가세요.
 
 <!-- Know what your topic is! One of the classic mistakes is asking questions about the Unix or Windows programming interface in a forum devoted to a language or library or tool portable across both. If you don't understand why this is a blunder, you'd be best off not asking any questions at all until you get it. -->
-당신이 말하려고 하는 문제의 주제(topic)에 대해서 파악을 하세요! 흔히 발생하는 실수들 중 하나는, Unix 와 Windows 에 모두 호환되는 언어/라이브러리/툴을 위해 유지되는 포럼에다 Unix/Windows programming interface에 관한 질문을 하는겁니다. 당신이 이게 왜 잘못된 행동인지 이해를 할 수 없다면, 이해가 될 때 까지 아무 질문도 하지 않는것이 상책입니다.
+당신이 말하려고 하는 문제의 주제(topic)에 대해서 파악하세요! 흔히 발생하는 실수 중 하나는, Unix와 Windows에 모두 호환되는 언어/라이브러리/툴을 위해 유지되는 포럼에다 Unix/Windows programming interface에 관한 질문을 하는 겁니다. 당신이 이게 왜 잘못된 행동인지 이해를 할 수 없다면, 이해될 때까지 아무 질문도 하지 않는 것이 상책입니다.
 
 <!-- In general, questions to a well-selected public forum are more likely to get useful answers than equivalent questions to a private one. There are multiple reasons for this. One is simply the size of the pool of potential respondents. Another is the size of the audience; hackers would rather answer questions that educate many people than questions serving only a few. -->
-일반적으로는, 공개적으로 활동하는 포럼이 폐쇄적으로 활동하는 포럼보다 같은 질문을 했을때 도움이 되는 답변을 받는 경우가 많습니다. 한 가지 이유는 질문에 대답을 해줄 수 있는 사람들의 수가 많기 때문입니다. 다른 이유는 질문을 보는 사람들의 수도 많기 때문입니다. 해커들은 일부 사람들에만 도움이 되는 질문보다, 많은 사람들에게 도움을 줄 수 있는 질문에 대답을 하려고 하기 때문입니다.
+일반적으로는, 공개적으로 활동하는 포럼이 폐쇄적으로 활동하는 포럼보다 같은 질문을 했을 때 도움이 되는 답변을 받는 경우가 많습니다. 한 가지 이유는 질문에 대답해줄 수 있는 사람들의 수가 많기 때문입니다. 다른 이유는 질문을 보는 사람들의 수도 많기 때문입니다. 해커들은 일부 사람들에만 도움이 되는 질문보다, 많은 사람에게 도움을 줄 수 있는 질문에 대답하려고 하기 때문입니다.
 
 <!-- Understandably, skilled hackers and authors of popular software are already receiving more than their fair share of mis-targeted messages. By adding to the flood, you could in extreme cases even be the straw that breaks the camel's back — quite a few times, contributors to popular projects have withdrawn their support because collateral damage in the form of useless e-mail traffic to their personal accounts became unbearable. -->
-당연하게도, 실력있는 해커들이나 인기 있는 소프트웨어 제작자들은 지금도 목적지가 잘못된 메시지들을 필요 이상으로 많이 받고 있습니다. 당신이 이 잘못된 메시지들의 범람에 거들게 된다면, 극단적인 경우에는 무거운 짐을 짊어진 낙타의 등을 부러뜨리는 마지막 밀짚 한 줄기가 당신의 메시지가 될 수도 있습니다. 인기 있는 프로젝트의 기여자들이 개인 계정에 도저히 참을수 없을 정도로 많은 양의 쓸모없는 이메일들이 쏟아져서 심각한 지장을 겪고 프로젝트 지원을 그만두는 일이 종종 발생합니다.
+당연하게도, 실력 있는 해커들이나 인기 있는 소프트웨어 제작자들은 지금도 목적지가 잘못된 메시지들을 필요 이상으로 많이 받고 있습니다. 당신이 이 잘못된 메시지들의 범람에 거들게 된다면, 극단적인 경우에는 무거운 짐을 짊어진 낙타의 등을 부러뜨리는 마지막 밀짚 한 줄기가 당신의 메시지가 될 수도 있습니다. 인기 있는 프로젝트의 기여자들이 개인 계정에 도저히 참을 수 없을 정도로 많은 양의 쓸모없는 이메일들이 쏟아져서 심각한 지장을 겪고 프로젝트 지원을 그만두는 일이 종종 발생합니다.
 
 <!-- TODO: 여기서부터 -->
 ### Stack Overflow
