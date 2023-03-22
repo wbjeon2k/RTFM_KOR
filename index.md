@@ -37,7 +37,7 @@ Copyright © 2001,2006,2014 Eric S. Raymond, Rick Moen
 
 [질문을 할 때](#질문을-할-때)
 
-[Choose your forum carefully](#forum)
+[질문하려는 포럼을 신중히 고르세요](#forum)
 
 [Stack Overflow](#stackoverflow)
 
@@ -248,8 +248,11 @@ People like that are time sinks — they take without giving back, and they wast
 질문을 할 때
 ------------
 
+
 <!-- ### Choose your forum carefully -->
 ### 질문하려는 포럼을 신중히 고르세요
+
+<div id='forum'/>
 
 <!-- Be sensitive in choosing where you ask your question. You are likely to be ignored, or written off as a loser, if you:
 
@@ -294,10 +297,13 @@ People like that are time sinks — they take without giving back, and they wast
 <!-- Understandably, skilled hackers and authors of popular software are already receiving more than their fair share of mis-targeted messages. By adding to the flood, you could in extreme cases even be the straw that breaks the camel's back — quite a few times, contributors to popular projects have withdrawn their support because collateral damage in the form of useless e-mail traffic to their personal accounts became unbearable. -->
 당연하게도, 실력 있는 해커들이나 인기 있는 소프트웨어 제작자들은 지금도 목적지가 잘못된 메시지들을 필요 이상으로 많이 받고 있습니다. 당신이 이 잘못된 메시지들의 범람에 거들게 된다면, 극단적인 경우에는 무거운 짐을 짊어진 낙타의 등을 부러뜨리는 마지막 밀짚 한 줄기가 당신의 메시지가 될 수도 있습니다. 인기 있는 프로젝트의 기여자들이 개인 계정에 도저히 참을 수 없을 정도로 많은 양의 쓸모없는 이메일들이 쏟아져서 심각한 지장을 겪고 프로젝트 지원을 그만두는 일이 종종 발생합니다.
 
+<div id='stackoverflow'/>
+
 <!-- TODO: 여기서부터 -->
 ### Stack Overflow
 
-Search, _then_ ask on Stack Exchange
+<!-- Search, _then_ ask on Stack Exchange -->
+**먼저 검색을 해보고** Stack Exchange에 물어보세요.
 
 In recent years, the Stack Exchange community of sites has emerged as a major resource for answering technical and other questions and is even the preferred forum for many open-source projects.
 
