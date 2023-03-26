@@ -299,28 +299,39 @@ People like that are time sinks — they take without giving back, and they wast
 
 <div id='stackoverflow'/>
 
-<!-- TODO: 여기서부터 -->
 ### Stack Overflow
 
 <!-- Search, _then_ ask on Stack Exchange -->
 **먼저 검색을 해보고** Stack Exchange에 물어보세요.
 
-In recent years, the Stack Exchange community of sites has emerged as a major resource for answering technical and other questions and is even the preferred forum for many open-source projects.
+<!-- In recent years, the Stack Exchange community of sites has emerged as a major resource for answering technical and other questions and is even the preferred forum for many open-source projects. -->
+근 몇 년 사이에, Stack Exchange는 기술적인 주제들을 포함한 여러 질문에 답변을 다는 주요 커뮤니티로 성장을 하였으며, 심지어 많은 오픈소스 프로젝트는 Stack Exchange 포럼을 선호합니다.
 
-Start with a Google search before looking at Stack Exchange; Google indexes it in real time. There's a very good chance someone has already asked a similar question, and the Stack Exchange sites are often near the top of the search results. If you didn't find anything through Google, search again on the specific site most relevant to your question (see below). Searching with tags can help narrow down the results.
+<!-- Start with a Google search before looking at Stack Exchange; Google indexes it in real time. There's a very good chance someone has already asked a similar question, and the Stack Exchange sites are often near the top of the search results. If you didn't find anything through Google, search again on the specific site most relevant to your question (see below). Searching with tags can help narrow down the results. -->
+Stack Exchange를 들여다보기 전에 Google 검색을 먼저 해보세요. Google은 실시간으로 페이지들을 정리한답니다. 매우 높은 확률로 다른 사람이 이미 비슷한 질문을 했을 수도 있고, 상위 검색 결과에 Stack Exchange 사이트들이 표시되는 경우가 대부분입니다. 구글 검색을 통해서 아무것도 찾을 수 없었다면, 당신의 질문과 가장 밀접한 주제를 구체적으로 다루는 사이트에서 다시 찾아보세요. (사이트들의 목록은 아래를 참조하세요.) 태그와 함께 검색하는 것은 검색 결과들을 좁히는 데 도움이 됩니다.
 
-If you still didn't find anything, post your question on the _one_ site where it's most on-topic. Use the formatting tools, especially for code, and add tags that are related to the substance of your question (particularly the name of the programming language, operating system, or library you're having trouble with). If a commenter asks you for more information, edit your main post to include it. If any answer is helpful, click the up arrow to upvote it; if an answer gives a solution to your problem, click the check under the voting arrows to accept it as correct.
+<!-- If you still didn't find anything, post your question on the _one_ site where it's most on-topic. Use the formatting tools, especially for code, and add tags that are related to the substance of your question (particularly the name of the programming language, operating system, or library you're having trouble with). If a commenter asks you for more information, edit your main post to include it. If any answer is helpful, click the up arrow to upvote it; if an answer gives a solution to your problem, click the check under the voting arrows to accept it as correct. -->
+여전히 아무것도 찾을 수 없다면, 질문과 가장 관련이 깊은 *한 개*의 사이트에 질문을 올리세요. 특히 코드를 올릴 때는 코드 양식을 정리해주는 도구들(formatting tools)을 사용하고, 당신의 질문과 가장 관련이 있는 용어들을 태그로 달아두세요. (구체적인 예시로는, 당신이 문제를 겪고 있는 프로그래밍 언어, OS, 혹은 라이브러리 등입니다.) 댓글을 단 사람이 답변을 위해 더 많은 정보를 요청한다면, 원 글을 수정하여 추가 정보들을 반영하세요. 도움이 된 답변에는 추천(upvote)을 눌러주세요. 어떤 답변이 직접적으로 문제를 해결하는 데 도움을 주었다면, 추천 화살표 밑에 있는 체크 버튼을 눌러서 올바른 답변임을 확인 해주세요.
 
-Stack Exchange has grown to [over 100 sites](http://stackexchange.com/sites), but here are the most likely candidates:
+<!-- Stack Exchange has grown to [over 100 sites](http://stackexchange.com/sites), but here are the most likely candidates: -->
+Stack Exchange는 [100개가 넘는 사이트들](http://stackexchange.com/sites)로 성장 했습니다. 아래는 제일 유용할 후보군들입니다.
 
-* Super User is for questions about general-purpose computing. If your question isn't about code or programs that you talk to only over a network connection, it probably goes here.
+<!-- * Super User is for questions about general-purpose computing. If your question isn't about code or programs that you talk to only over a network connection, it probably goes here. -->
+* Super User는 컴퓨터 사용과 관련된 일반적인 질문들을 위한 사이트입니다. 구체적인 코드나 프로그램에 관한 내용이 아니라 그냥 인터넷 연결 정도에 관한 질문이라면, 아마 여기로 가는 게 맞을 겁니다.
 
-* Stack Overflow is for questions about programming.
+<!-- * Stack Overflow is for questions about programming. -->
+* Stack Overflow는 프로그래밍에 관한 질문들을 올리는 사이트입니다.
 
-* Server Fault is for questions about server and network administration.
+<!-- * Server Fault is for questions about server and network administration. -->
+* Server Fault는 서버와 네트워크 관리에 관련된 질문을 하는 사이트입니다.
 
-Several projects have their own specific sites, including Android, Ubuntu, TeX/LaTeX, and SharePoint. Check the Stack Exchange site for an up-to-date list.
+<!-- Several projects have their own specific sites, including Android, Ubuntu, TeX/LaTeX, and SharePoint. Check the Stack Exchange site for an up-to-date list. -->
+Android, Ubuntu, TeX/LaTeX, SharePoint 등 여러 프로젝트는 자기들만의 사이트를 Stack Exchange 안에 가지고 있는 경우가 있습니다. Stack Exchange 사이트에서 최신 목록을 확인하세요.
 
+
+<div id='usefora'/>
+
+<!-- TODO: 여기서부터 -->
 ### Web and IRC forums
 
 Your local user group, or your Linux distribution, may advertise a Web forum or IRC channel where newbies can get help. (In non-English-speaking countries newbie forums are still more likely to be mailing lists.) These are good first places to ask, especially if you think you may have tripped over a relatively simple or common problem. An advertised IRC channel is an open invitation to ask questions there and often get answers in real time.
