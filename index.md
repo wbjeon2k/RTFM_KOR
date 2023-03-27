@@ -41,9 +41,9 @@ Copyright © 2001,2006,2014 Eric S. Raymond, Rick Moen
 
 [Stack Overflow](#stackoverflow)
 
-[Web and IRC forums](#usefora)
+[웹 및 IRC 포럼](#usefora)
 
-[As a second step, use project mailing lists](#uselists)
+[프로젝트 메일링 리스트는 차선책으로](#uselists)
 
 [Use meaningful, specific subject headers](#bespecific)
 
@@ -110,8 +110,8 @@ Copyright © 2001,2006,2014 Eric S. Raymond, Rick Moen
 역자의 서문
 ------------
 역자는 전문 번역가가 아니며, 심심해서 본 문서를 번역 하였습니다.  
-다소 과격한 어휘의 사용은 원래 영어 본문에서 전달하려는 시니컬한 느낌을 살리기 위함을 알립니다.  
-번역에 수정 사항을 제안하고 싶으시다면 PR을 남겨주세요.  
+다소 과격한 어휘의 사용은 원래 영어 본문에서 전달하려는 시니컬 하면서도 친절한 느낌을 살리기 위함을 알립니다.  
+번역에 수정 사항을 제안하고 싶으시다면 PR이나 이슈를 남겨주세요.  
 맞춤법 검사기는 해당 링크의 검사기를 사용 하였습니다. [맞춤법검사기](http://speller.cs.pusan.ac.kr/results)  
 맞춤법이 많이 틀려서 읽기 불편 하시다면, 더 좋은 검사기로 고치도록 하겠습니다.
 
@@ -353,7 +353,7 @@ Android, Ubuntu, TeX/LaTeX, SharePoint 등 여러 프로젝트는 자기들만�
 <!-- TODO: 여기서부터 -->
 <div id='uselists'/>
 
-### As a second step, use project mailing lists
+### 프로젝트 메일링 리스트는 차선책으로
 
 When a project has a development mailing list, write to the mailing list, not to individual developers, even if you believe you know who can best answer your question. Check the documentation of the project and its homepage for the address of a project mailing list, and use it. There are several good reasons for this policy:
 
