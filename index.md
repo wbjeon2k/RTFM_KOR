@@ -336,21 +336,22 @@ Android, Ubuntu, TeX/LaTeX, SharePoint 등 여러 프로젝트는 자기들만�
 (*역주 : Internet Relay Chat(IRC) 는 단체 메신저 (카톡,Slack 등) 으로 생각하면 됩니다.*)
 
 <!-- Your local user group, or your Linux distribution, may advertise a Web forum or IRC channel where newbies can get help. (In non-English-speaking countries newbie forums are still more likely to be mailing lists.) These are good first places to ask, especially if you think you may have tripped over a relatively simple or common problem. An advertised IRC channel is an open invitation to ask questions there and often get answers in real time. -->
-당신이 속해있는 사용자 그룹, 또는 당신이 사용하는 리눅스 버전을 배포하는 그룹에서는 입문자들이 도움을 받을 수 있는 웹 포럼이나 채팅방을 종종 소개 할 수 있습니다. (영어를 사용하지 않는 나라들에서는 뉴비들을 위한 포럼들이 아직도 메일링 리스트로 운영 될 수 있습니다.) 이런 포럼들이나 채팅방은 무언가 물어보기에 가장 좋은 곳 중 하나입니다. 특히 당신이 상대적으로 쉬운 문제나 흔히 겪는 문제로 고생하고 있다면, 특히 좋을겁니다. 홍보되는 채팅방은 누구나 질문을 할 수 있으며, 종종 실시간으로 답변을 받을수도 있습니다.
+당신이 속해있는 사용자 그룹, 또는 당신이 사용하는 리눅스 버전을 배포하는 그룹에서는 입문자들이 도움을 받을 수 있는 웹 포럼이나 채팅방을 종종 소개할 수 있습니다. (영어를 사용하지 않는 나라들에서는 뉴비들을 위한 포럼들이 아직도 메일링 리스트로 운영될 수 있습니다) 이런 포럼들이나 채팅방은 무언가 물어보기에 좋은 곳 중 하나입니다. 특히 당신이 상대적으로 쉬운 문제나 흔히 겪는 문제로 고생하고 있다면, 특히 좋을 겁니다. 홍보되는 채팅방은 누구나 질문을 할 수 있으며, 종종 실시간으로 답변을 받을 수도 있습니다.
 
 <!-- In fact, if you got the program that is giving you problems from a Linux distribution (as is common today), it may be better to ask in the distro's forum/list before trying the program's project forum/list. The project's hackers may just say, “use _our_ build”. -->
-특정 Linux distribution 에서만 문제가 있는 프로그램을 쓰고 있다면(요즘에는 흔한 일입니다.) 원래 프로젝트의 포럼보다 해당 distro의 포럼에 먼저 물어보는게 나을 수 있습니다. 원래 프로젝트의 해커들은 그냥 "*우리들이 직접 만든* 빌드를 쓰세요" 라고 말하고 넘어갈 수 있습니다.
+특정 Linux distribution에서만 문제가 있는 프로그램을 쓰고 있다면(요즘에는 흔한 일입니다.) 원래 프로젝트의 포럼보다 해당 distro의 포럼에 먼저 물어보는 게 나을 수 있습니다. 원래 프로젝트의 해커들은 그냥 "*우리들이 직접 만든* 빌드를 쓰세요."라고 말하고 넘어갈 수 있습니다.
 
 <!-- Before posting to any Web forum, check if it has a Search feature. If it does, try a couple of keyword searches for something like your problem; it just might help. If you did a general Web search before (as you should have), search the forum anyway; your Web-wide search engine might not have all of this forum indexed recently. -->
-어떤 웹 포럼이던지 글을 쓰기 전에 검색 기능이 있는지 확인하세요. 검색 기능이 있다면, 당신의 문제와 관련이 있을 것 같은 키워드로 몇 번 검색을 시도 해보세요. 혹시라도 도움이 될 수도 있습니다. 당신이 일반적인 웹 검색을 이전에 했다면 (당연히 미리 했어야 하지만), 그래도 포럼에서 검색을 해보세요. 당신이 사용한 검색 엔진이 포럼에서 최근에 올라온 글을  아직 등록하지 않았을 수 있습니다.
+어떤 웹 포럼이던지 글을 쓰기 전에 검색 기능이 있는지 확인하세요. 검색 기능이 있다면, 당신의 문제와 관련이 있을 것 같은 키워드로 몇 번 검색을 시도해 보세요. 혹시라도 도움이 될 수도 있습니다. 당신이 일반적인 웹 검색을 이전에 했다면 (당연히 미리 해야 했지만), 그래도 포럼에서 검색을 해보세요. 당신이 사용한 검색 엔진이 포럼에서 최근에 올라온 글을  아직 등록하지 않았을 수 있습니다.
 
 <!-- There is an increasing tendency for projects to do user support over a Web forum or IRC channel, with e-mail reserved more for development traffic. So look for those channels first when seeking project-specific help. -->
 사용자 지원을 위해서 웹 포럼이나 채팅방을 사용하는 추세가 증가하고 있습니다. 이는 이메일을 개발에 직접적으로 관련된 이야기를 하기 위해 미리 남겨놓기 위함입니다. 그러니까 프로젝트와 직접적으로 관련된 문제에 대한 도움을 받기 위해서는 웹 포럼이나 채팅방을 먼저 찾아보세요.
 
 <!-- In IRC, it's probably best not to dump a long problem description on the channel first thing; some people interpret this as channel-flooding. Best to utter a one-line problem description in a way pitched to start a conversation on the channel. -->
-채팅방에서 질문을 할 때는, 문제에 대한 긴 설명을 채팅창에 바로 쏟아내는건 좋지 못한 생각입니다. 어떤 사람들은 이런 행동을 채팅창을 도배한다고 받아들일 수 있습니다. 겪고 있는 문제에 대해 한 줄 짜리 요약을 먼저 얘기하면서 대화를 시작하려고 해보세요.
+채팅방에서 질문을 할 때는, 문제에 대한 긴 설명을 채팅창에 바로 쏟아내는 건 좋지 못한 생각입니다. 어떤 사람들은 이런 행동을 채팅창을 도배한다고 받아들일 수 있습니다. 겪고 있는 문제에 대해 한 줄짜리 요약을 먼저 얘기하면서 대화를 시작하려고 해보세요.
 
 <!-- TODO: 여기서부터 -->
+<div id='uselists'/>
 
 ### As a second step, use project mailing lists
 
