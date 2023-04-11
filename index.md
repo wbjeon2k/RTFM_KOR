@@ -355,13 +355,16 @@ Android, Ubuntu, TeX/LaTeX, SharePoint 등 여러 프로젝트는 자기들만�
 
 ### 프로젝트 메일링 리스트는 차선책으로
 
-When a project has a development mailing list, write to the mailing list, not to individual developers, even if you believe you know who can best answer your question. Check the documentation of the project and its homepage for the address of a project mailing list, and use it. There are several good reasons for this policy:
+<!-- When a project has a development mailing list, write to the mailing list, not to individual developers, even if you believe you know who can best answer your question. Check the documentation of the project and its homepage for the address of a project mailing list, and use it. There are several good reasons for this policy: -->
+프로젝트에 개발진 메일링 리스트가 있다면, 개발자 개인에게 메일을 보내지 말고 메일링 리스트에 있는 사람들에게 보내세요. 설령 당신의 질문에 가장 잘 대답을 할 수 있는 사람을 알고 있다고 생각 하더라도요. 프로젝트 홈페이지에서 공식문서를 읽고 메일링 리스트를 찾아서 사용하세요. 이렇게 하는 것은 몇 가지 장점들이 있습니다:
 
-* Any question good enough to be asked of one developer will also be of value to the whole group. Contrariwise, if you suspect your question is too dumb for a mailing list, it's not an excuse to harass individual developers.
+<!-- * Any question good enough to be asked of one developer will also be of value to the whole group. Contrariwise, if you suspect your question is too dumb for a mailing list, it's not an excuse to harass individual developers. -->
+* 어떤 개발진 인원에게 물어봐야 할 정도로 좋은 질문이라면 전체 개발진 및 사용자 그룹에도 도움이 될겁니다. 반대로, 당신의 질문이 메일링 리스트로 질문을 하기에 너무 멍청한 질문이라면 개발진들을 괴롭히게 되며, 메일링 리스트를 사용했더라도 변명의 여지가 없습니다.
 
-* Asking questions on the list distributes load among developers. The individual developer (especially if he's the project leader) may be too busy to answer your questions.
+<!-- * Asking questions on the list distributes load among developers. The individual developer (especially if he's the project leader) may be too busy to answer your questions. -->
+* 메일링 리스트를 통해 질문을 하는 것은 개발진 개인에게 걸리는 부하를 줄여줍니다. 개발진 개인 (특히 그 사람이 프로젝트 리더라면) 당신에게 답변을 주기에 너무 바쁠수도 있습니다.
 
-* Most mailing lists are archived and the archives are indexed by search engines. If you ask your question on-list and it is answered, a future querent could find your question and the answer on the Web instead of asking it again.
+<!-- * Most mailing lists are archived and the archives are indexed by search engines. If you ask your question on-list and it is answered, a future querent could find your question and the answer on the Web instead of asking it again. -->
 
 * If certain questions are seen to be asked often, developers can use that information to improve the documentation or the software itself to be less confusing. But if those questions are asked in private, nobody has the complete picture of what questions are asked most often.
 
