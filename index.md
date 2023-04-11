@@ -362,17 +362,22 @@ Android, Ubuntu, TeX/LaTeX, SharePoint 등 여러 프로젝트는 자기들만�
 * 어떤 개발진 인원에게 물어봐야 할 정도로 좋은 질문이라면 전체 개발진 및 사용자 그룹에도 도움이 될겁니다. 반대로, 당신의 질문이 메일링 리스트로 질문을 하기에 너무 멍청한 질문이라면 개발진들을 괴롭히게 되며, 메일링 리스트를 사용했더라도 변명의 여지가 없습니다.
 
 <!-- * Asking questions on the list distributes load among developers. The individual developer (especially if he's the project leader) may be too busy to answer your questions. -->
-* 메일링 리스트를 통해 질문을 하는 것은 개발진 개인에게 걸리는 부하를 줄여줍니다. 개발진 개인 (특히 그 사람이 프로젝트 리더라면) 당신에게 답변을 주기에 너무 바쁠수도 있습니다.
+* 메일링 리스트를 통해 질문을 하는 것은 개발진 개인에게 걸리는 부하를 줄여줍니다. 개발진 개인 (특히 그 사람이 프로젝트 리더라면) 당신에게 답변을 주기에 너무 바쁠 수도 있습니다.
 
 <!-- * Most mailing lists are archived and the archives are indexed by search engines. If you ask your question on-list and it is answered, a future querent could find your question and the answer on the Web instead of asking it again. -->
+* 대부분의 메일링 리스트들은 아카이브로 저장되어서 검색 엔진으로 접근할 수 있습니다. 당신이 올린 답변이 질문을 받는다면, 미래에 다른 사람이 똑같은 질문을 다시 하는 대신에 당신의 질문을 찾아서 답변을 얻을 수 있습니다.
 
-* If certain questions are seen to be asked often, developers can use that information to improve the documentation or the software itself to be less confusing. But if those questions are asked in private, nobody has the complete picture of what questions are asked most often.
+<!-- * If certain questions are seen to be asked often, developers can use that information to improve the documentation or the software itself to be less confusing. But if those questions are asked in private, nobody has the complete picture of what questions are asked most often. -->
+* 만약 특정 질문들이 계속 들어오는 게 확인된다면, 개발진들이 이를 반영하여 공식 문서를 개선하고 덜 헷갈리도록 수정하거나, 소프트웨어 자체를 고칠 수 있습니다. 하지만 만약 이런 질문들이 사적으로만 접수된다면, 아무도 어떤 질문이 많이 들어오는지 알 수가 없어서 전체적인 흐름을 알 수가 없습니다.
 
-If a project has both a “user” and a “developer” (or “hacker”) mailing list or Web forum, and you are not hacking on the code, ask in the “user” list/forum. Do not assume that you will be welcome on the developer list, where they're likely to experience your question as noise disrupting their developer traffic.
+<!-- If a project has both a “user” and a “developer” (or “hacker”) mailing list or Web forum, and you are not hacking on the code, ask in the “user” list/forum. Do not assume that you will be welcome on the developer list, where they're likely to experience your question as noise disrupting their developer traffic. -->
+만약에 해당 프로젝트가 "사용자"와 "개발진" (또는 "해커") 메일링 리스트를 둘 다 가지고 있고, 당신이 소스 코드에 대해서 파고들고 있는 게 아니라면, "사용자" 목록/포럼에 질문을 하세요. 개발자 포럼에서 당신의 질문이 환영받겠다고 생각하지 마세요. 개발자들은 당신의 질문을 개발자들 간의 의사소통을 방해하는 소음으로 느낄 가능성이 매우 높습니다.
 
-However, if you are _sure_ your question is non-trivial, and you get no answer in the “user” list/forum for several days, try the “developer” one. You would be well advised to lurk there for a few daysor at least review the last few days of archived messages, to learn the local folkways before posting (actually this is good advice on any private or semi-private list).
+<!-- However, if you are _sure_ your question is non-trivial, and you get no answer in the “user” list/forum for several days, try the “developer” one. You would be well advised to lurk there for a few daysor at least review the last few days of archived messages, to learn the local folkways before posting (actually this is good advice on any private or semi-private list). -->
+만약 당신의 질문이 전혀 사소하지 않다(non-trivial)는 생각이 확실히 드는데도 사용자 포럼에서 답변을 며칠 동안 받지를 못했다면, 그때는 "개발자" 포럼을 이용해 보세요. 글을 쓰기 전에, 해당 포럼에 며칠 동안 상주하면서 지켜보거나, 최소한 지난 며칠 간의 저장된 메시지들을 읽어보면서 해당 포럼에 상주하는 사람들을 파악하는 것을 권장합니다. (사실 이 조언은 어떤 사설 혹은 준 사설 포럼에서도 적용됩니다.)
 
-If you cannot find a project's mailing list address, but only see the address of the maintainer of the project, go ahead and write to the maintainer. But even in that case, don't assume that the mailing list doesn't exist. Mention in your e-mail that you tried and could not find the appropriate mailing list. Also mention that you don't object to having your message forwarded to other people. (Many people believe that private e-mail should remain private, even if there is nothing secret in it. By allowing your message to be forwarded you give your correspondent a choice about how to handle your e-mail.)
+<!-- If you cannot find a project's mailing list address, but only see the address of the maintainer of the project, go ahead and write to the maintainer. But even in that case, don't assume that the mailing list doesn't exist. Mention in your e-mail that you tried and could not find the appropriate mailing list. Also mention that you don't object to having your message forwarded to other people. (Many people believe that private e-mail should remain private, even if there is nothing secret in it. By allowing your message to be forwarded you give your correspondent a choice about how to handle your e-mail.) -->
+프로젝트 메일링 리스트를 찾을 수가 없고 프로젝트 관리자의 메일 주소만 적혀있다면 관리자에게 메일을 써도 됩니다. 다만, 메일링 리스트가 존재하지 않는다고 미리 생각하지 마세요. 메일을 적을 때 당신이 메일링 리스트를 찾아봤지만, 나오는 게 없다는 것을 알려주세요. 추가로 당신의 메일이 다른 사람들에게 전달(forward)되어도 상관없다는 사실을 알려주세요. (많은 사람은 개인적인 이메일은 아무런 비밀이 없는 내용이라도 함부로 공개하면 안 된다고 생각합니다. 메일을 다른 사람에게 전달해도 된다는 것을 알림으로써 메일을 받은 사람이 당신의 메일을 어떻게 처리 해야 할지 적절한 선택을 할 수 있는 여지를 주게 됩니다.)
 
 ### Use meaningful, specific subject headers
 
