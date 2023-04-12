@@ -413,15 +413,19 @@ Fooware MV1005 vid. 칩셋 환경, X.org 프로그램 6.8.1 버전 마우스 커
 <!-- More generally, imagine looking at the index of an archive of questions, with just the subject lines showing. Make your subject line reflect your question well enough that the next person searching the archive with a question similar to yours will be able to follow the thread to an answer rather than posting the question again. -->
 조금 더 일반적으로 이야기하자면, 질문 제목들이 한 줄씩 쭉 적혀있는 게시판을 생각해 보세요. 당신이 적는 질문 제목이 당신의 질문 사항을 제대로 반영해야 당신과 비슷한 질문을 가진 다른 사람이 게시판을 검색할 때 새로운 게시물을 또 올리지 않고 당신이 썼던 글을 통해 답변으로 이동할 수 있습니다.
 
+<!-- If you ask a question in a reply, be sure to change the subject line to indicate that you're asking a question. A Subject line that looks like “Re: test” or “Re: new bug” is less likely to attract useful amounts of attention. Also, pare quotation of previous messages to the minimum consistent with cluing in new readers. -->
+답글을 통해서 추가 질문을 남기는 경우에, 주제란에 질문을 하기 위해 적은 글이라는 것을 밝혀주세요. "Re: test" 또는 "Re: new bug" 같은 내용은 유의미한 수준의 관심을 얻기가 힘들 겁니다. 추가로, 글을 새로 읽는 사람들을 위해서 과거에 주고받았던 메시지 내용을 일정량 이상 적어주세요.
+
+<!-- Do not simply hit reply to a list message in order to start an entirely new thread. This will limit your audience. Some mail readers, like mutt, allow the user to sort by thread and then hide messages in a thread by folding the thread. Folks who do that will never see your message. -->
+새 스레드를 만들기 위해서는 무작정 회신 버튼을 누르면 안 됩니다. 이는 청중들의 수를 제한적으로 만듭니다. Mutt와 같은 메일 리더 프로그램들은 사용자가 스레드별로 정렬하고, 스레드를 접어서 메시지를 숨길 수 있도록 설정할 수 있습니다. 이 기능을 사용하는 사람들은 당신의 메시지를 영영 볼 수 없을 겁니다.
+
+<!-- Changing the subject is not sufficient. Mutt, and probably other mail readers, looks at other information in the e-mail's headers to assign it to a thread, not the subject line. Instead start an entirely new e-mail. -->
+새로운 주제를 만들 때, 기존 메일에서 주제만을 바꾸는 건 충분하지 않습니다. Mutt를 포함한 다른 메일 리더 프로그램들은 주제 문장이 아니라 메일의 말머리를 통해서 해당 스레드에 메일을 배정합니다. 완전히 새로운 메일을 적어서 주제를 분리하세요.
+
+<!-- On Web forums the rules of good practice are slightly different, because messages are usually much more tightly bound to specific discussion threads and often invisible outside those threads. Changing the subject when asking a question in reply is not essential. Not all forums even allow separate subject lines on replies, and nearly nobody reads them when they do. However, asking a question in a reply is a dubious practice in itself, because it will only be seen by those who are watching this thread. So, unless you are sure you _want_ to ask only the people currently active in the thread, start a new one. -->
+웹 포럼에서는 조금 다른 게, 메시지들이 특정한 스레드에 더 강하게 묶여있고 해당 스레드 밖에서는 내용을 바로보기 어려운 경우가 있습니다. 답글을 통해 질문을 남길 때 답글 제목을 통해 주제 문장을 바꾸지 않아도 됩니다. 대부분 포럼은 답글을 달 때 제목을 달도록 하지 않고, 제목을 달더라도 잘 읽지 않습니다. 답글을 통해 질문을 하는 것은 그 자체로 효과가 의심스러운 게, 해당 스레드를 보는 사람들에게만 질문 내용이 보이기 때문입니다. 따라서 *해당 스레드를 보는 사람들에게만* 질문을 하고 싶은 게 아니라면, 새 스레드를 파는 게 낫습니다.
+
 <!-- TODO: 여기서부터 -->
-If you ask a question in a reply, be sure to change the subject line to indicate that you're asking a question. A Subject line that looks like “Re: test” or “Re: new bug” is less likely to attract useful amounts of attention. Also, pare quotation of previous messages to the minimum consistent with cluing in new readers.
-
-Do not simply hit reply to a list message in order to start an entirely new thread. This will limit your audience. Some mail readers, like mutt, allow the user to sort by thread and then hide messages in a thread by folding the thread. Folks who do that will never see your message.
-
-Changing the subject is not sufficient. Mutt, and probably other mail readers, looks at other information in the e-mail's headers to assign it to a thread, not the subject line. Instead start an entirely new e-mail.
-
-On Web forums the rules of good practice are slightly different, because messages are usually much more tightly bound to specific discussion threads and often invisible outside those threads. Changing the subject when asking a question in reply is not essential. Not all forums even allow separate subject lines on replies, and nearly nobody reads them when they do. However, asking a question in a reply is a dubious practice in itself, because it will only be seen by those who are watching this thread. So, unless you are sure you _want_ to ask only the people currently active in the thread, start a new one.
-
 ### Make it easy to reply
 
 Finishing your query with “Please send your reply to... ” makes it quite unlikely you will get an answer. If you can't be bothered to take even the few seconds required to set up a correct Reply-To header in your mail agent, we can't be bothered to take even a few seconds to think about your problem. If your mail program doesn't permit this, [get a better mail program](http://linuxmafia.com/faq/Mail/muas.html). If your operating system doesn't support any e-mail programs that permit this, get a better operating system.
