@@ -350,7 +350,6 @@ Android, Ubuntu, TeX/LaTeX, SharePoint 등 여러 프로젝트는 자기들만�
 <!-- In IRC, it's probably best not to dump a long problem description on the channel first thing; some people interpret this as channel-flooding. Best to utter a one-line problem description in a way pitched to start a conversation on the channel. -->
 채팅방에서 질문을 할 때는, 문제에 대한 긴 설명을 채팅창에 바로 쏟아내는 건 좋지 못한 생각입니다. 어떤 사람들은 이런 행동을 채팅창을 도배한다고 받아들일 수 있습니다. 겪고 있는 문제에 대해 한 줄짜리 요약을 먼저 얘기하면서 대화를 시작하려고 해보세요.
 
-<!-- TODO: 여기서부터 -->
 <div id='uselists'/>
 
 ### 프로젝트 메일링 리스트는 차선책으로
@@ -379,28 +378,42 @@ Android, Ubuntu, TeX/LaTeX, SharePoint 등 여러 프로젝트는 자기들만�
 <!-- If you cannot find a project's mailing list address, but only see the address of the maintainer of the project, go ahead and write to the maintainer. But even in that case, don't assume that the mailing list doesn't exist. Mention in your e-mail that you tried and could not find the appropriate mailing list. Also mention that you don't object to having your message forwarded to other people. (Many people believe that private e-mail should remain private, even if there is nothing secret in it. By allowing your message to be forwarded you give your correspondent a choice about how to handle your e-mail.) -->
 프로젝트 메일링 리스트를 찾을 수가 없고 프로젝트 관리자의 메일 주소만 적혀있다면 관리자에게 메일을 써도 됩니다. 다만, 메일링 리스트가 존재하지 않는다고 미리 생각하지 마세요. 메일을 적을 때 당신이 메일링 리스트를 찾아봤지만, 나오는 게 없다는 것을 알려주세요. 추가로 당신의 메일이 다른 사람들에게 전달(forward)되어도 상관없다는 사실을 알려주세요. (많은 사람은 개인적인 이메일은 아무런 비밀이 없는 내용이라도 함부로 공개하면 안 된다고 생각합니다. 메일을 다른 사람에게 전달해도 된다는 것을 알림으로써 메일을 받은 사람이 당신의 메일을 어떻게 처리 해야 할지 적절한 선택을 할 수 있는 여지를 주게 됩니다.)
 
-### Use meaningful, specific subject headers
+<div id='bespecific'/>
 
-On mailing lists, newsgroups or Web forums, the subject header is your golden opportunity to attract qualified experts' attention in around 50 characters or fewer. Don't waste it on babble like “Please help me” (let alone “PLEASE HELP ME!!!!”; messages with subjects like that get discarded by reflex). Don't try to impress us with the depth of your anguish; use the space for a super-concise problem description instead.
+<!-- ### Use meaningful, specific subject headers -->
+### 구체적인 의미가 있는 말머리를 달아주세요
 
-One good convention for subject headers, used by many tech support organizations, is “object - deviation”. The “object” part specifies what thing or group of things is having a problem, and the “deviation” part describes the deviation from expected behavior.
+<!-- On mailing lists, newsgroups or Web forums, the subject header is your golden opportunity to attract qualified experts' attention in around 50 characters or fewer. Don't waste it on babble like “Please help me” (let alone “PLEASE HELP ME!!!!”; messages with subjects like that get discarded by reflex). Don't try to impress us with the depth of your anguish; use the space for a super-concise problem description instead. -->
+주제와 관련된 말머리를 적는 것은 메일링 리스트, 뉴스그룹, 웹 포럼 등에서 50자 이내로 실력 있는 전문가들의 관심을 받기 위한 가장 좋은 기회입니다. 그 기회를 “Please help me” 같은 말로 웅얼거리는 데 낭비하지 마세요 (그렇다고 “PLEASE HELP ME!!!!” 같이 쓰지는 마세요. 이런 메시지들은 반사적으로 거부감을 느끼게 됩니다.). 우리의 관심을 끌기 위해서 본인이 얼마나 힘든 상황에 있는지 얘기하지 마세요. 그 대신에 매우 명료하고 간단하게 정리된 문제 상황을 적으세요.
 
-**Stupid:**
+<!-- One good convention for subject headers, used by many tech support organizations, is “object - deviation”. The “object” part specifies what thing or group of things is having a problem, and the “deviation” part describes the deviation from expected behavior. -->
+수많은 기술적 지원을 하는 단체들에서 관습적으로 사용되는 말머리를 다는 규칙이 있는데, 그것은 바로 "주제 - 벗어난 정도" (*"object-deviation"*)입니다. "주제"에는 구체적으로 문제를 겪고 있는 대상들이 들어갑니다. "벗어난 정도"에는 예상되는 행동으로부터 얼마나 상황이 어긋났는지 적습니다.
 
-HELP! Video doesn't work properly on my laptop!
+<!-- **Stupid:** -->
+**멍청한 예시**  
 
-**Smart:**
+<!-- HELP! Video doesn't work properly on my laptop! -->
+도와주세요! 랩탑에서 영상이 안틀어져요 ㅠ
 
-X.org 6.8.1 misshapen mouse cursor, Fooware MV1005 vid. chipset
+<!-- **Smart:** -->
+**똑똑한 예시**
 
-**Smarter:**
+<!-- X.org 6.8.1 misshapen mouse cursor, Fooware MV1005 vid. chipset -->
+X.org 프로그램 6.8.1 버전 마우스 커서 모양 오류, Fooware MV1005 vid. 칩셋.
 
-X.org 6.8.1 mouse cursor on Fooware MV1005 vid. chipset - is misshapen
+<!-- **Smarter:** -->
+**더 똑똑한 예시**
 
-The process of writing an “object-deviation” description will help you organize your thinking about the problem in more detail. What is affected? Just the mouse cursor or other graphics too? Is this specific to the X.org version of X? To version 6.8.1? Is this specific to Fooware video chipsets? To model MV1005? A hacker who sees the result can immediately understand what it is that you are having a problem with _and_ the problem you are having, at a glance.
+<!-- X.org 6.8.1 mouse cursor on Fooware MV1005 vid. chipset - is misshapen -->
+Fooware MV1005 vid. 칩셋 환경, X.org 프로그램 6.8.1 버전 마우스 커서 모양 오류
 
-More generally, imagine looking at the index of an archive of questions, with just the subject lines showing. Make your subject line reflect your question well enough that the next person searching the archive with a question similar to yours will be able to follow the thread to an answer rather than posting the question again.
+<!-- The process of writing an “object-deviation” description will help you organize your thinking about the problem in more detail. What is affected? Just the mouse cursor or other graphics too? Is this specific to the X.org version of X? To version 6.8.1? Is this specific to Fooware video chipsets? To model MV1005? A hacker who sees the result can immediately understand what it is that you are having a problem with _and_ the problem you are having, at a glance. -->
+"주제 - 벗어난 정도" 식으로 문제 상황을 적는것은 당신이 가진 문제 상황에 대한 생각을 정리하는데 도움이 됩니다. 이것 때문에 영향을 받은 다른 프로그램이 있나? 마우스 커서만 문제가 있나, 그래픽 전체적으로 문제가 있나? 6.8.1 버전에서만 발생하는 것인가? 이게 Fooware 칩셋들에서만 발생하는 문제인가? 아니면 특정 모델 MV1005에서만? 이런 생각들을 통해 정리된 질문을 전문가들이 본다면 당신이 문제를 겪고 있는 상황, 그리고 여러분이 진짜로 겪고 있는 구체적인 문제를 한눈에 알 수가 있습니다.
 
+<!-- More generally, imagine looking at the index of an archive of questions, with just the subject lines showing. Make your subject line reflect your question well enough that the next person searching the archive with a question similar to yours will be able to follow the thread to an answer rather than posting the question again. -->
+조금 더 일반적으로 이야기하자면, 질문 제목들이 한 줄씩 쭉 적혀있는 게시판을 생각해 보세요. 당신이 적는 질문 제목이 당신의 질문 사항을 제대로 반영해야 당신과 비슷한 질문을 가진 다른 사람이 게시판을 검색할 때 새로운 게시물을 또 올리지 않고 당신이 썼던 글을 통해 답변으로 이동할 수 있습니다.
+
+<!-- TODO: 여기서부터 -->
 If you ask a question in a reply, be sure to change the subject line to indicate that you're asking a question. A Subject line that looks like “Re: test” or “Re: new bug” is less likely to attract useful amounts of attention. Also, pare quotation of previous messages to the minimum consistent with cluing in new readers.
 
 Do not simply hit reply to a list message in order to start an entirely new thread. This will limit your audience. Some mail readers, like mutt, allow the user to sort by thread and then hide messages in a thread by folding the thread. Folks who do that will never see your message.
