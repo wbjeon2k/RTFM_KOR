@@ -431,56 +431,91 @@ Fooware MV1005 vid. 칩셋 환경, X.org 프로그램 6.8.1 버전 마우스 커
 <!-- On Web forums the rules of good practice are slightly different, because messages are usually much more tightly bound to specific discussion threads and often invisible outside those threads. Changing the subject when asking a question in reply is not essential. Not all forums even allow separate subject lines on replies, and nearly nobody reads them when they do. However, asking a question in a reply is a dubious practice in itself, because it will only be seen by those who are watching this thread. So, unless you are sure you _want_ to ask only the people currently active in the thread, start a new one. -->
 웹 포럼에서는 조금 다른 게, 메시지들이 특정한 스레드에 더 강하게 묶여있고 해당 스레드 밖에서는 내용을 바로보기 어려운 경우가 있습니다. 답글을 통해 질문을 남길 때 답글 제목을 통해 주제 문장을 바꾸지 않아도 됩니다. 대부분 포럼은 답글을 달 때 제목을 달도록 하지 않고, 제목을 달더라도 잘 읽지 않습니다. 답글을 통해 질문을 하는 것은 그 자체로 효과가 의심스러운 게, 해당 스레드를 보는 사람들에게만 질문 내용이 보이기 때문입니다. 따라서 *해당 스레드를 보는 사람들에게만* 질문을 하고 싶은 게 아니라면, 새 스레드를 파는 게 낫습니다.
 
+<div id='easyreply'/>
+
+### 답변을 달기 쉽게 질문하세요
+
+<!-- Finishing your query with “Please send your reply to... ” makes it quite unlikely you will get an answer. If you can't be bothered to take even the few seconds required to set up a correct Reply-To header in your mail agent, we can't be bothered to take even a few seconds to think about your problem. If your mail program doesn't permit this, [get a better mail program](http://linuxmafia.com/faq/Mail/muas.html). If your operating system doesn't support any e-mail programs that permit this, get a better operating system. -->
+당신의 질문을 "답변을 아래 주소로 보내주세요 ... " 와 같은 형태로 끝낸다면 당신은 답변받을 수 없습니다. 메일 에이전트 프로그램에 단 몇 초를 투자해서 "답변하기" 버튼을 제대로 만들 노력도 하지 않는다면, 우리는 당신의 문제에 대해서 단 몇 초도 생각하기 싫습니다. 당신의 메일 프로그램에 그런 기능이 없다면, 더 좋은 [프로그램](http://linuxmafia.com/faq/Mail/muas.html)을 쓰세요. 당신의 운영체제에서 해당 기능을 제공하는 메일 프로그램들을 실행할 수 없다면, 더 좋은 운영체제를 장만하세요.
+
+<!-- In Web forums, asking for a reply by e-mail is outright rude, unless you believe the information may be sensitive (and somebody will, for some unknown reason, let you but not the whole forum know it). If you want an e-mail copy when somebody replies in the thread, request that the Web forum send it; this feature is supported almost everywhere under options like “watch this thread”, “send e-mail on answers”, etc. -->
+웹 포럼에서 개인 메일로 답변을 달라는 것은 명백히 무례한 행동입니다. 민감한 사항에 대한 질문 (또는 알 수 없는 이유로 답변을 다는 사람이 당신에게는 알려줄 수 있지만, 전체 포럼은 모르게 해야 하는 내용) 이라면요. 누군가가 단 답변을 메일로도 받아보고 싶어지면, 웹 포럼에 요청하세요. 거의 모든 곳에서 "이 스레드를 보기", "답변이 달리면 이메일로 알림 받기" 등의 기능을 제공합니다.
+
+<div id='writewell'/>
+
+<!-- ### Write in clear, grammatical, correctly-spelled language -->
+### 명료하게, 올바른 문법으로, 올바른 맞춤법으로
+
+<!-- We've found by experience that people who are careless and sloppy writers are usually also careless and sloppy at thinking and coding (often enough to bet on, anyway). Answering questions for careless and sloppy thinkers is not rewarding; we'd rather spend our time elsewhere. -->
+우리는 경험적으로 대충 엉성하게 글을 쓰는 사람들은 코딩도 대충 얼렁뚱땅하는 것을 관찰하였습니다. (내기를 해도 좋을 정도로 말이죠). 생각하지 않는 사람들에게 답변을 다는 것은 보람이 없습니다. 우리는 차라리 그 시간을 다른 데 쓸 겁니다.
+
+<!-- So expressing your question clearly and well is important. If you can't be bothered to do that, we can't be bothered to pay attention. Spend the extra effort to polish your language. It doesn't have to be stiff or formal — in fact, hacker culture values informal, slangy and humorous language used with precision. But it has to _be_ precise; there has to be some indication that you're thinking and paying attention. -->
+따라서 당신의 질문을 잘 정리하고 명료하게 표현하는 게 중요합니다. 당신이 그런 노력을 기울이기가 싫다면, 우리도 당신 질문에 관심을 가지기 싫습니다. 질문의 문장을 다듬는 데 공을 들이세요. 이는 딱딱한 공식적인 문체를 사용해야 한다는 의미는 아닙니다. 사실, 해커들의 문화는 비공식적이고 유머러스한 문체로 말하고자 하는 내용을 정확하게 말하는 것을 좋아합니다. 다만 내용이 *정확해야* 합니다. 당신이 문제에 대해 집중하고 생각을 한다는 것을 나타내는 흔적이 있어야 합니다.
+
+<!-- Spell, punctuate, and capitalize correctly. Don't confuse “its” with “it's”, “loose” with “lose”, or “discrete” with “discreet”. Don't TYPE IN ALL CAPS; this is read as shouting and considered rude. (All-smalls is only slightly less annoying, as it's difficult to read. Alan Cox can get away with it, but you can't.) -->
+철자를 정확히 사용하고, 문장 부호를 정확하게 사용하고, 대문자를 정확하게 사용하게요. "it's"를 "its"로, "loose"를 "lose"로 쓴다거나, "discrete"를 "discreet"으로 혼동하지 마세요. (역주: 한국어로는 되/돼 외/왜 안/않 등이 해당합니다. 예시: ~~외않되요~~ 왜 안돼요*)
+
+<!-- More generally, if you write like a semi-literate boob you will very likely be ignored. So don't use instant-messaging shortcuts. Spelling "you" as "u" makes you look like a semi-literate boob to save two entire keystrokes. Worse: writing like a l33t script kiddie hax0r is the absolute kiss of death and guarantees you will receive nothing but stony silence (or, at best, a heaping helping of scorn and sarcasm) in return. -->
+조금 더 일반적으로 말하자면, 제대로 읽기 쓰기를 배우지 못한 사람처럼 글을 쓰면 무시당할 확률이 높습니다. 따라서 개인 메시지(카톡 등)에서 쓸법한 줄임말을 쓰지 마세요. "you"를 "u"로 쓰면 버튼 두 번 더 누르기를 귀찮아서 줄여 쓰는 못 배워먹은 사람으로 보입니다. 더 안 좋은 경우도 있습니다. 단어의 일부를 숫자나 부호로 대체해서 암호처럼 쓰는 것(*역주: leet을 l33t로, zero를 zer0 같이 쓰는 것*)은 좋아 보일 거 같지만 실제로는 최악입니다(kiss of death). 해커 놀이를 하는 애새끼처럼 보이고, 싸한 무관심(최선의 경우에도 멸시나 조롱)을 받을 것을 보장할 수 있습니다.(*역주: 한국어로 따지면 [ㄴr는 ㄱr끔 눈물을흘린ㄷr...](https://namu.wiki/w/%EC%B1%84%EC%97%B0?from=%EB%82%98%EB%8A%94%20%EA%B0%80%EB%81%94%20%EB%88%88%EB%AC%BC%EC%9D%84%20%ED%9D%98%EB%A6%B0%EB%8B%A4#s-5) 같은 느낌.*)
+
+<!-- If you are asking questions in a forum that does not use your native language, you will get a limited amount of slack for spelling and grammar errors — but no extra slack at all for laziness (and yes, we can usually spot that difference). Also, unless you know what your respondent's languages are, write in English. Busy hackers tend to simply flush questions in languages they don't understand, and English is the working language of the Internet. By writing in English you minimize your chances that your question will be discarded unread. -->
+당신의 모국어를 사용하지 않는 포럼에서 질문을 하는 경우에는, 철자와 문법에 대해서 조금은 정상참작을 받을 수는 있습니다. 하지만 게으른 질문은 정상참작이 되지 않습니다. (진심으로, 우리는 그 차이를 구분할 수 있습니다) 질문을 받는 사람이 사용하는 언어를 알 수 없다면 영어로 쓰세요. 해커들은 자기들이 읽을 수 없는 언어로 적힌 질문들을 변기 물 내리듯 치워버릴 겁니다. 또한, 인터넷의 공용어는 영어입니다. 영어로 질문을 쓰는 게 당신의 질문이 읽히지 않고 버려지는 확률을 최소화하는 겁니다.
+
+<!-- If you are writing in English but it is a second language for you, it is good form to alert potential respondents to potential language difficulties and options for getting around them. Examples: -->
+당신이 영어로 글을 쓰는데 영어가 주 언어가 아니라면, 글을 보는 사람들에게 언어적인 문제가 있을 수 있다는 것을 알리고 도움을 받을 수 있는 선택지를 같이 적어주세요.  
+예를 들자면:  
+(*역주: 실제로 사용할 수 있는 문구들은 원문을 병기합니다.*)
+
+<!-- * English is not my native language; please excuse typing errors. -->
+* 영어가 제 모국어가 아니라서 오탈자가 있을 수 있습니다. 양해 부탁드립니다.(*원문 : English is not my native language; please excuse typing errors.*)
+
+<!-- * If you speak $LANGUAGE, please email/PM me; I may need assistance translating my question. -->
+* 당신이 $LANGUAGE 언어를 쓸 줄 안다면, 이메일이나 개인 메시지를 주세요. 질문을 번역하는데 도움이 필요할 수도 있습니다.(*원문: If you speak $LANGUAGE, please email/PM me; I may need assistance translating my question.*)
+
+<!-- * I am familiar with the technical terms, but some slang expressions and idioms are difficult for me. -->
+* 기술적인 용어들은 익숙하지만, 유행어나 속담, 숙어는 이해하기에 어렵습니다.
+
+<!-- * I've posted my question in $LANGUAGE and English. I'll be glad to translate responses, if you only use one or the other. -->
+* 질문을 $LANGUAGE 와 영어로 같이 적었습니다. 영어나 $LANGUAGE 로 질문을 옮기는데 도움을 주시면 감사하겠습니다.
+
+<div id='formats'/>
+
+<!-- ### Send questions in accessible, standard formats -->
+### 질문을 접근성이 좋고, 표준적인 양식으로 작성하세요
+
+<!-- If you make your question artificially hard to read, it is more likely to be passed over in favor of one that isn't. So: -->
+당신이 질문을 의도적으로 읽기 힘들게 쓴다면, 그렇지 않은 질문들에 비해서 답변받기에 어렵겠죠.  
+따라서 아래 방법들을 고려하세요:
+
+<!-- * Send plain text mail, not HTML. (It's not hard to [turn off HTML](http://www.birdhouse.org/etc/evilmail.html).) -->
+* HTML 대신 평문(plain text)으로 메일을 작성하세요. (HTML 기능을 끄는 것은 어렵지 않습니다. [링크](http://www.birdhouse.org/etc/evilmail.html))
+
+<!-- * MIME attachments are usually OK, but only if they are real content (such as an attached source file or patch), and not merely boilerplate generated by your mail client (such as another copy of your message). -->
+* 첨부 파일은 실질적인 내용이 있는 경우에는 대체적으로 괜찮습니다. (소스코드나 패치파일 등.) 메일 클라이언트가 의미 없이 자동으로 생성하는 파일은 안됩니다 (메일 내용의 사본 등).
+
+<!-- * Don't send e-mail in which entire paragraphs are single multiply-wrapped lines. (This makes it too difficult to reply to just part of the message.) Assume that your respondents will be reading mail on 80-character-wide text displays and set your line wrap accordingly, to something less than 80. -->
+* 줄 바꿈을 하지 않고 한 문단을 이어서 쓰는 건 금물입니다. (메시지의 부분만 집어서 답변하기 곤란합니다) 메일을 읽는 사람 디스플레이에 대략 80줄이 한 줄로 들어간다고 생각하고, 한 줄이 80자보다 적게 줄 바꿈을 하세요. (*역주 : single multiply-wrapped lines에 대한 번역입니다. 현재는 사장된 개념으로 추정됩니다.*)
+
+<!-- * However, do _not_ wrap data (such as log file dumps or session transcripts) at any fixed column width. Data should be included as-is, so respondents can have confidence that they are seeing what you saw. -->
+* 하지만 (로그 파일이나 세션 사본 같은) 데이터는 고정 열 너비 형태로 바꾸지 마세요. 데이터는 있는 그대로 보여야 하고, 읽는 사람이 당신이 본 것과 같은 것을 보고 있다는 확신을 가지도록 해야 합니다.
+
+<!-- * Don't send MIME Quoted-Printable encoding to an English-language forum. This encoding can be necessary when you're posting in a language ASCII doesn't cover, but many e-mail agents don't support it. When they break, all those =20 glyphs scattered through the text are ugly and distracting — or may actively sabotage the semantics of your text. -->
+* 영어를 사용하는 포럼에서 [MIME Quoted-Printable encoding](https://en.wikipedia.org/wiki/Quoted-printable)으로 내용은 적지를 마세요. 해당 encoding은 ASCII로 표현할 수 없는 언어들을 사용할 때는 필요하겠지만, 많은 이메일 시스템은 지원하지 않습니다. 해당 문자들이 깨진다면 '=20' 들이 본문에 가득해서 본문의 가독성을 해치고 읽을 수가 없을 정도이거나, 당신의 본문을 매우 능동적으로 망가뜨려 버립니다.
+
+<!-- * Never, _ever_ expect hackers to be able to read closed proprietary document formats like Microsoft Word or Excel. Most hackers react to these about as well as you would to having a pile of steaming pig manure dumped on your doorstep. Even when they can cope, they resent having to do so. -->
+* 절대로, *절대로* 해커들이 Microsoft Word 나 Excel같이 특정 프로그램이 있어야만 읽을 수 있는(closed proprietary document format) 문서 형식을 읽을 것으로 생각하지 마세요. 많은 해커는 그런 파일들을 마주할 때 누군가가 문 앞에다 돼지 분뇨를 쏟아놓고 간 것처럼 반응 할 겁니다. 그 힘든 걸 견뎌낼 수 있더라도, 그러지 않는 것을 선택 할 겁니다.
+
+<!-- * If you're sending e-mail from a Windows machine, turn off Microsoft's problematic “Smart Quotes” feature (From Tools > AutoCorrect Options, clear the smart quotes checkbox under AutoFormat As You Type.). This is so you'll avoid sprinkling garbage characters through your mail. -->
+* 당신이 Windows에서 이메일을 보낸다면, Microsoft 사의 문제가 많은 ["Smart Quotes"](https://support.microsoft.com/en-us/office/smart-quotes-in-word-702fc92e-b723-4e3d-b2cc-71dedaf2f343) 기능을 꺼야 합니다. (Tools > AutoCorrect Options > AutoFormat As You Type 에서 끌 수 있습니다) 이렇게 해야 메일 본문에 쓰레기 문자들이 흩뿌려지는 상황을 방지할 수 있습니다.
+
+<!-- * In Web forums, do not abuse “smiley” and “HTML” features (when they are present). A smiley or two is usually OK, but colored fancy text tends to make people think you are lame. Seriously overusing smileys and color and fonts will make you come off like a giggly teenage girl, which is not generally a good idea unless you are more interested in sex than answers. -->
+웹 포럼에서 ["smiley"](https://en.wikipedia.org/wiki/Smiley) (*역주: 요즘 시대로 따지면 emoji*)나 "HTML" 기능들을 남발하지 마세요 (해당 포럼이 기능을 지원한다면 말이죠). 한두 개는 괜찮을 수도 있는데, 알록달록한 컬러 텍스트를 사용한다면 사람들이 병신같이 볼 겁니다. Smiley, 요란한 색깔과 글씨체 등을 본문에 남발하는 건 떨어지는 낙엽만 봐도 웃을 나이의 청소년 여자아이처럼 보일 겁니다. 답변을 얻는 것보다 섹스에 관심이 있는 게 아니라면 일반적으로 좋은 생각이 아닙니다.
+
+<!-- If you're using a graphical-user-interface mail client such as Netscape Messenger, MS Outlook, or their ilk, beware that it may violate these rules when used with its default settings. Most such clients have a menu-based “View Source” command. Use this on something in your sent-mail folder, verifying sending of plain text without unnecessary attached crud. -->
+당신이 Netscape Messenger, MS Outlook, 혹은 이와 유사한 GUI 이메일 클라이언트를 사용한다면 해당 프로그램이 위 규칙들을 어기는 설정이 기본으로 되어있을 수도 있습니다. 대부분 클라이언트 들은 "소스 보기(View Source)" 기능을 지원합니다. 보낸 메일함에서 해당 기능을 통해 평문이 잘 적혀있고 불필요한 문자열들이 포함되지는 않았는지 확인하세요.
+
 <!-- TODO: 여기서부터 -->
-### Make it easy to reply
-
-Finishing your query with “Please send your reply to... ” makes it quite unlikely you will get an answer. If you can't be bothered to take even the few seconds required to set up a correct Reply-To header in your mail agent, we can't be bothered to take even a few seconds to think about your problem. If your mail program doesn't permit this, [get a better mail program](http://linuxmafia.com/faq/Mail/muas.html). If your operating system doesn't support any e-mail programs that permit this, get a better operating system.
-
-In Web forums, asking for a reply by e-mail is outright rude, unless you believe the information may be sensitive (and somebody will, for some unknown reason, let you but not the whole forum know it). If you want an e-mail copy when somebody replies in the thread, request that the Web forum send it; this feature is supported almost everywhere under options like “watch this thread”, “send e-mail on answers”, etc.
-
-### Write in clear, grammatical, correctly-spelled language
-
-We've found by experience that people who are careless and sloppy writers are usually also careless and sloppy at thinking and coding (often enough to bet on, anyway). Answering questions for careless and sloppy thinkers is not rewarding; we'd rather spend our time elsewhere.
-
-So expressing your question clearly and well is important. If you can't be bothered to do that, we can't be bothered to pay attention. Spend the extra effort to polish your language. It doesn't have to be stiff or formal — in fact, hacker culture values informal, slangy and humorous language used with precision. But it has to _be_ precise; there has to be some indication that you're thinking and paying attention.
-
-Spell, punctuate, and capitalize correctly. Don't confuse “its” with “it's”, “loose” with “lose”, or “discrete” with “discreet”. Don't TYPE IN ALL CAPS; this is read as shouting and considered rude. (All-smalls is only slightly less annoying, as it's difficult to read. Alan Cox can get away with it, but you can't.)
-
-More generally, if you write like a semi-literate boob you will very likely be ignored. So don't use instant-messaging shortcuts. Spelling "you" as "u" makes you look like a semi-literate boob to save two entire keystrokes. Worse: writing like a l33t script kiddie hax0r is the absolute kiss of death and guarantees you will receive nothing but stony silence (or, at best, a heaping helping of scorn and sarcasm) in return.
-
-If you are asking questions in a forum that does not use your native language, you will get a limited amount of slack for spelling and grammar errors — but no extra slack at all for laziness (and yes, we can usually spot that difference). Also, unless you know what your respondent's languages are, write in English. Busy hackers tend to simply flush questions in languages they don't understand, and English is the working language of the Internet. By writing in English you minimize your chances that your question will be discarded unread.
-
-If you are writing in English but it is a second language for you, it is good form to alert potential respondents to potential language difficulties and options for getting around them. Examples:
-
-* English is not my native language; please excuse typing errors.
-
-* If you speak $LANGUAGE, please email/PM me; I may need assistance translating my question.
-
-* I am familiar with the technical terms, but some slang expressions and idioms are difficult for me.
-
-* I've posted my question in $LANGUAGE and English. I'll be glad to translate responses, if you only use one or the other.
-
-### Send questions in accessible, standard formats
-
-If you make your question artificially hard to read, it is more likely to be passed over in favor of one that isn't. So:
-
-* Send plain text mail, not HTML. (It's not hard to [turn off HTML](http://www.birdhouse.org/etc/evilmail.html).)
-
-* MIME attachments are usually OK, but only if they are real content (such as an attached source file or patch), and not merely boilerplate generated by your mail client (such as another copy of your message).
-
-* Don't send e-mail in which entire paragraphs are single multiply-wrapped lines. (This makes it too difficult to reply to just part of the message.) Assume that your respondents will be reading mail on 80-character-wide text displays and set your line wrap accordingly, to something less than 80.
-
-* However, do _not_ wrap data (such as log file dumps or session transcripts) at any fixed column width. Data should be included as-is, so respondents can have confidence that they are seeing what you saw.
-
-* Don't send MIME Quoted-Printable encoding to an English-language forum. This encoding can be necessary when you're posting in a language ASCII doesn't cover, but many e-mail agents don't support it. When they break, all those =20 glyphs scattered through the text are ugly and distracting — or may actively sabotage the semantics of your text.
-
-* Never, _ever_ expect hackers to be able to read closed proprietary document formats like Microsoft Word or Excel. Most hackers react to these about as well as you would to having a pile of steaming pig manure dumped on your doorstep. Even when they can cope, they resent having to do so.
-
-* If you're sending e-mail from a Windows machine, turn off Microsoft's problematic “Smart Quotes” feature (From Tools > AutoCorrect Options, clear the smart quotes checkbox under AutoFormat As You Type.). This is so you'll avoid sprinkling garbage characters through your mail.
-
-* In Web forums, do not abuse “smiley” and “HTML” features (when they are present). A smiley or two is usually OK, but colored fancy text tends to make people think you are lame. Seriously overusing smileys and color and fonts will make you come off like a giggly teenage girl, which is not generally a good idea unless you are more interested in sex than answers.
-
-If you're using a graphical-user-interface mail client such as Netscape Messenger, MS Outlook, or their ilk, beware that it may violate these rules when used with its default settings. Most such clients have a menu-based “View Source” command. Use this on something in your sent-mail folder, verifying sending of plain text without unnecessary attached crud.
+<div id='beprecise'/>
 
 ### Be precise and informative about your problem
 
