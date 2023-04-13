@@ -514,38 +514,58 @@ Fooware MV1005 vid. 칩셋 환경, X.org 프로그램 6.8.1 버전 마우스 커
 <!-- If you're using a graphical-user-interface mail client such as Netscape Messenger, MS Outlook, or their ilk, beware that it may violate these rules when used with its default settings. Most such clients have a menu-based “View Source” command. Use this on something in your sent-mail folder, verifying sending of plain text without unnecessary attached crud. -->
 당신이 Netscape Messenger, MS Outlook, 혹은 이와 유사한 GUI 이메일 클라이언트를 사용한다면 해당 프로그램이 위 규칙들을 어기는 설정이 기본으로 되어있을 수도 있습니다. 대부분 클라이언트 들은 "소스 보기(View Source)" 기능을 지원합니다. 보낸 메일함에서 해당 기능을 통해 평문이 잘 적혀있고 불필요한 문자열들이 포함되지는 않았는지 확인하세요.
 
-<!-- TODO: 여기서부터 -->
 <div id='beprecise'/>
 
-### Be precise and informative about your problem
+<!-- ### Be precise and informative about your problem -->
+### 문제에 대해서 구체적이고 정확하게 서술하세요
 
-* Describe the symptoms of your problem or bug carefully and clearly.
+<!-- * Describe the symptoms of your problem or bug carefully and clearly. -->
+* 겪고있는 문제나 버그의 증상을 명료하고 주의깊게 설명하세요.
 
-* Describe the environment in which it occurs (machine, OS, application, whatever). Provide your vendor's distribution and release level (e.g.: “Fedora Core 7”, “Slackware 9.1”, etc.).
+<!-- * Describe the environment in which it occurs (machine, OS, application, whatever). Provide your vendor's distribution and release level (e.g.: “Fedora Core 7”, “Slackware 9.1”, etc.). -->
+* 어떤 환경에서 발생하는 문제인지 알려주세요 (기종, OS, 앱 등). 어떤 버전/릴리스 인지도 알려주세요 (e.g.: "Fedora Core 7", "Slackware 9.1" 등).
 
-* Describe the research you did to try and understand the problem before you asked the question.
+<!-- * Describe the research you did to try and understand the problem before you asked the question. -->
+* 질문글을 올리기 전에 문제 상황을 파악하기 위해서 어떤 시도들을 해봤는지 설명하세요.
 
-* Describe the diagnostic steps you took to try and pin down the problem yourself before you asked the question.
+<!-- * Describe the diagnostic steps you took to try and pin down the problem yourself before you asked the question. -->
+* 질문글을 올리기 전에 문제의 범위를 좁혀서 구체적으로 파악하기 위해서 택했던 진단 방법을 설명하세요.
 
-* Describe any possibly relevant recent changes in your computer or software configuration.
+<!-- * Describe any possibly relevant recent changes in your computer or software configuration. -->
+* 최근 컴퓨터나 SW 설정에 변화가 있었던 경우, 관련이 있을 수 있는 변화 내용을 적어주세요.
 
-* If at all possible, provide a way to _reproduce the problem in a controlled environment_.
+<!-- * If at all possible, provide a way to _reproduce the problem in a controlled environment_. -->
+* 가능하다면, *변인 통제가 된 상태에서 문제 상황을 재현 할 수 있는 방법*을 알려주세요.
 
-Do the best you can to anticipate the questions a hacker will ask, and answer them in advance in your request for help.
+<!-- Do the best you can to anticipate the questions a hacker will ask, and answer them in advance in your request for help. -->
+해커들이 물어볼 것 같은 내용들을 최대한 예상해서 사전에 해당 내용에 대한 설명을 도움을 요청할 때 같이 적으세요.  
 
-Giving hackers the ability to reproduce the problem in a controlled environment is especially important if you are reporting something you think is a bug in code. When you do this, your odds of getting a useful answer and the speed with which you are likely to get that answer both improve tremendously.
+<!-- Giving hackers the ability to reproduce the problem in a controlled environment is especially important if you are reporting something you think is a bug in code. When you do this, your odds of getting a useful answer and the speed with which you are likely to get that answer both improve tremendously. -->
+코드에 버그가 있다고 생각하여 이를 알리려고 할 때, 해커들이 변인 통제가 된 환경에서 문제를 재현할 수 있도록 하는것은 매우 중요합니다.
+당신이 문제를 재현 가능하게 도와준다면, 유용한 답변을 받을 확률과 답변을 받는 속도가 어마어마하게 커집니다.
 
-Simon Tatham has written an excellent essay entitled [How to Report Bugs Effectively](http://www.chiark.greenend.org.uk/~sgtatham/bugs.html). I strongly recommend that you read it.
+<!-- Simon Tatham has written an excellent essay entitled [How to Report Bugs Effectively](http://www.chiark.greenend.org.uk/~sgtatham/bugs.html). I strongly recommend that you read it. -->
+Simon Tatham 은 [효과적으로 버그를 알리는 법 How to Report Bugs Effectively](http://www.chiark.greenend.org.uk/~sgtatham/bugs.html) 에 관해서 아주 훌륭한 글을 쓴 적이 있습니다. 이 글을 읽어보는 것을 강력하게 추천합니다.
 
-### Volume is not precision
+<div id='volume'/>
 
-You need to be precise and informative. This end is not served by simply dumping huge volumes of code or data into a help request. If you have a large, complicated test case that is breaking a program, try to trim it and make it as small as possible.
+<!-- ### Volume is not precision -->
+### 양 보다는 질
 
-This is useful for at least three reasons. One: being seen to invest effort in simplifying the question makes it more likely you'll get an answer, Two: simplifying the question makes it more likely you'll get a _useful_ answer. Three: In the process of refining your bug report, you may develop a fix or workaround yourself.
+<!-- You need to be precise and informative. This end is not served by simply dumping huge volumes of code or data into a help request. If you have a large, complicated test case that is breaking a program, try to trim it and make it as small as possible. -->
+당신은 정확하고 정보성이 있도록 질문글을 써야합니다. 이는 단순히 많은 양의 코드와 데이터를 도움을 요청할 때 싸지르는걸 의미하지 않습니다.
+만약 프로그램을 망가뜨리는 크고 복잡한 테스트 케이스가 있다면, 최대한 작게 줄여야 합니다.
 
-### Don't rush to claim that you have found a bug
+<!-- This is useful for at least three reasons. One: being seen to invest effort in simplifying the question makes it more likely you'll get an answer, Two: simplifying the question makes it more likely you'll get a _useful_ answer. Three: In the process of refining your bug report, you may develop a fix or workaround yourself. -->
+이는 세 가지 이유로 효과적입니다. 첫 번째로, 질문을 간결하게 하려는 시도가 보인다면 답변을 받을 확률이 높아집니다. 두 번째로, 질문을 간결하게 하는것은 *쓸모있는* 답변을 받을 확률을 높여줍니다. 세 번째로, 작성한 버그 리포트를 다듬는 과정에서 본인 스스로 버그를 고칠 수 있거나 버그가 생기는 상황을 피해가는 방법을 만들 수 있습니다.
 
-When you are having problems with a piece of software, don't claim you have found a bug unless you are very, _very_ sure of your ground. Hint: unless you can provide a source-code patch that fixes the problem, or a regression test against a previous version that demonstrates incorrect behavior, you are probably not sure enough. This applies to webpages and documentation, too; if you have found a documentation “bug”, you should supply replacement text and which pages it should go on.
+<div id='idm368'/>
+
+<!-- ### Don't rush to claim that you have found a bug -->
+### 섣불리 버그를 발견했다고 결론내리지 마세요
+
+<!-- When you are having problems with a piece of software, don't claim you have found a bug unless you are very, _very_ sure of your ground. Hint: unless you can provide a source-code patch that fixes the problem, or a regression test against a previous version that demonstrates incorrect behavior, you are probably not sure enough. This applies to webpages and documentation, too; if you have found a documentation “bug”, you should supply replacement text and which pages it should go on. -->
+
 
 Remember, there are many other users that are not experiencing your problem. Otherwise you would have learned about it while reading the documentation and searching the Web (you did do that before complaining, [didn't you](#질문을-하기에-앞서서 "Before You Ask")?). This means that very probably it is you who are doing something wrong, not the software.
 
@@ -553,6 +573,7 @@ The people who wrote the software work very hard to make it work as well as poss
 
 When asking your question, it is best to write as though you assume _you_ are doing something wrong, even if you are privately pretty sure you have found an actual bug. If there really is a bug, you will hear about it in the answer. Play it so the maintainers will want to apologize to you if the bug is real, rather than so that you will owe them an apology if you have messed up.
 
+<!-- TODO: 여기서부터 -->
 ### Grovelling is not a substitute for doing your homework
 
 Some people who get that they shouldn't behave rudely or arrogantly, demanding an answer, retreat to the opposite extreme of grovelling. “I know I'm just a pathetic newbie loser, but...”. This is distracting and unhelpful. It's especially annoying when it's coupled with vagueness about the actual problem.
@@ -871,7 +892,7 @@ Evelyn Mitchell contributed some example stupid questions and inspired the “Ho
 
 Revision History
 ------------------
-| **Revision History** |     |     |
+|     |     |     |
 | --- | --- | --- |
 | Revision 3.10 | 21 May 2014 | esr |
 | New section on Stack Overflow. |     |     |
