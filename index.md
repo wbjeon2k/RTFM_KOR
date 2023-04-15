@@ -565,33 +565,49 @@ Simon Tatham 은 [효과적으로 버그를 알리는 법 How to Report Bugs Eff
 ### 섣불리 버그를 발견했다고 결론내리지 마세요
 
 <!-- When you are having problems with a piece of software, don't claim you have found a bug unless you are very, _very_ sure of your ground. Hint: unless you can provide a source-code patch that fixes the problem, or a regression test against a previous version that demonstrates incorrect behavior, you are probably not sure enough. This applies to webpages and documentation, too; if you have found a documentation “bug”, you should supply replacement text and which pages it should go on. -->
+특정 소프트웨어로 인해서 문제를 겪고 있을 때, 아주 *아주* 확실한 근거가 없는 한 버그를 찾았다고 주장하지 마세요. 어떻게 아는지 힌트를 드리자면: 문제를 해결하는 소스 코드 패치를 제공할 수 있거나, 이전 버전과 대비해서 정확하지 않게 동작하는 부분을 정확히 밝혀내는 회귀 테스트를 한 경우가 아니라면 당신은 확실하지 않은 겁니다. 이는 웹페이지와 공식 문서에도 적용됩니다. 당신이 만약 공식 문서에 잘못된 "버그"가 있다고 이야기한다면, 당신은 몇 페이지 어디의 내용이 바뀌어야 하는지와 어떻게 고쳐야 할지 내용을 제시해야 합니다.
 
+<!-- Remember, there are many other users that are not experiencing your problem. Otherwise you would have learned about it while reading the documentation and searching the Web (you did do that before complaining, [didn't you](#질문을-하기에-앞서서 "Before You Ask")?). This means that very probably it is you who are doing something wrong, not the software. -->
+당신과 같은 문제를 겪지 않는 사용자들이 매무 많다는 것을 명심하세요. 당신과 같은 문제를 겪는 사람들이 많은 경우에는 공식 문서를 읽거나 웹 검색을 통해서 진작에 답을 찾을 수 있었을겁니다 (불평불만 하기 전에 [찾아보기는 했겠죠? ^^](#질문을-하기에-앞서서))
 
-Remember, there are many other users that are not experiencing your problem. Otherwise you would have learned about it while reading the documentation and searching the Web (you did do that before complaining, [didn't you](#질문을-하기에-앞서서 "Before You Ask")?). This means that very probably it is you who are doing something wrong, not the software.
+<!-- The people who wrote the software work very hard to make it work as well as possible. If you claim you have found a bug, you'll be impugning their competence, which may offend some of them even if you are correct. It's especially undiplomatic to yell “bug” in the Subject line. -->
+소프트웨어를 작성 한 사람들은 최대한 그것이 잘 작동하도록 만들기 위해서 심혈을 기울입니다. 당신이 버그를 찾았다고 주장을 하는 것은, 그것은 작성을 한 사람의 능력을 의심하게 만드는 것이고, 개 중 일부는 당신이 설령 맞는다고 하더라도 불쾌하게 받아들일 수도 있습니다. 특히 주제 제목에다가 "버그래요" 라고 소리 지르고 다니는 것은 눈치가 없는 행동입니다.
 
-The people who wrote the software work very hard to make it work as well as possible. If you claim you have found a bug, you'll be impugning their competence, which may offend some of them even if you are correct. It's especially undiplomatic to yell “bug” in the Subject line.
+<!-- When asking your question, it is best to write as though you assume _you_ are doing something wrong, even if you are privately pretty sure you have found an actual bug. If there really is a bug, you will hear about it in the answer. Play it so the maintainers will want to apologize to you if the bug is real, rather than so that you will owe them an apology if you have messed up. -->
+질문을 할 때, *당신 본인이* 뭔가를 잘못하고 있다는 것처럼 이야기하는 것이 상책입니다. 당신이 개인적으로 실제 있는 버그를 찾았다고 확신하더라도 말이죠. 만약에 진짜 버그였다면, 당신은 답변을 통해 알 수 있을 겁니다. 프로젝트 관리자들이 버그가 있어서 미안하다고 말하도록 만드는 것이, 질문자 본인이 버그가 있었음에도 미안하다는 말을 해야 하는 상황보다는 나을 겁니다.
 
-When asking your question, it is best to write as though you assume _you_ are doing something wrong, even if you are privately pretty sure you have found an actual bug. If there really is a bug, you will hear about it in the answer. Play it so the maintainers will want to apologize to you if the bug is real, rather than so that you will owe them an apology if you have messed up.
+<div id='idm379'/>
+
+<!-- ### Grovelling is not a substitute for doing your homework -->
+### 굽신거린다고 당신이 해야하는 일이 면제되지는 않습니다
+
+<!-- Some people who get that they shouldn't behave rudely or arrogantly, demanding an answer, retreat to the opposite extreme of grovelling. “I know I'm just a pathetic newbie loser, but...”. This is distracting and unhelpful. It's especially annoying when it's coupled with vagueness about the actual problem. -->
+건방지거나 무례한 태도, 답변을 요구하는 태도로 질문을 하면 안 된다는 사실을 이해하는 사람 중 일부는 완전히 반대 방향으로 빠져버려서 극단적으로 굽신거리게 됩니다. "저도 제가 병신같고 한심한 뉴비인걸아는데..." 같은 식으로 말이죠. 이는 본질을 호도하며 쓸모도 없는 말 입니다. 이는 특히 불분명한 문제 상황 묘사와 함께 쓰이는 경우 굉장히 열받습니다.
+
+<!-- Don't waste your time, or ours, on crude primate politics. Instead, present the background facts and your question as clearly as you can. That is a better way to position yourself than by grovelling. -->
+당신이 해야 할 일을 남에게 떠넘기기 위해서 원숭이들도 알아챌 얕은수를 쓰느라 당신의 시간을 낭비하지도 말고, 우리의 시간을 낭비하지도 마세요. 대신에 질문의 배경에 관련된 사실을 충실히 쓰고 당신의 질문을 할 수 있는 한 명료하게 쓰세요. 그렇게 하는 게 굽신거리는 것보다 훨씬 나은 방법입니다.
+
+<!-- Sometimes Web forums have separate places for newbie questions. If you feel you do have a newbie question, just go there. But don't grovel there either. -->
+가끔 웹 포럼들은 초보적인 질문을 위한 공간을 따로 분리하는 경우가 있습니다. 당신이 초보적인 질문거리를 가지고 있다고 느낀다면, 그냥 거기로 가시면 됩니다. 거기 가서도 굽신거릴 필요는 전혀 없고요.
+
+<div id = 'symptoms'/>
+
+<!-- ### Describe the problem's symptoms, not your guesses -->
+### 당신의 뇌피셜 대신 문제 증상을 설명하세요
+
+<!-- It's not useful to tell hackers what you think is causing your problem. (If your diagnostic theories were such hot stuff, would you be consulting others for help?) So, make sure you're telling them the raw symptoms of what goes wrong, rather than your interpretations and theories. Let them do the interpretation and diagnosis. If you feel it's important to state your guess, clearly label it as such and describe why that answer isn't working for you. -->
+해커들에게 당신이 생각하기에 뭐가 문제인지 얘기를 하는 건 딱히 쓸모가 없습니다. (당신이 가진 문제 진단에 대한 생각이 그렇게 대단하다면, 다른 사람들에게 물어보러 다니고 있을까요?) 그러니까 당신이 문제를 어떻게 해석하는지, 문제에 대해서 어떻게 생각하는지 얘기를 하지 말고 있는 그대로 발생하는 문제 증상을 얘기하도록 하세요. 당신 생각을 얘기하는 게 중요하다고 생각되는 경우라면, 당신의 주관적인 생각임을 확실히 밝히고 해결법들이 당신에게는 통하지 않는 이유를 구체적으로 적으세요.
+
+<!-- **Stupid:** -->
+**병신같은 사례:**
+
+<!-- I'm getting back-to-back SIG11 errors on kernel compiles, and suspect a hairline crack on one of the motherboard traces. What's the best way to check for those? -->
+커널을 컴파일할 때마다 연속으로 SIG11 오류가 발생하고 있는데, 마더보드 기록에 아주 미세한 오류가 있는 것 같습니다. 이런 문제를 확인하려면 어떻게 해야 하나요?
+
+<!-- **Smart:** -->
+**올바른 사례:**
 
 <!-- TODO: 여기서부터 -->
-### Grovelling is not a substitute for doing your homework
-
-Some people who get that they shouldn't behave rudely or arrogantly, demanding an answer, retreat to the opposite extreme of grovelling. “I know I'm just a pathetic newbie loser, but...”. This is distracting and unhelpful. It's especially annoying when it's coupled with vagueness about the actual problem.
-
-Don't waste your time, or ours, on crude primate politics. Instead, present the background facts and your question as clearly as you can. That is a better way to position yourself than by grovelling.
-
-Sometimes Web forums have separate places for newbie questions. If you feel you do have a newbie question, just go there. But don't grovel there either.
-
-### Describe the problem's symptoms, not your guesses
-
-It's not useful to tell hackers what you think is causing your problem. (If your diagnostic theories were such hot stuff, would you be consulting others for help?) So, make sure you're telling them the raw symptoms of what goes wrong, rather than your interpretations and theories. Let them do the interpretation and diagnosis. If you feel it's important to state your guess, clearly label it as such and describe why that answer isn't working for you.
-
-**Stupid:**
-
-I'm getting back-to-back SIG11 errors on kernel compiles, and suspect a hairline crack on one of the motherboard traces. What's the best way to check for those?
-
-**Smart:**
-
 My home-built K6/233 on an FIC-PA2007 motherboard (VIA Apollo VP2 chipset) with 256MB Corsair PC133 SDRAM starts getting frequent SIG11 errors about 20 minutes after power-on during the course of kernel compiles, but never in the first 20 minutes. Rebooting doesn't restart the clock, but powering down overnight does. Swapping out all RAM didn't help. The relevant part of a typical compile session log follows.
 
 Since the preceding point seems to be a tough one for many people to grasp, here's a phrase to remind you: "All diagnosticians are from Missouri." That US state's official motto is "Show me" (earned in 1899, when Congressman Willard D. Vandiver said "I come from a country that raises corn and cotton and cockleburs and Democrats, and frothy eloquence neither convinces nor satisfies me. I'm from Missouri. You've got to show me.") In diagnosticians' case, it's not a matter of skepticism, but rather a literal, functional need to see whatever is as close as possible to the same raw evidence that you see, rather than your surmises and summaries. Show us.
