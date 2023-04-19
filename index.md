@@ -607,18 +607,28 @@ Simon Tatham 은 [효과적으로 버그를 알리는 법 How to Report Bugs Eff
 <!-- **Smart:** -->
 **올바른 사례:**
 
+<!-- My home-built K6/233 on an FIC-PA2007 motherboard (VIA Apollo VP2 chipset) with 256MB Corsair PC133 SDRAM starts getting frequent SIG11 errors about 20 minutes after power-on during the course of kernel compiles, but never in the first 20 minutes. Rebooting doesn't restart the clock, but powering down overnight does. Swapping out all RAM didn't help. The relevant part of a typical compile session log follows. -->
+제가 직접 조립한 K6/233시스템은 FIC-PA2007(VIA Apollo VP2 칩셋) 마더보드, 256MB Corsair PC133 SDRAM을 추가하여 구성하였는데요,
+전원을 켜고 커널 컴파일이 시작된 이후 20분 뒤에 SIG11 오류를 겪는 것이 반복되고 있습니다. 특이할 점은, 처음 20분 동안에는 문제를 겪은 적이 한 번도 없습니다. 재부팅을 해도 컴퓨터 클락이 초기화가 되지 않으며, 밤새 전원을 꺼둬야 초기화가 됩니다. 메모리 스왑을 해도 해결이 되지 않습니다. 컴파일 세션 동안 작성되는 로그 파일 중 관련 있는 일부를 다음과 같이 첨부합니다.
+
+<!-- Since the preceding point seems to be a tough one for many people to grasp, here's a phrase to remind you: "All diagnosticians are from Missouri." That US state's official motto is "Show me" (earned in 1899, when Congressman Willard D. Vandiver said "I come from a country that raises corn and cotton and cockleburs and Democrats, and frothy eloquence neither convinces nor satisfies me. I'm from Missouri. You've got to show me.") In diagnosticians' case, it's not a matter of skepticism, but rather a literal, functional need to see whatever is as close as possible to the same raw evidence that you see, rather than your surmises and summaries. Show us. -->
+앞의 예시가 많은 사람에게 이해하기 어려울 수도 있다는 생각이 들어서, 떠올리면 좋은 격언 하나를 소개합니다. "모든 분석가는 미주리에서 왔다." 미주리주의 공식 표어는 "보여주지 않으면 믿을 수 없다."이기 때문이죠. (1899년 미국 하원의원 Willard D. Vandiver가 "나는 옥수수와 솜, 우엉, 그리고 민주당을 키우는 동네에서 왔고, 허황되고 실속이 없는 연설은 나는 믿을 수도 없고, 만족할 수도 없다. 나는 미주리에서 왔다. 네가 가진걸 보여주지 않으면 나는 믿지 않겠다.") 분석하고 진단을 하는 사람들 입장에서 이는 회의론적인 문제가 아니라, 진짜 문자 그대로 의미이기도 합니다. 또한 기능적인 의미도 있는데, 당신의 추정과 요약을 거치치 않은, 가공되지 않은 생생한 증거를 뭐라도 보여줘야 판단을 할 수 있기 때문입니다. 우리에게 증거를 보여주세요. (*역주: 요점은 "너 생각은 중요하지 않으니, 문제 상황을 있는 그대로 설명해라" 입니다.*)
+
+<div id='chronology'/>
+
+<!-- ### Describe your problem's symptoms in chronological order -->
+### 문제 증상들을 시간 순서대로 나열하세요
+
+<!-- The clues most useful in figuring out something that went wrong often lie in the events immediately prior. So, your account should describe precisely what you did, and what the machine and software did, leading up to the blowup. In the case of command-line processes, having a session log (e.g., using the script utility) and quoting the relevant twenty or so lines is very useful. -->
+무엇이 잘못되었는지 파악하는 데 있어서 가장 쓸모 있는 단서들은 보통 잘못되기 직전에 무슨 일이 일어났는지 파악하는 데서 얻을 수 있습니다. 그러므로, 당신은 정확히 당신이 한 행동들을 설명해야 하고, 그 행동으로 인해서 컴퓨터와 소프트웨어가 어떻게 동작했는지를 터지게 되었던 시점까지 채워야 합니다. 커맨드라인을 사용하는 과정인 경우 세션 로그(예를 들어 script utility 같은 것)를 확보하고 관련된 20여 줄을 첨부하는 건 매우 도움이 됩니다.
+
+<!-- If the program that blew up on you has diagnostic options (such as -v for verbose), try to select options that will add useful debugging information to the transcript. Remember that more is not necessarily better; try to choose a debug level that will inform rather than drowning the reader in junk. -->
+터뜨린 프로그램에 문제 진단과 관련된 옵션이 있다면(-v를 통한 verbose 옵션 등), 해당 진단 옵션들을 사용하여 디버깅에 유용한 정보들이 표시되도록 만들 수 있습니다. 주의할 점은 양보다는 질이라는 겁니다. 적절한 양의 디버그 옵션을 선택해서 읽는 사람들이 너무 많은 양의 정보를 허우적거리다가 익사하지 않도록 해야 합니다.
+
+<!-- If your account ends up being long (more than about four paragraphs), it might be useful to succinctly state the problem up top, then follow with the chronological tale. That way, hackers will know what to watch for in reading your account. -->
+증상 설명이 너무 길어지는 경우(4문단 이상), 문제점을 간결하게 맨 위에 적어놓고 밑에다 시간순으로 이야기를 나열하는 것도 좋습니다. 그렇게 하면, 해커들이 아래 내용을 읽는 동안 무엇을 봐야 하는지 알 수 있기 때문입니다.
+
 <!-- TODO: 여기서부터 -->
-My home-built K6/233 on an FIC-PA2007 motherboard (VIA Apollo VP2 chipset) with 256MB Corsair PC133 SDRAM starts getting frequent SIG11 errors about 20 minutes after power-on during the course of kernel compiles, but never in the first 20 minutes. Rebooting doesn't restart the clock, but powering down overnight does. Swapping out all RAM didn't help. The relevant part of a typical compile session log follows.
-
-Since the preceding point seems to be a tough one for many people to grasp, here's a phrase to remind you: "All diagnosticians are from Missouri." That US state's official motto is "Show me" (earned in 1899, when Congressman Willard D. Vandiver said "I come from a country that raises corn and cotton and cockleburs and Democrats, and frothy eloquence neither convinces nor satisfies me. I'm from Missouri. You've got to show me.") In diagnosticians' case, it's not a matter of skepticism, but rather a literal, functional need to see whatever is as close as possible to the same raw evidence that you see, rather than your surmises and summaries. Show us.
-
-### Describe your problem's symptoms in chronological order
-
-The clues most useful in figuring out something that went wrong often lie in the events immediately prior. So, your account should describe precisely what you did, and what the machine and software did, leading up to the blowup. In the case of command-line processes, having a session log (e.g., using the script utility) and quoting the relevant twenty or so lines is very useful.
-
-If the program that blew up on you has diagnostic options (such as -v for verbose), try to select options that will add useful debugging information to the transcript. Remember that more is not necessarily better; try to choose a debug level that will inform rather than drowning the reader in junk.
-
-If your account ends up being long (more than about four paragraphs), it might be useful to succinctly state the problem up top, then follow with the chronological tale. That way, hackers will know what to watch for in reading your account.
 
 ### Describe the goal, not the step
 
