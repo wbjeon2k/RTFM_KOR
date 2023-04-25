@@ -628,31 +628,48 @@ Simon Tatham 은 [효과적으로 버그를 알리는 법 How to Report Bugs Eff
 <!-- If your account ends up being long (more than about four paragraphs), it might be useful to succinctly state the problem up top, then follow with the chronological tale. That way, hackers will know what to watch for in reading your account. -->
 증상 설명이 너무 길어지는 경우(4문단 이상), 문제점을 간결하게 맨 위에 적어놓고 밑에다 시간순으로 이야기를 나열하는 것도 좋습니다. 그렇게 하면, 해커들이 아래 내용을 읽는 동안 무엇을 봐야 하는지 알 수 있기 때문입니다.
 
+<div id='goal'/>
+
+<!-- ### Describe the goal, not the step -->
+### 과정을 이야기 하지 말고, 목표를 얘기하세요
+
+<!-- If you are trying to find out how to do something (as opposed to reporting a bug), begin by describing the goal. Only then describe the particular step towards it that you are blocked on. -->
+상황을 해결하기 위한 방법을 찾는 중이라면 (버그를 신고하는 것과 반대로) 무엇을 하고자 하는 목표부터 설명하는것이 좋습니다. 그러고나서 당신이 막혀있는 지점에 도달하게 되는 과정을 설명하세요.
+
+<!-- Often, people who need technical help have a high-level goal in mind and get stuck on what they think is one particular path towards the goal. They come for help with the step, but don't realize that the path is wrong. It can take substantial effort to get past this. -->
+기술적인 도움을 필요로 하는 사람들은 자신이 가진 개념적인 목표를 달성하기 위해 단 하나의 방법이 있다고 믿어서 막혀있는 경우가 종종 있습니다. 그 사람들은 그 방법으로 가는 중에 맞닥뜨리는 특정한 단계에서만 도움을 받으려고 하는데, 애초에 그 방법 자체가 잘못되었다는 사실을 인지하지 못하는 경우가 있습니다. 이런 경우에는 빠져나오는게 상당히 힘듭니다.
+
+<!-- **Stupid:** -->
+**병신같은 질문**
+
+<!-- How do I get the color-picker on the FooDraw program to take a hexadecimal RGB value? -->
+FooDraw 프로그램에서 RGB hex 값을 보기 위한 color-picker를 어떻게 구할 수 있나요?
+
+<!-- **Smart:** -->
+**똑똑한 질문**
+
+<!-- I'm trying to replace the color table on an image with values of my choosing. Right now the only way I can see to do this is by editing each table slot, but I can't get FooDraw's color picker to take a hexadecimal RGB value. -->
+내 선택에 따라서 이미지의 컬러 테이블을 바꿀 수 있는 방법을 찾고 있습니다. 지금 제가 하고 있는 방법은 각 컬러 테이블 칸을 하나씩 바꾸는 것 밖에 없는데요, FooDraw 의 color picker는 RGB값의 hex값을 볼 수가 없어서 문제입니다.
+
+<!-- The second version of the question is smart. It allows an answer that suggests a tool better suited to the task. -->
+두 번째 버전의 질문은 꽤나 똑똑한 질문입니다. 해당 작업을 하는데 더 적합한 도구를 추천 할 수 있도록 하기 때문입니다.
+
+<div id='noprivate'/>
+
+<!-- ### Don't ask people to reply by private e-mail -->
+### 개인 이메일로 답변을 달라고 요구하지 마세요
+
+<!-- Hackers believe solving problems should be a public, transparent process during which a first try at an answer can and should be corrected if someone more knowledgeable notices that it is incomplete or incorrect. Also, helpers get some of their reward for being respondents from being seen to be competent and knowledgeable by their peers. -->
+해커들은 문제를 해결하는 것은 투명하게 공개된 방법으로 진행 되어야 한다고 믿습니다. 이는 처음에 달린 답변이 완전하지 않거나 잘못된 답변인 경우, 더 잘 알고 있는 사람이 고칠 수 있어야 하며 고쳐져야 하기 때문입니다. 또한, 도움을 주는 사람들은 자기 주변의 사람으로 부터 능력이 있다는 것을 인정 받음으로서 답변을 달면서 얻는 즐거움 중 일부를 얻을 수 있습니다.
+
+<!-- When you ask for a private reply, you are disrupting both the process and the reward. Don't do this. It's the _respondent's_ choice whether to reply privately — and if he or she does, it's usually because he or she thinks the question is too ill-formed or obvious to be interesting to others. -->
+개인적으로 답변을 요청하는건 답변을 하는 과정과 답변을 함으로써 얻는 보람 두 가지에 모두 해를 끼치는 방법입니다. 하지 마세요. *답변을 다는 사람이* 개인적으로 답변을 할지 결정 하는겁니다. 또한 개인적으로 답변을 다는 경우는 답변을 다는 사람이 느끼기에 질문이 너무 잘못 써져있거나 너무 당연한 질문이라서 답변을 달 가치가 별로 없는 경우가 다반사 입니다.
+
+<!-- There is one limited exception to this rule. If you think the question is such that you are likely to get many answers that are all closely similar, then the magic words are “e-mail me and I'll summarize the answers for the group”. It is courteous to try and save the mailing list or newsgroup a flood of substantially identical postings — but you have to keep the promise to summarize. -->
+예외적인 경우가 딱 한가지, 제한적으로 있습니다. 질문에 대하여 중복되는 답변을 많이 받을 가능성이 높다고 판단되는 경우, "개인적인 이메일로 답변을 주시면 답변을 요약해서 뉴스그룹에 다시 올리겠습니다." 라는 마법의 문장을 사용 할 수 있습니다. 이런식으로 메일링 리스트나 뉴스그룹이 중복된 내용으로 범람되는 것을 막는것은 굉장히 바람직한 행동입니다. 다만, 요약을 해서 다시 올리겠다는 약속은 지켜야겠죠. (*역주: 뉴스그룹과 메일링 리스트가 2023년 현재로서는 deprecated 되었기에 더 이상 유효한 방법은 아닙니다.*)
+
+<div id='explicit'/>
 <!-- TODO: 여기서부터 -->
-
-### Describe the goal, not the step
-
-If you are trying to find out how to do something (as opposed to reporting a bug), begin by describing the goal. Only then describe the particular step towards it that you are blocked on.
-
-Often, people who need technical help have a high-level goal in mind and get stuck on what they think is one particular path towards the goal. They come for help with the step, but don't realize that the path is wrong. It can take substantial effort to get past this.
-
-**Stupid:**
-
-How do I get the color-picker on the FooDraw program to take a hexadecimal RGB value?
-
-**Smart:**
-
-I'm trying to replace the color table on an image with values of my choosing. Right now the only way I can see to do this is by editing each table slot, but I can't get FooDraw's color picker to take a hexadecimal RGB value.
-
-The second version of the question is smart. It allows an answer that suggests a tool better suited to the task.
-
-### Don't ask people to reply by private e-mail
-
-Hackers believe solving problems should be a public, transparent process during which a first try at an answer can and should be corrected if someone more knowledgeable notices that it is incomplete or incorrect. Also, helpers get some of their reward for being respondents from being seen to be competent and knowledgeable by their peers.
-
-When you ask for a private reply, you are disrupting both the process and the reward. Don't do this. It's the _respondent's_ choice whether to reply privately — and if he or she does, it's usually because he or she thinks the question is too ill-formed or obvious to be interesting to others.
-
-There is one limited exception to this rule. If you think the question is such that you are likely to get many answers that are all closely similar, then the magic words are “e-mail me and I'll summarize the answers for the group”. It is courteous to try and save the mailing list or newsgroup a flood of substantially identical postings — but you have to keep the promise to summarize.
 
 ### Be explicit about your question
 
