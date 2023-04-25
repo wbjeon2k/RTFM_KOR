@@ -634,10 +634,10 @@ Simon Tatham 은 [효과적으로 버그를 알리는 법 How to Report Bugs Eff
 ### 과정을 이야기 하지 말고, 목표를 얘기하세요
 
 <!-- If you are trying to find out how to do something (as opposed to reporting a bug), begin by describing the goal. Only then describe the particular step towards it that you are blocked on. -->
-상황을 해결하기 위한 방법을 찾는 중이라면 (버그를 신고하는 것과 반대로) 무엇을 하고자 하는 목표부터 설명하는것이 좋습니다. 그러고나서 당신이 막혀있는 지점에 도달하게 되는 과정을 설명하세요.
+상황을 해결하기 위한 방법을 찾는 중이라면 (버그를 신고하는 것과 반대로) 무엇을 하고자 하는 목표부터 설명하는 것이 좋습니다. 그러고 나서 당신이 막혀있는 지점에 도달하게 되는 과정을 설명하세요.
 
 <!-- Often, people who need technical help have a high-level goal in mind and get stuck on what they think is one particular path towards the goal. They come for help with the step, but don't realize that the path is wrong. It can take substantial effort to get past this. -->
-기술적인 도움을 필요로 하는 사람들은 자신이 가진 개념적인 목표를 달성하기 위해 단 하나의 방법이 있다고 믿어서 막혀있는 경우가 종종 있습니다. 그 사람들은 그 방법으로 가는 중에 맞닥뜨리는 특정한 단계에서만 도움을 받으려고 하는데, 애초에 그 방법 자체가 잘못되었다는 사실을 인지하지 못하는 경우가 있습니다. 이런 경우에는 빠져나오는게 상당히 힘듭니다.
+기술적인 도움이 필요한 사람들은 자신이 가진 개념적인 목표를 달성하기 위해 단 하나의 방법이 있다고 믿어서 막혀있는 경우가 종종 있습니다. 그 사람들은 그 방법으로 가는 중에 맞닥뜨리는 특정한 단계에서만 도움을 받으려고 하는데, 애초에 그 방법 자체가 잘못되었다는 사실을 인지하지 못하는 경우가 있습니다. 이런 경우에는 빠져나오는 게 상당히 힘듭니다.
 
 <!-- **Stupid:** -->
 **병신같은 질문**
@@ -649,10 +649,10 @@ FooDraw 프로그램에서 RGB hex 값을 보기 위한 color-picker를 어떻�
 **똑똑한 질문**
 
 <!-- I'm trying to replace the color table on an image with values of my choosing. Right now the only way I can see to do this is by editing each table slot, but I can't get FooDraw's color picker to take a hexadecimal RGB value. -->
-내 선택에 따라서 이미지의 컬러 테이블을 바꿀 수 있는 방법을 찾고 있습니다. 지금 제가 하고 있는 방법은 각 컬러 테이블 칸을 하나씩 바꾸는 것 밖에 없는데요, FooDraw 의 color picker는 RGB값의 hex값을 볼 수가 없어서 문제입니다.
+내 선택에 따라서 내가 원하는 대로 이미지의 컬러 테이블을 바꿀 수 있는 방법을 찾고 있습니다. 지금 제가 하는 방법은 각 컬러 테이블 칸을 하나씩 바꾸는 것밖에 없는데요, Foo Draw 의 color picker는 RGB 값의 hex 값을 볼 수가 없어서 문제입니다.
 
 <!-- The second version of the question is smart. It allows an answer that suggests a tool better suited to the task. -->
-두 번째 버전의 질문은 꽤나 똑똑한 질문입니다. 해당 작업을 하는데 더 적합한 도구를 추천 할 수 있도록 하기 때문입니다.
+두 번째 버전의 질문은 꽤 똑똑한 질문입니다. 해당 작업을 하는데 더 적합한 도구를 추천할 수 있도록 하기 때문입니다.
 
 <div id='noprivate'/>
 
@@ -660,27 +660,32 @@ FooDraw 프로그램에서 RGB hex 값을 보기 위한 color-picker를 어떻�
 ### 개인 이메일로 답변을 달라고 요구하지 마세요
 
 <!-- Hackers believe solving problems should be a public, transparent process during which a first try at an answer can and should be corrected if someone more knowledgeable notices that it is incomplete or incorrect. Also, helpers get some of their reward for being respondents from being seen to be competent and knowledgeable by their peers. -->
-해커들은 문제를 해결하는 것은 투명하게 공개된 방법으로 진행 되어야 한다고 믿습니다. 이는 처음에 달린 답변이 완전하지 않거나 잘못된 답변인 경우, 더 잘 알고 있는 사람이 고칠 수 있어야 하며 고쳐져야 하기 때문입니다. 또한, 도움을 주는 사람들은 자기 주변의 사람으로 부터 능력이 있다는 것을 인정 받음으로서 답변을 달면서 얻는 즐거움 중 일부를 얻을 수 있습니다.
+해커들은 문제를 해결하는 것은 투명하게 공개된 방법으로 진행되어야 한다고 믿습니다. 이는 처음에 달린 답변이 완전하지 않거나 잘못된 답변인 경우, 더 잘 알고 있는 사람이 고칠 수 있어야 하며 고쳐져야 하기 때문입니다. 또한, 도움을 주는 사람들은 자기 주변의 사람으로부터 능력이 있다는 것을 인정받음으로써 답변을 달면서 얻는 즐거움 중 일부를 얻을 수 있습니다.
 
 <!-- When you ask for a private reply, you are disrupting both the process and the reward. Don't do this. It's the _respondent's_ choice whether to reply privately — and if he or she does, it's usually because he or she thinks the question is too ill-formed or obvious to be interesting to others. -->
-개인적으로 답변을 요청하는건 답변을 하는 과정과 답변을 함으로써 얻는 보람 두 가지에 모두 해를 끼치는 방법입니다. 하지 마세요. *답변을 다는 사람이* 개인적으로 답변을 할지 결정 하는겁니다. 또한 개인적으로 답변을 다는 경우는 답변을 다는 사람이 느끼기에 질문이 너무 잘못 써져있거나 너무 당연한 질문이라서 답변을 달 가치가 별로 없는 경우가 다반사 입니다.
+개인적으로 답변을 요청하는 건 답변하는 과정과 답변을 함으로써 얻는 보람 두 가지에 모두 해를 끼치는 방법입니다. 하지 마세요. *답변을 다는 사람이* 개인적으로 답변을 할지 결정하는 겁니다. 또한 개인적으로 답변을 한다는 경우는 답변한다는 사람이 느끼기에 질문이 너무 잘못 쓰여 있거나 너무 당연한 질문이라서 답변을 달 가치가 별로 없는 경우가 다반사입니다.
 
 <!-- There is one limited exception to this rule. If you think the question is such that you are likely to get many answers that are all closely similar, then the magic words are “e-mail me and I'll summarize the answers for the group”. It is courteous to try and save the mailing list or newsgroup a flood of substantially identical postings — but you have to keep the promise to summarize. -->
-예외적인 경우가 딱 한가지, 제한적으로 있습니다. 질문에 대하여 중복되는 답변을 많이 받을 가능성이 높다고 판단되는 경우, "개인적인 이메일로 답변을 주시면 답변을 요약해서 뉴스그룹에 다시 올리겠습니다." 라는 마법의 문장을 사용 할 수 있습니다. 이런식으로 메일링 리스트나 뉴스그룹이 중복된 내용으로 범람되는 것을 막는것은 굉장히 바람직한 행동입니다. 다만, 요약을 해서 다시 올리겠다는 약속은 지켜야겠죠. (*역주: 뉴스그룹과 메일링 리스트가 2023년 현재로서는 deprecated 되었기에 더 이상 유효한 방법은 아닙니다.*)
+예외적인 경우가 딱 한 가지, 제한적으로 있습니다. 질문에 대하여 중복되는 답변을 많이 받을 가능성이 높다고 판단되는 경우, "개인적인 이메일로 답변을 주시면 답변을 요약해서 뉴스그룹에 다시 올리겠습니다."라는 마법의 문장을 사용할 수 있습니다. 이런 식으로 메일링 리스트나 뉴스그룹이 중복된 내용으로 범람 되는 것을 막는 것은 굉장히 바람직한 행동입니다. 다만, 요약해서 다시 올리겠다는 약속은 지켜야겠죠. (*역주: 뉴스그룹과 메일링 리스트가 2023년 현재로서는 deprecated 되었기에 더 이상 유효한 방법은 아닙니다.*)
 
 <div id='explicit'/>
+
+<!-- ### Be explicit about your question -->
+### 질문을 명확하게 하세요
+
+<!-- Open-ended questions tend to be perceived as open-ended time sinks. Those people most likely to be able to give you a useful answer are also the busiest people (if only because they take on the most work themselves). People like that are allergic to open-ended time sinks, thus they tend to be allergic to open-ended questions. -->
+열린 질문은 끝없이 시간을 빨아먹는 기계로 받아들여지기 일쑤입니다. (*역주: 열린 질문은 예, 아니오로 답변할 수 없는 질문을 의미합니다. 열린 질문: 좋아하는 커피 있어? / 닫힌 질문: 아인슈페너 좋아하니?) 당신에게 유용한 답변을 줄 수 있는 확률이 가장 높은 사람은 동시에 가장 바쁜 사람이기도 합니다. (그 사람들이 대부분의 일을 맡고 있기 때문이지요.) 이런 사람들은 기약 없이 시간을 빨아먹는 행동들에 신경질을 내며, 따라서 열린 질문에도 신경질적 반응을 보입니다.
+
+<!-- You are more likely to get a useful response if you are explicit about what you want respondents to do (provide pointers, send code, check your patch, whatever). This will focus their effort and implicitly put an upper bound on the time and energy a respondent must allocate to helping you. This is good. -->
+질문을 답변하려는 사람에게서 받고자 하는 도움을 명확하게 적는 것이 유용한 답변을 얻을 확률을 높여줍니다. (어떤 자료를 참조하도록 알려줘야 하는지, 코드를 봐줘야 하는지, 패치를 체크해야 하는지 등입니다) 이는 답변하는 사람이 당신을 도와주기 위해서 들여야 하는 시간과 노력의 상한선을 어느 정도 가늠하는 데 도움을 주고 당신을 도와주는데 노력을 집중시킬 수 있습니다. 이는 바람직한 현상입니다.
+
+<!-- To understand the world the experts live in, think of expertise as an abundant resource and time to respond as a scarce one. The less of a time commitment you implicitly ask for, the more likely you are to get an answer from someone really good and really busy. -->
+전문가들이 살아가는 세계에 대해서 이해를 돕자면, 능력은 풍족하고 시간은 쪼들리는 상황이라고 생각하면 됩니다. 도와주는 데 필요한 시간을 줄여서 부탁할수록, 정말 바쁘고 능력 있는 사람에게서 답변받을 확률이 높아집니다.
+
+<!-- So it is useful to frame your question to minimize the time commitment required for an expert to field it — but this is often not the same thing as simplifying the question. Thus, for example, “Would you give me a pointer to a good explanation of X?” is usually a smarter question than “Would you explain X, please?”. If you have some malfunctioning code, it is usually smarter to ask for someone to explain what's wrong with it than it is to ask someone to fix it. -->
+따라서 전문가들이 당신의 질문을 답변하는 데 필요한 노력을 줄이는 방향으로 질문의 가닥을 잡는 게 도움이 됩니다. 다만, 이는 질문을 단순화하는 것과 같지는 않습니다. 예를 들어서, "X에 대한 안내가 잘 되어있는 참조 자료를 주실 수 있나요?"라는 질문은 "X를 설명 좀 해주세요."라는 질문보다 대부분의 상황에서 더 똑똑한 질문입니다. 당신이 제대로 동작하지 않는 코드로 문제를 겪고 있다면, 무엇이 잘못되었는지 알려달라고 요청하는 게 잘못된 부분을 고쳐 달라고 하는 것 보다 대부분의 경우에서 더 똑똑한 질문입니다.
+
 <!-- TODO: 여기서부터 -->
-
-### Be explicit about your question
-
-Open-ended questions tend to be perceived as open-ended time sinks. Those people most likely to be able to give you a useful answer are also the busiest people (if only because they take on the most work themselves). People like that are allergic to open-ended time sinks, thus they tend to be allergic to open-ended questions.
-
-You are more likely to get a useful response if you are explicit about what you want respondents to do (provide pointers, send code, check your patch, whatever). This will focus their effort and implicitly put an upper bound on the time and energy a respondent must allocate to helping you. This is good.
-
-To understand the world the experts live in, think of expertise as an abundant resource and time to respond as a scarce one. The less of a time commitment you implicitly ask for, the more likely you are to get an answer from someone really good and really busy.
-
-So it is useful to frame your question to minimize the time commitment required for an expert to field it — but this is often not the same thing as simplifying the question. Thus, for example, “Would you give me a pointer to a good explanation of X?” is usually a smarter question than “Would you explain X, please?”. If you have some malfunctioning code, it is usually smarter to ask for someone to explain what's wrong with it than it is to ask someone to fix it.
-
 ### When asking about code
 
 Don't ask others to debug your broken code without giving a hint what sort of problem they should be searching for. Posting a few hundred lines of code, saying "it doesn't work", will get you ignored. Posting a dozen lines of code, saying "after line 7 I was expecting to see &lt;x&gt;, but &lt;y&gt; occurred instead" is much more likely to get you a response.
