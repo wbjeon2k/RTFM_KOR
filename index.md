@@ -687,20 +687,21 @@ FooDraw 프로그램에서 RGB hex 값을 보기 위한 color-picker를 어떻�
 
 <!-- TODO: 여기서부터 -->
 <div id='code'/>
+
 <!-- ### When asking about code -->
-### 코드에 관해서 물어볼 때
+### 코드에 대해 질문을 할 때
 
 <!-- Don't ask others to debug your broken code without giving a hint what sort of problem they should be searching for. Posting a few hundred lines of code, saying "it doesn't work", will get you ignored. Posting a dozen lines of code, saying "after line 7 I was expecting to see &lt;x&gt;, but &lt;y&gt; occurred instead" is much more likely to get you a response. -->
-당신이 만든 잘못된 코드에 대해서 도움을 요청할 때, 어떤 유형의 문제를 찾아봐야 하는지에 대한 아무런 힌트 없이 디버깅 해달라고 하지 마세요. 몇백줄 짜리 코드만 적어놓고 "안돼요" 라고 하면 아무도 대답 안할겁니다. 열 몇줄 정도 되는 코드를 올리며 "7번째줄 에서는 'x' 결과를 보는걸 예상했는데 실제로는 'y'가 발생합니다" 같은 형식의 질문을 해야 답변을 받을 확률이 올라갑니다.
+당신이 만든 잘못된 코드에 대해서 도움을 요청할 때, 어떤 유형의 문제를 찾아봐야 하는지에 대한 아무런 힌트 없이 디버깅해달라고 하지 마세요. 몇백 줄짜리 코드만 적어놓고 "안 돼요"라고 하면 아무도 대답 하지 않을 겁니다. 열 몇 줄 정도 되는 코드를 올리며 "7번째 줄에서는 'x' 결과를 보는 걸 예상했는데 실제로는 'y'가 발생합니다" 같은 형식의 질문을 해야 답변받을 확률이 올라갑니다.
 
 <!-- The most effective way to be precise about a code problem is to provide a minimal bug-demonstrating test case. What's a minimal test case? It's an illustration of the problem; just enough code to exhibit the undesirable behavior and no more. How do you make a minimal test case? If you know what line or section of code is producing the problematic behavior, make a copy of it and add just enough supporting code to produce a complete example (i.e. enough that the source is acceptable to the compiler/interpreter/whatever application processes it). If you can't narrow it down to a particular section, make a copy of the source and start removing chunks that don't affect the problematic behavior. The smaller your minimal test case is, the better (see [the section called “Volume is not precision”](#volume "Volume is not precision")). -->
-코드 문제에 대해서 가장 정확하게 설명을 할 수 있는 방법은 해당 버그를 발생시키는데 필요한 가장 간단한 테스트 케이스를 제공 하는겁니다. 가장 간단한 테스트 케이스가 뭘까요? 이는 책 안에 들어가는 삽화처럼 간단하게 문제를 묘사하는 것을 의미합니다. 원치 않는 행동을 하는 것을 보여줄 수 있는데 필요한 만큼만, 그 이상은 필요 없습니다. 어떻게 이런 간단한 테스트 케이스를 만들 수 있을까요? 특정 라인이나 섹션이 문제라는걸 알고 있다면, 그 부분을 복사해서 앞 뒤로 최소한의 기능을 할 수 있도록 보강해서 하나의 완성된 예시로 만들면 됩니다.(다른 말로는, 컴파일러/인터프리터/기타등등 에서 실행시킬 수 있는 코드를 의미합니다.) 문제가 되는 부분을 특정할 수 없다면, 코드를 통째로 복사를 한 다음에 문제가 되는 행동과 관련이 없는 부분들을 하나씩 지워 나가면서 범위를 좁혀나가면 됩니다. 문제를 나타내기 위한 최소한의 예시는 간단할수록 좋습니다.(["양 보다는 질" 파트를 참조하세요.](#volume))
+코드 문제에 대해서 가장 정확하게 설명을 하는 방법은 해당 버그를 발생시키는 데 필요한 가장 간단한 테스트 케이스를 제공하는 겁니다. 가장 간단한 테스트 케이스가 뭘까요? 이는 책 안에 들어가는 삽화처럼 간단하게 문제를 묘사하는 것을 의미합니다. 원치 않는 행동을 하는 것을 보여줄 수 있는데 필요한 만큼만, 그 이상은 필요 없습니다. 어떻게 이런 간단한 테스트 케이스를 만들 수 있을까요? 특정 라인이나 섹션이 문제라는걸 알고 있다면, 그 부분을 복사해서 앞뒤로 최소한의 기능을 할 수 있도록 보강해서 하나의 완성된 예시로 만들면 됩니다. (다른 말로는, 컴파일러/인터프리터/기타 등등 에서 실행시킬 수 있는 코드를 의미합니다.) 문제가 되는 부분을 특정할 수 없다면, 코드를 통째로 복사를 한 다음에 문제가 되는 행동과 관련이 없는 부분들을 하나씩 지워 나가면서 범위를 좁혀나가면 됩니다. 문제를 나타내기 위한 최소한의 예시는 간단할수록 좋습니다. (["양보다는 질" 파트를 참조하세요.](#volume))
 
 <!-- Generating a really small minimal test case will not always be possible, but trying to is good discipline. It may help you learn what you need to solve the problem on your own — and even when it doesn't, hackers like to see that you have tried. It will make them more cooperative. -->
-아주 작은 테스트 케이스를 항상 만들수 있는것은 아니지만, 만드려고 시도 하는것은 좋은 습관입니다. 스스로 문제를 해결하기 위해서 필요한 내용들을 배우는데 도움이 되며, 결과적으로 스스로 문제를 해결하지 못하더라도 해커들은 당신이 시도를 했다는 것을 보고싶어 합니다. 당신이 노력했다는게 보이면 그들은 매우 협조적인 반응을 보일겁니다.
+아주 작은 테스트 케이스를 항상 만들 수 있는 것은 아니지만, 만들려고 시도 하는 것은 좋은 습관입니다. 스스로 문제를 해결하기 위해서 필요한 내용들을 배우는 데 도움이 되며, 결과적으로 스스로 문제를 해결하지 못하더라도 해커들은 당신이 시도했다는 것을 보고 싶어 합니다. 당신이 노력했다는 게 보이면 그들은 매우 협조적인 반응을 보일 겁니다.
 
 <!-- If you simply want a code review, say as much up front, and be sure to mention what areas you think might particularly need review and why. -->
-그냥 코드 리뷰를 받고싶은 경우라면, 맨 처음에 코드 리뷰를 원한다고 써주세요. 어느 부분에서 집중적으로 리뷰를 받고 싶은지 적는것도 까먹지 마세요.
+그냥 코드 리뷰를 받고 싶은 경우라면, 맨 처음에 코드 리뷰를 원한다고 써주세요. 어느 부분에서 집중적으로 리뷰를 받고 싶은지 적는 것도 까먹지 마세요.
 
 <div id='homework'/>
 
@@ -708,10 +709,10 @@ FooDraw 프로그램에서 RGB hex 값을 보기 위한 color-picker를 어떻�
 ### 과제 물어보지 마세요
 
 <!-- Hackers are good at spotting homework questions; most of us have done them ourselves. Those questions are for _you_ to work out, so that you will learn from the experience. It is OK to ask for hints, but not for entire solutions. -->
-해커들은 과제로 나온 문제들을 집어내는데 일가견이 있습니다. 우리들 중 대부분은 그런 과제들을 혼자서 해냈기 때문이죠. 해당 과제는 *당신이* 해결해야 하는 문제이며, 과제를 해결하는 과정을 통해 얻은 경험을 통해서 배우는데 의미가 있는겁니다. 우리들에게 힌트를 요청하는건 가능하지만, 전체 해답은 안됩니다.
+해커들은 과제로 나온 문제들을 집어내는데 일가견이 있습니다. 우리 중 대부분은 그런 과제들을 혼자서 해냈기 때문이죠. 해당 과제는 *당신이* 해결해야 하는 문제이며, 과제를 해결하는 과정을 통해 얻은 경험을 통해서 배우는 데 의미가 있는 겁니다. 우리에게 힌트를 요청하는 건 가능하지만, 전체 해답은 안 됩니다.
 
 <!-- If you suspect you have been passed a homework question, but can't solve it anyway, try asking in a user group forum or (as a last resort) in a “user” list/forum of a project. While the hackers _will_ spot it, some of the advanced users may at least give you a hint. -->
-정 못하겠다면 해커 포럼이 아닌 '사용자' 리스트/포럼 에 물어보세요. 해커들은 *반드시* 눈치 채겠지만, 실력있는 사용자들 중 몇 명은 힌트를 주려고 할 것입니다.
+정 못하겠다면 해커 포럼이 아닌 '사용자' 리스트/포럼에 물어보세요. 해커들은 *반드시* 눈치를 채겠지만, 실력 있는 사용자 중 몇 명은 힌트를 주려고 할 것입니다.
 
 <div id='prune'/>
 
@@ -719,10 +720,10 @@ FooDraw 프로그램에서 RGB hex 값을 보기 위한 color-picker를 어떻�
 ### 거두절미
 
 <!-- Resist the temptation to close your request for help with semantically-null questions like “Can anyone help me?” or “Is there an answer?” First: if you've written your problem description halfway competently, such tacked-on questions are at best superfluous. Second: because they are superfluous, hackers find them annoying — and are likely to return logically impeccable but dismissive answers like “Yes, you can be helped” and “No, there is no help for you.” -->
-실질적인 의미를 가지지 않는, "도와주실분 계신가요?" 또는 "해결책이 있나요?" 같은 형식적인 질문으로 요청을 마무리하려는 마음은 접으셔야 합니다. 첫 번째 이유는, 당신이 어느정도 문제를 잘 설명 했다면 사족을 붙일 필요가 없습니다. 두 번째 이유는, 해당 문구는 사족이기에 해커들이 보면 짜증이 납니다. 따라서 논리적으로는 아무 문제가 없지만 당신을 철저히 무시하는 답변을 달 가능성이 높습니다. "도와주실분 계신가요?"에 "네" 또는 "아니요 없는데요" 같은 형식으로 말이죠.
+실질적인 의미를 가지지 않는, "도와주실 분 계시는가요?" 또는 "해결책이 있나요?" 같은 형식적인 질문으로 요청을 마무리하려는 마음은 접으셔야 합니다. 첫 번째 이유는, 당신이 어느 정도 문제를 잘 설명했다면 사족을 붙일 필요가 없습니다. 두 번째 이유는, 해당 문구는 사족이기에 해커들이 보면 짜증이 납니다. 따라서 논리적으로는 아무 문제가 없지만 당신을 철저히 무시하는 답변을 달 가능성이 높습니다. "도와주실 분 계시는가요?"에 "네" 또는 "아니요 없는데요" 같은 형식으로 말이죠.
 
 <!-- In general, asking yes-or-no questions is a good thing to avoid unless you want a [yes-or-no answer](http://homepage.ntlworld.com./jonathan.deboynepollard/FGA/questions-with-yes-or-no-answers.html). -->
-일반적으로, 반드시 예/아니오로 답변을 받을려는 경우가 아니라면 예/아니오 형태의 질문을 [지양하는게 좋습니다](http://homepage.ntlworld.com./jonathan.deboynepollard/FGA/questions-with-yes-or-no-answers.html).
+일반적으로, 반드시 예/아니오로 답변받으려는 경우가 아니라면 예/아니오 형태의 질문을 [지양하는 게 좋습니다.](<http://homepage.ntlworld.com./jonathan.deboynepollard/FGA/questions-with-yes-or-no-answers.html>).
 
 <div id='urgent'/>
 
@@ -730,16 +731,16 @@ FooDraw 프로그램에서 RGB hex 값을 보기 위한 color-picker를 어떻�
 ### 당신이 급하다고 "긴급" 말머리를 달지 마세요
 
 <!-- That's your problem, not ours. Claiming urgency is very likely to be counter-productive: most hackers will simply delete such messages as rude and selfish attempts to elicit immediate and special attention. Furthermore, the word 'Urgent' (and other similar attempts to grab attention in the subject line) often triggers spam filters - your intended recipients might never see it at all! -->
-당신 문제지 우리 알 바가 아닙니다. 긴급 상황이라고 주장하는건 매우 비생산적인 행동일 가능성이 높습니다. 대부분의 해커들은 싸가지 없거나 이기적이며, 관심 받을려고 하는 시도로 해석하여 즉시 메시지를 삭제 할겁니다. 더 나아가서, "긴급" 이라는 단어 (또는 제목으로 관심을 끄는데 좋은 비슷한 단어들) 는 스팸 필터에 걸리는 경우가 다반사 입니다. 당신이 의도한 수신 대상자들이 영영 볼 수가 없을 수 있습니다!
+당신 문제지 우리 알 바가 아닙니다. 긴급 상황이라고 주장하는 건 매우 비생산적인 행동일 가능성이 높습니다. 해커 대부분은 싸가지 없거나 이기적이며, 관심받으려고 하는 시도로 해석하여 즉시 메시지를 삭제할 겁니다. 더 나아가서, "긴급"이라는 단어 (또는 제목으로 관심을 끄는데 좋은 비슷한 단어들) 는 스팸 필터에 걸리는 경우가 다반사입니다. 당신이 의도한 수신 대상자들이 영영 보지 못할 수 있습니다!
 
 <!-- There is one semi-exception. It can be worth mentioning if you're using the program in some high-profile place, one that the hackers will get excited about; in such a case, if you're under time pressure, and you say so politely, people may get interested enough to answer faster. -->
-예외에 가까운 단 하나의 사례가 있다면, 당신이 해당 프로그램을 프로그램 제작자들이 듣기만 해도 재미를 느낄만한 굉장히 유명한 곳에서 사용을 하고 있다는 것을 밝히는 경우입니다. 이런 경우 시간의 압박에 쫓기고 있고, 예의 바르게 부탁을 한다면, 사람들의 이목이 쏠리고 답변을 빠르게 주려고 마음을 먹을 수 있습니다.
+예외에 가까운 단 하나의 사례가 있다면, 당신이 해당 프로그램을 프로그램 제작자들이 듣기만 해도 재미를 느낄만한 굉장히 유명한 곳에서 사용하고 있다는 것을 밝히는 경우입니다. 이런 경우 시간의 압박에 쫓기고 있고, 예의 바르게 부탁한다면, 사람들의 이목이 쏠리고 답변을 빠르게 주려고 마음을 먹을 수 있습니다.
 
 <!-- This is a very risky thing to do, however, because the hackers' metric for what is exciting probably differs from yours. Posting from the International Space Station would qualify, for example, but posting on behalf of a feel-good charitable or political cause would almost certainly not. In fact, posting “Urgent: Help me save the fuzzy baby seals!” will reliably get you shunned or flamed even by hackers who think fuzzy baby seals are important. -->
-하지만, 이는 상당히 리스크가 큰 방법입니다. 해커들이 느끼는 재미의 척도는 보통 사람들과 다를 수 있기 때문입니다. 예를 들어 국제 우주 정거장에서 질문을 올리는건 합격이지만, 자선단체나 정치적인 동기를 가진 단체를 언급한다면 확실히 불합격 이라고 할 수 있습니다. 사실, "긴급: 귀여운 아기 물범들을 살리는걸 도와주세요!" 같은 글을 올린다면 귀여운 아기 물범들이 중요하다고 생각하는 해커들 한테서도 쌍욕을 먹을겁니다.
+하지만, 이는 상당히 리스크가 큰 방법입니다. 해커들이 느끼는 재미의 척도는 보통 사람들과 다를 수 있기 때문입니다. 예를 들어 국제 우주 정거장에서 질문을 올리는 건 합격이지만, 자선단체나 정치적인 동기를 가진 단체를 언급한다면 확실히 불합격이라고 할 수 있습니다. 사실, "긴급: 귀여운 아기 물범들을 살리는 걸 도와주세요!" 같은 글을 올린다면 귀여운 아기 물범들이 중요하다고 생각하는 해커들한테서도 쌍욕을 먹을 겁니다.
 
 <!-- If you find this mysterious, re-read the rest of this how-to repeatedly until you understand it before posting anything at all. -->
-이게 잘 이해가 안되신다면, 절대 질문글을 쓰면 안됩니다. 앞의 내용을 포함한 나머지 내용들을 이해가 될 때 까지 읽으세요.
+이게 잘 이해가 안 된다면, 절대 질문 글을 쓰면 안 됩니다. 앞의 내용을 포함한 나머지 내용들이 이해될 때까지 읽으세요.
 
 <div id='courtesy'/>
 
@@ -750,13 +751,13 @@ FooDraw 프로그램에서 RGB hex 값을 보기 위한 color-picker를 어떻�
 정중하게 글을 작성하세요. "부탁드립니다", "관심을 가져주셔서 감사합니다", "생각 해주셔서 감사합니다" 등의 표현을 쓰세요. 당신을 무료로 도와주는 사람들이 당신을 도와주기 위해 시간을 내주는데 감사하다는 것을 확실하게 표현하세요.
 
 <!-- To be honest, this isn't as important as (and cannot substitute for) being grammatical, clear, precise and descriptive, avoiding proprietary formats etc.; hackers in general would rather get somewhat brusque but technically sharp bug reports than polite vagueness. (If this puzzles you, remember that we value a question by what it teaches us.) -->
-솔직히 말하자면 이것은 올바른 문법으로 명료하고 정확하게 묘사를 하며 올바른 첨부파일 형식을 갖추는 등의 행동보다 더 중요하지 않으며, 앞의 내용들을 대체할 수도 없습니다. 일반적으로 해커들은 무뚝뚝하지만 기술적으로 날카로운 지적을 하는 버그 리포트를 예의바르고 두루뭉술한 것 보다 좋아합니다. (이게 잘 이해가 안되신다면, 우리는 그 질문을 통해서 우리가 배울 수 있는 것을 중요하게 여긴다는걸 명심하세요.)
+솔직히 말하자면 이것은 올바른 문법으로 명료하고 정확하게 묘사하며 올바른 첨부파일 형식을 갖추는 등의 행동보다 더 중요하지 않으며, 앞의 내용들을 대체할 수도 없습니다. 일반적으로 해커들은 무뚝뚝하지만, 기술적으로 날카로운 지적을 하는 버그 리포트를 예의 바르고 두루뭉술한 것보다 좋아합니다. (이게 잘 이해가 안 된다면, 우리는 그 질문을 통해서 우리가 배울 수 있는 것을 중요하게 여긴다는 걸 명심하세요.)
 
 <!-- However, if you've got your technical ducks in a row, politeness does increase your chances of getting a useful answer. -->
-하지만 당신이 앞서 말한 질문의 요소들을 다 갖추었다면, 정중하게 요청하는건 유용한 답을 얻을 확률을 높여줍니다.
+하지만 당신이 앞서 말한 질문의 요소들을 다 갖추었다면, 정중하게 요청하는 건 유용한 답을 얻을 확률을 높여줍니다.
 
 <!-- (We must note that the only serious objection we've received from veteran hackers to this HOWTO is with respect to our previous recommendation to use “Thanks in advance”. Some hackers feel this connotes an intention not to thank anybody afterwards. Our recommendation is to either say “Thanks in advance” first _and_ thank respondents afterwards, or express courtesy in a different way, such as by saying “Thanks for your attention” or “Thanks for your consideration”.) -->
-(한 가지 공지를 해야하는 것은, 해당 HOWTO 문서에서 베테랑 해커들 에게서 유일하게 반대 의견을 받았던 부분은 이전 버전에서 추천했던 "Thanks in advance" 표현 관련 부분입니다. 일부 해커들은 해당 표현이 아무에게도 감사를 표하지 않는다는 뜻을 내포한다고 느끼기 떄문입니다. 따라서 우리의 추천 방식은 "Thanks in advance"를 맨 처음에 쓰고 *반드시* 뒷 부분에 다시 감사를 표하거나, 아니면 애초부터 다른 표현을 쓰는것을 권장합니다. 예를들어 "관심을 가져주셔서 감사합니다" 또는 "생각 해주셔서 감사합니다" 같은 표현들 입니다.) (*역주: "Thank you in advance" 는 사실상 실례가 되는 내용을 통보를 하고 양해를 구하는 식으로 많이 사용되는 표현입니다. 우리 말로는 실례가 되는 내용을 통보할 때 맨 마지막에 "양해 해주셔서 감사합니다" 같은 식으로 사용되는 표현입니다.*)
+(한 가지 공지를 해야 하는 것은, 해당 HOWTO 문서에서 베테랑 해커들에게서 유일하게 반대 의견을 받았던 부분은 이전 버전에서 추천했던 "Thanks in advance" 표현 관련 부분입니다. 일부 해커들은 해당 표현이 아무에게도 감사를 표하지 않는다는 뜻을 내포한다고 느끼기 때문입니다. 따라서 우리의 추천 방식은 "Thanks in advance"를 맨 처음에 쓰고 *반드시* 뒷부분에 다시 감사를 표하거나, 아니면 애초부터 다른 표현을 쓰는 것을 권장합니다. 예를 들어 "관심을 가져주셔서 감사합니다" 또는 "생각 해주셔서 감사합니다" 같은 표현들입니다.) (*역주: "Thank you in advance"는 사실상 실례가 되는 내용을 통보하고 양해를 구하는 식으로 많이 사용되는 표현입니다. 우리말로는 실례가 되는 내용을 통보할 때 맨 마지막에 "양해 해주셔서 감사합니다" 같은 식으로 사용되는 표현입니다.*)
 
 ### Follow up with a brief note on the solution
 
