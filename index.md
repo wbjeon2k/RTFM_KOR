@@ -774,11 +774,12 @@ FooDraw 프로그램에서 RGB hex 값을 보기 위한 color-picker를 어떻�
 
 <!-- TODO: 여기서부터 -->
 <!-- For problems with some depth, it is appropriate to post a summary of the troubleshooting history. Describe your final problem statement. Describe what worked as a solution, and indicate avoidable blind alleys _after that_. The blind alleys should come after the correct solution and other summary material, rather than turning the follow-up into a detective story. Name the names of people who helped you; you'll make friends that way. -->
+심도있는 문제에 대해서는 문제 해결을 하는 과정 전체를 요약한 글을 올리는게 좋습니다. 결국 무엇이 문제였는지 적어주세요. 어떤 방법이 해결책으로 작용했고, *해결책을 적은 후에* 해결책을 찾으면서 잘못 들어섰던 막다른 길들을 미리 알고 피해갈 수 있도록 소개해야 합니다. 이런 막다른 길들은 올바른 해결책과 기타 요점들 이후에 제시 되어야지, 그렇지 않으면 글이 탐정 추리물이 되어버립니다. 도와준 사람들의 이름을 언급하세요. 그러면서 친구들을 만들 수 있을겁니다.
 
+<!-- Besides being courteous and informative, this sort of followup will help others searching the archive of the mailing-list/newsgroup/forum to know exactly which solution helped you and thus may also help them. -->
+정중한 태도와 알찬 내용을 떠나서, 이런 형태로 팔로우업을 쓰게 되면 다른 사람들이 메일링 리스트/뉴스그룹/포럼 의 과거 기록을 검색할 때 정확히 어떤 해결책이 당신에게 도움이 되었는지 쉽게 알 수 있도록 도움이 되고, 그 사람들에게 도움이 될겁니다.
 
-Besides being courteous and informative, this sort of followup will help others searching the archive of the mailing-list/newsgroup/forum to know exactly which solution helped you and thus may also help them.
-
-Last, and not least, this sort of followup helps everybody who assisted feel a satisfying sense of closure about the problem. If you are not a techie or hacker yourself, trust us that this feeling is very important to the gurus and experts you tapped for help. Problem narratives that trail off into unresolved nothingness are frustrating things; hackers itch to see them resolved. The goodwill that scratching that itch earns you will be very, very helpful to you next time you need to pose a question.
+<!-- Last, and not least, this sort of followup helps everybody who assisted feel a satisfying sense of closure about the problem. If you are not a techie or hacker yourself, trust us that this feeling is very important to the gurus and experts you tapped for help. Problem narratives that trail off into unresolved nothingness are frustrating things; hackers itch to see them resolved. The goodwill that scratching that itch earns you will be very, very helpful to you next time you need to pose a question. -->
 
 Consider how you might be able to prevent others from having the same problem in the future. Ask yourself if a documentation or FAQ patch would help, and if the answer is yes send that patch to the maintainer.
 
