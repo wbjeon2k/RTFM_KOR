@@ -685,7 +685,6 @@ FooDraw 프로그램에서 RGB hex 값을 보기 위한 color-picker를 어떻�
 <!-- So it is useful to frame your question to minimize the time commitment required for an expert to field it — but this is often not the same thing as simplifying the question. Thus, for example, “Would you give me a pointer to a good explanation of X?” is usually a smarter question than “Would you explain X, please?”. If you have some malfunctioning code, it is usually smarter to ask for someone to explain what's wrong with it than it is to ask someone to fix it. -->
 따라서 전문가들이 당신의 질문을 답변하는 데 필요한 노력을 줄이는 방향으로 질문의 가닥을 잡는 게 도움이 됩니다. 다만, 이는 질문을 단순화하는 것과 같지는 않습니다. 예를 들어서, "X에 대한 안내가 잘 되어있는 참조 자료를 주실 수 있나요?"라는 질문은 "X를 설명 좀 해주세요."라는 질문보다 대부분의 상황에서 더 똑똑한 질문입니다. 당신이 제대로 동작하지 않는 코드로 문제를 겪고 있다면, 무엇이 잘못되었는지 알려달라고 요청하는 게 잘못된 부분을 고쳐 달라고 하는 것 보다 대부분의 경우에서 더 똑똑한 질문입니다.
 
-<!-- TODO: 여기서부터 -->
 <div id='code'/>
 
 <!-- ### When asking about code -->
@@ -773,7 +772,9 @@ FooDraw 프로그램에서 RGB hex 값을 보기 위한 color-picker를 어떻�
 <!-- Your followup doesn't have to be long and involved; a simple “Howdy — it was a failed network cable! Thanks, everyone. - Bill” would be better than nothing. In fact, a short and sweet summary is better than a long dissertation unless the solution has real technical depth. Say what action solved the problem, but you need not replay the whole troubleshooting sequence. -->
 팔로우업을 길게 공들여서 쓸 필요는 없습니다. 간단하게 "안녕하세요 - 네트워크 케이블이 망가져서 생긴 문제였습니다! 도와주신 분들 감사합니다. - 홍길동" 는 충분히 아무 말이 없는 것 보다는 낫습니다. 사실 해결 방법이 엄청나게 기술적으로 심도있는 내용이 아니라면 짧게 잘 요약된 글이 논문처럼 긴 글보다 낫습니다. 어떤 행동이 문제 해결로 이어지는지 적되, 전체 해결 방법을 전부 다 설명 할 필요는 없습니다.
 
-For problems with some depth, it is appropriate to post a summary of the troubleshooting history. Describe your final problem statement. Describe what worked as a solution, and indicate avoidable blind alleys _after that_. The blind alleys should come after the correct solution and other summary material, rather than turning the follow-up into a detective story. Name the names of people who helped you; you'll make friends that way.
+<!-- TODO: 여기서부터 -->
+<!-- For problems with some depth, it is appropriate to post a summary of the troubleshooting history. Describe your final problem statement. Describe what worked as a solution, and indicate avoidable blind alleys _after that_. The blind alleys should come after the correct solution and other summary material, rather than turning the follow-up into a detective story. Name the names of people who helped you; you'll make friends that way. -->
+
 
 Besides being courteous and informative, this sort of followup will help others searching the archive of the mailing-list/newsgroup/forum to know exactly which solution helped you and thus may also help them.
 
