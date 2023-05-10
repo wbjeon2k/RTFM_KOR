@@ -780,32 +780,52 @@ FooDraw 프로그램에서 RGB hex 값을 보기 위한 color-picker를 어떻�
 정중한 태도와 알찬 내용을 떠나서, 이런 형태로 팔로우업을 쓰게 되면 다른 사람들이 메일링 리스트/뉴스그룹/포럼 의 과거 기록을 검색할 때 정확히 어떤 해결책이 당신에게 도움이 되었는지 쉽게 알 수 있도록 도움이 되고, 그 사람들에게 도움이 될겁니다.
 
 <!-- Last, and not least, this sort of followup helps everybody who assisted feel a satisfying sense of closure about the problem. If you are not a techie or hacker yourself, trust us that this feeling is very important to the gurus and experts you tapped for help. Problem narratives that trail off into unresolved nothingness are frustrating things; hackers itch to see them resolved. The goodwill that scratching that itch earns you will be very, very helpful to you next time you need to pose a question. -->
-마지막으로 중요한 이유 하나를 얘기하자면, 이런 식으로 후기를 작성하게 되면 도움을 준 사람들이 문제가 해결 되었다는 것을 알게 되어서 후련함을 느낍니다. 당신이 techie나 해커가 아니라서 이게 그렇게 중요한지 잘 모르겠다면, 우리를 믿어야 합니다. 당신들이 도움을 달라고 했던 현자(guru)들이나 전문가들 에게는 매우 중요합니다. 문제 상황이 계속 되어서 
+마지막으로 중요한 이유 하나를 얘기하자면, 이런 식으로 후기를 작성하게 되면 도움을 준 사람들이 문제가 해결 되었다는 것에서 오는 만족감을 느낍니다. 당신이 공돌이나 해커가 아니라서 이게 그렇게 중요한지 잘 모르겠다면, 우리를 믿어야 합니다. 당신들이 도움을 달라고 했던 현자(guru)들이나 전문가들 에게는 매우 중요합니다. 문제 상황이 아무 것도 해결되지 않고 흐지부지 끝나버리는 식으로 흘러가는건 매우 실망스럽습니다. 해커들은 이런 상황에 염증을 느끼고, 문제가 해결이 되는것을 보고싶어합니다. 해커들의 가려운 부분을 긁어주려는 선의는 당신이 나중에 질문을 작성할 때 좋은 일로 다시 돌아오게 되어있습니다.
 
-Consider how you might be able to prevent others from having the same problem in the future. Ask yourself if a documentation or FAQ patch would help, and if the answer is yes send that patch to the maintainer.
+<!-- Consider how you might be able to prevent others from having the same problem in the future. Ask yourself if a documentation or FAQ patch would help, and if the answer is yes send that patch to the maintainer. -->
+다른 사람들이 나중에 같은 문제를 겪지 않도록 방지하기 위해서 무엇을 해야할지 생각을 해보세요. 스스로 공식 문서나 FAQ에 내용을 추가하는게 도움이 될지 생각을 해보고, 만약 그렇다는 판단이 선다면 관리자에게 수정 사항을 보내주세요.
 
-Among hackers, this sort of good followup behavior is actually more important than conventional politeness. It's how you get a reputation for playing well with others, which can be a very valuable asset.
+<!-- Among hackers, this sort of good followup behavior is actually more important than conventional politeness. It's how you get a reputation for playing well with others, which can be a very valuable asset. -->
+해커들 사이에서는, 이런식으로 좋은 후기를 남기는것이 통상적으로 여겨지는 예의바른 모습보다 더 중요합니다. 당신이 다른 사람들과 일을 잘 할수 있다는 평판을 얻는데 중요하게 작용하고, 이런 좋은 평판은 매우 귀한 자산입니다.
 
-How To Interpret Answers
+<div id='answers'/>
+
+<!-- How To Interpret Answers -->
+질문을 해석하는 방법
 ------------------------
 
-### RTFM and STFW: How To Tell You've Seriously Screwed Up
+<!-- ### RTFM and STFW: How To Tell You've Seriously Screwed Up -->
+### RTFM 과 STFW : 당신에게 심각한 문제가 있는지 알 수 있는 방법
 
-There is an ancient and hallowed tradition: if you get a reply that reads “RTFM”, the person who sent it thinks you should have Read The Fucking Manual. He or she is almost certainly right. Go read it.
+*역주*  
+*RTFM : Read The Fucking Manual 의 약자입니다. ~글(공식 문서, 공지)을 좀 읽어라 병신아~*  
+*STFW : Search The Fucking Web 의 약자입니다. ~인터넷은 장식이냐?~*  
 
-RTFM has a younger relative. If you get a reply that reads “STFW”, the person who sent it thinks you should have Searched The Fucking Web. He or she is almost certainly right. Go search it. (The milder version of this is when you are told “Google is your friend!”)
+<!-- There is an ancient and hallowed tradition: if you get a reply that reads “RTFM”, the person who sent it thinks you should have Read The Fucking Manual. He or she is almost certainly right. Go read it. -->
+이 바닥에는 오래전부터 내려오는 신성한 전통이 하나 있습니다. 만약 당신이 "RTFM" 이라는 답변을 받는다면, 해당 답변을 단 사람은 당신에게 "공식 문서좀 읽으세요 병신아" 라는 의견을 표하는 겁니다. 해당 답변을 단 사람이 거의 항상 옳습니다. 공식 문서를 읽으러 가세요.
 
-In Web forums, you may also be told to search the forum archives. In fact, someone may even be so kind as to provide a pointer to the previous thread where this problem was solved. But do not rely on this consideration; do your archive-searching before asking.
+<!-- RTFM has a younger relative. If you get a reply that reads “STFW”, the person who sent it thinks you should have Searched The Fucking Web. He or she is almost certainly right. Go search it. (The milder version of this is when you are told “Google is your friend!”) -->
+RTFM 은 약간 더 어린 친척 동생이 하나 있습니다. 당신이 "STFW" 이라는 답변을 받았다면, 해당 답변을 단 사람은 인터넷은 장식이냐고 물어보는 겁니다. 이것 또한 해당 답변을 단 사람이 거의 항상 옳습니다. 검색을 하러 가세요. (조금 더 순한맛으로는 "구글은 당신의 친구랍니다!" 같은 답변입니다.)
 
-Often, the person telling you to do a search has the manual or the web page with the information you need open, and is looking at it as he or she types. These replies mean that the responder thinks (a) the information you need is easy to find, and (b) you will learn more if you seek out the information than if you have it spoon-fed to you.
+<!-- In Web forums, you may also be told to search the forum archives. In fact, someone may even be so kind as to provide a pointer to the previous thread where this problem was solved. But do not rely on this consideration; do your archive-searching before asking. -->
+웹 포럼에서는 포럼의 과거 게시물들을 찾아보라는 말을 들을수도 있습니다. 개중 친철한 몇 사람들은 해당 문제가 해결되었다는 후기가 달린 스레드로 가는 포인터를 알려줄수도 있습니다. 하지만 이런 친절함에 너무 의존하지는 마세요. 질문하기 전에 아카이브를 반드시 검색하세요.
 
-You shouldn't be offended by this; by hacker standards, your respondent is showing you a rough kind of respect simply by not ignoring you. You should instead be thankful for this grandmotherly kindness.
+<!-- Often, the person telling you to do a search has the manual or the web page with the information you need open, and is looking at it as he or she types. These replies mean that the responder thinks (a) the information you need is easy to find, and (b) you will learn more if you seek out the information than if you have it spoon-fed to you. -->
+당신보고 공식 문서나 웹 페이지를 찾아보라고 하는 사람들 중에 당신이 열어봐야 하는 페이지들을 작성한 당사자가 있는 경우가 종종 있습니다. 답변을 다는 도중에도 해당 문서를 작성하고 있을 가능성도 있습니다. 공식 문서나 웹 페이지를 찾아보라는 식의 답변은 답변자가 (a) 해당 정보는 찾으면 바로 나오거나 (b) 당신에게 답변을 목구멍까지 떠먹여주는 것보다 문제를 해결하기 위해 정보를 찾아가는 과정에서 배우는게 많다는 생각을 의미합니다.
 
-### If you don't understand
+<!-- You shouldn't be offended by this; by hacker standards, your respondent is showing you a rough kind of respect simply by not ignoring you. You should instead be thankful for this grandmotherly kindness. -->
+당신은 이를 고깝게 받아들이면 안됩니다. 해커들의 기준으로는, 당신 질문을 무시하고 넘어가지 않은 것 만으로도 어느 정도 투박하게 신경을 써준겁니다. 고깝게 받아들이지 말고, 대신 친절함에 감사해야 합니다.
 
-If you don't understand the answer, do not immediately bounce back a demand for clarification. Use the same tools that you used to try and answer your original question (manuals, FAQs, the Web, skilled friends) to understand the answer. Then, if you still need to ask for clarification, exhibit what you have learned.
+<div id='lesser'/>
 
-For example, suppose I tell you: “It sounds like you've got a stuck zentry; you'll need to clear it.” Then: here's a _bad_ followup question: “What's a zentry?” Here's a _good_ followup question: “OK, I read the man page and zentries are only mentioned under the -z and -p switches. Neither of them says anything about clearing zentries. Is it one of these or am I missing something here?”
+<!-- ### If you don't understand -->
+### 이해가 되지 않는다면
+
+<!-- If you don't understand the answer, do not immediately bounce back a demand for clarification. Use the same tools that you used to try and answer your original question (manuals, FAQs, the Web, skilled friends) to understand the answer. Then, if you still need to ask for clarification, exhibit what you have learned. -->
+답변이 이해가 잘 안된다고 해서 즉각적으로 추가 설명을 요구하지 마세요. 답변을 이해하기 위해서 당신이 가졌던 원래 질문을 해결하기 위해 사용했던 방법들(공식 문서, FAQ, 인터넷, 실력있는 친구들)을 똑같이 사용하세요. 그러고 나서도 풀리지 않는 점에 대해서 추가 질문을 해야하는 상황이라면, 당신이 추가 질문을 하기 전까지 새로 배웠던 사실들을 보여주세요.
+
+<!-- For example, suppose I tell you: “It sounds like you've got a stuck zentry; you'll need to clear it.” Then: here's a _bad_ followup question: “What's a zentry?” Here's a _good_ followup question: “OK, I read the man page and zentries are only mentioned under the -z and -p switches. Neither of them says anything about clearing zentries. Is it one of these or am I missing something here?” -->
+
 
 ### Dealing with rudeness
 
