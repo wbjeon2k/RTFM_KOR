@@ -780,6 +780,7 @@ FooDraw 프로그램에서 RGB hex 값을 보기 위한 color-picker를 어떻�
 정중한 태도와 알찬 내용을 떠나서, 이런 형태로 팔로우업을 쓰게 되면 다른 사람들이 메일링 리스트/뉴스그룹/포럼 의 과거 기록을 검색할 때 정확히 어떤 해결책이 당신에게 도움이 되었는지 쉽게 알 수 있도록 도움이 되고, 그 사람들에게 도움이 될겁니다.
 
 <!-- Last, and not least, this sort of followup helps everybody who assisted feel a satisfying sense of closure about the problem. If you are not a techie or hacker yourself, trust us that this feeling is very important to the gurus and experts you tapped for help. Problem narratives that trail off into unresolved nothingness are frustrating things; hackers itch to see them resolved. The goodwill that scratching that itch earns you will be very, very helpful to you next time you need to pose a question. -->
+마지막으로 중요한 이유 하나를 얘기하자면, 이런 식으로 후기를 작성하게 되면 도움을 준 사람들이 문제가 해결 되었다는 것을 알게 되어서 후련함을 느낍니다. 당신이 techie나 해커가 아니라서 이게 그렇게 중요한지 잘 모르겠다면, 우리를 믿어야 합니다. 당신들이 도움을 달라고 했던 현자(guru)들이나 전문가들 에게는 매우 중요합니다. 문제 상황이 계속 되어서 
 
 Consider how you might be able to prevent others from having the same problem in the future. Ask yourself if a documentation or FAQ patch would help, and if the answer is yes send that patch to the maintainer.
 
