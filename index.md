@@ -825,13 +825,18 @@ RTFM 은 약간 더 어린 친척 동생이 하나 있습니다. 당신이 "STFW
 답변이 이해가 잘 안된다고 해서 즉각적으로 추가 설명을 요구하지 마세요. 답변을 이해하기 위해서 당신이 가졌던 원래 질문을 해결하기 위해 사용했던 방법들(공식 문서, FAQ, 인터넷, 실력있는 친구들)을 똑같이 사용하세요. 그러고 나서도 풀리지 않는 점에 대해서 추가 질문을 해야하는 상황이라면, 당신이 추가 질문을 하기 전까지 새로 배웠던 사실들을 보여주세요.
 
 <!-- For example, suppose I tell you: “It sounds like you've got a stuck zentry; you'll need to clear it.” Then: here's a _bad_ followup question: “What's a zentry?” Here's a _good_ followup question: “OK, I read the man page and zentries are only mentioned under the -z and -p switches. Neither of them says anything about clearing zentries. Is it one of these or am I missing something here?” -->
+예를 들어서, 제가 "zentry 가 막혀있는거 같습니다. zentry를 초기화 해야 될 것 같습니다" 라는 답변을 남겼다고 합시다. 여기에 대해서 *나쁜* 후속 질문은 "zentry가 뭐에요?" 입니다. 좋은 후속 질문 예시는 "말씀을 듣고 man page를 읽어봤습니다. zentry는 -z 하고 -p 옵션에만 언급이 되어있는걸 확인했는데요, 두 옵션 모두 zentry를 초기화 하는 방법에 대해서 안내하는건 없었습니다. 두 옵션 중 하나가 초기화를 하는건가요, 아니면 제가 놓친게 있나요?" 입니다.
 
+<div id='keepcool'/>
 
-### Dealing with rudeness
+<!-- ### Dealing with rudeness -->
+### 싸가지 없음에 대처하는 법
 
-Much of what looks like rudeness in hacker circles is not intended to give offense. Rather, it's the product of the direct, cut-through-the-bullshit communications style that is natural to people who are more concerned about solving problems than making others feel warm and fuzzy.
+<!-- Much of what looks like rudeness in hacker circles is not intended to give offense. Rather, it's the product of the direct, cut-through-the-bullshit communications style that is natural to people who are more concerned about solving problems than making others feel warm and fuzzy. -->
+해커 집단들이 싸가지 없다는 느낌을 주는 경우가 있는데, 대다수는 당신의 기분을 나쁘게 하려고 하는게 아닙니다. 오히려 이는 직설적으로, 잡설을 치우고 거두절미하여 의미를 전달하는 방식의 의사소통 스타일의 결과물 입니다. 이런 스타일은 다른 사람들을 따뜻하지만 혼란스럽게 만드는 것 보다 실질적으로 문제를 해결하는걸 훨씬 중요시 하는 사람들 에게는 당연한 겁니다.
 
-When you perceive rudeness, try to react calmly. If someone is really acting out, it is very likely a senior person on the list or newsgroup or forum will call him or her on it. If that _doesn't_ happen and you lose your temper, it is likely that the person you lose it at was behaving within the hacker community's norms and _you_ will be considered at fault. This will hurt your chances of getting the information or help you want.
+<!-- When you perceive rudeness, try to react calmly. If someone is really acting out, it is very likely a senior person on the list or newsgroup or forum will call him or her on it. If that _doesn't_ happen and you lose your temper, it is likely that the person you lose it at was behaving within the hacker community's norms and _you_ will be considered at fault. This will hurt your chances of getting the information or help you want. -->
+싸가지 없다는 느낌을 받았을때는 차분히 대응하려고 하세요. 어떤 사람이 정말로 시비를 거는거라면 해당 뉴스그룹이나 포럼의 시니어가 그 사람에게 조치를 취할겁니다. 만약 그런 경우가 아니고 당신이 성질을 내게 된다면, 해커 커뮤니티의 행동 양식을 따르고 있었던 사람에게 당신이 화를 낸 경우가 되기 때문에 화를 낸 당신의 잘못으로 흘러갈겁니다. 이는 당신을 도와줄 수 있는 사람이 도움을 줄 확률을 낮춥니다.
 
 On the other hand, you will occasionally run across rudeness and posturing that is quite gratuitous. The flip-side of the above is that it is acceptable form to slam real offenders quite hard, dissecting their misbehavior with a sharp verbal scalpel. Be very, very sure of your ground before you try this, however. The line between correcting an incivility and starting a pointless flamewar is thin enough that hackers themselves not infrequently blunder across it; if you are a newbie or an outsider, your chances of avoiding such a blunder are low. If you're after information rather than entertainment, it's better to keep your fingers off the keyboard than to risk this.
 
