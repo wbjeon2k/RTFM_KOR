@@ -764,29 +764,29 @@ FooDraw 프로그램에서 RGB hex 값을 보기 위한 color-picker를 어떻�
 ### 답변을 받고 나서 어떻게 됐는지 후속 상황을 알려주세요
 
 <!-- Send a note after the problem has been solved to all who helped you; let them know how it came out and thank them again for their help. If the problem attracted general interest in a mailing list or newsgroup, it's appropriate to post the followup there. -->
-질문글에 도움을 준 사람들에게 감사하다는 말을 남기세요. 어떻게 해결 되었는지를 말하고, 도움을 받아서 고맙다는걸 알리세요. 만약 메일링 리스트나 뉴스그룹 안에서 꽤 많은 사람들의 관심을 받았다면, 그곳에 후속 상황을 남기는게 좋습니다.
+질문 글에 도움을 준 사람들에게 감사하다는 말을 남기세요. 어떻게 해결되었는지를 말하고, 도움을 받아서 고맙다는 걸 알리세요. 만약 메일링 리스트나 뉴스그룹 안에서 꽤 많은 사람의 관심을 받았다면, 그곳에 후속 상황을 남기는 게 좋습니다.
 
 <!-- Optimally, the reply should be to the thread started by the original question posting, and should have ‘FIXED’, ‘RESOLVED’ or an equally obvious tag in the subject line. On mailing lists with fast turnaround, a potential respondent who sees a thread about “Problem X” ending with “Problem X - FIXED” knows not to waste his/her time even reading the thread (unless (s)he personally finds Problem X interesting) and can therefore use that time solving a different problem. -->
-제일 좋은 상황은, 원래 질문글 스레드에 'FIXED', 'RESOLVED'와 같은 명확한 태그와 함께 답글을 남기는 것 입니다. 회전율이 높은 메일링 리스트의 경우, 답변을 달려고 하는 사람이 해당 스레드가 "문제 X" 로 시작해서 "문제 X - FIXED" 같은 형태로 끝나는 것을 파악한다면, 이미 해결이 끝난 문제임을 파악하여 스레드를 읽느라 시간을 낭비하지 않으며 (개인적으로 해당 문제 X에 대해서 흥미를 느끼지 않는 경우) 다른 문제를 해결하는데 시간을 할애할 수 있습니다.
+제일 좋은 상황은, 원래 질문 글 스레드에 'FIXED', 'RESOLVED'와 같은 명확한 태그와 함께 답글을 남기는 것입니다. 회전율이 높은 메일링 리스트의 경우, 답변을 달려고 하는 사람이 해당 스레드가 "문제 X"로 시작해서 "문제 X - FIXED" 같은 형태로 끝나는 것을 파악한다면, 이미 해결이 끝난 문제임을 파악하여 스레드를 읽느라 시간을 낭비하지 않으며 (개인적으로 해당 문제 X에 대해서 흥미를 느끼지 않는 경우) 다른 문제를 해결하는 데 시간을 할애할 수 있습니다.
 
 <!-- Your followup doesn't have to be long and involved; a simple “Howdy — it was a failed network cable! Thanks, everyone. - Bill” would be better than nothing. In fact, a short and sweet summary is better than a long dissertation unless the solution has real technical depth. Say what action solved the problem, but you need not replay the whole troubleshooting sequence. -->
-팔로우업을 길게 공들여서 쓸 필요는 없습니다. 간단하게 "안녕하세요 - 네트워크 케이블이 망가져서 생긴 문제였습니다! 도와주신 분들 감사합니다. - 홍길동" 는 충분히 아무 말이 없는 것 보다는 낫습니다. 사실 해결 방법이 엄청나게 기술적으로 심도있는 내용이 아니라면 짧게 잘 요약된 글이 논문처럼 긴 글보다 낫습니다. 어떤 행동이 문제 해결로 이어지는지 적되, 전체 해결 방법을 전부 다 설명 할 필요는 없습니다.
+팔로우업을 길게 공들여서 쓸 필요는 없습니다. 간단하게 "안녕하세요 - 네트워크 케이블이 망가져서 생긴 문제였습니다! 도와주신 분들 감사합니다. - 홍길동"은 충분히 아무 말이 없는 것보다는 낫습니다. 사실 해결 방법이 엄청나게 기술적으로 심도 있는 내용이 아니라면 짧게 잘 요약된 글이 논문처럼 긴 글보다 낫습니다. 어떤 행동이 문제 해결로 이어지는지 적되, 전체 해결 방법을 전부 다 설명할 필요는 없습니다.
 
 <!-- TODO: 여기서부터 -->
 <!-- For problems with some depth, it is appropriate to post a summary of the troubleshooting history. Describe your final problem statement. Describe what worked as a solution, and indicate avoidable blind alleys _after that_. The blind alleys should come after the correct solution and other summary material, rather than turning the follow-up into a detective story. Name the names of people who helped you; you'll make friends that way. -->
-심도있는 문제에 대해서는 문제 해결을 하는 과정 전체를 요약한 글을 올리는게 좋습니다. 결국 무엇이 문제였는지 적어주세요. 어떤 방법이 해결책으로 작용했고, *해결책을 적은 후에* 해결책을 찾으면서 잘못 들어섰던 막다른 길들을 미리 알고 피해갈 수 있도록 소개해야 합니다. 이런 막다른 길들은 올바른 해결책과 기타 요점들 이후에 제시 되어야지, 그렇지 않으면 글이 탐정 추리물이 되어버립니다. 도와준 사람들의 이름을 언급하세요. 그러면서 친구들을 만들 수 있을겁니다.
+심도 있는 문제에 대해서는 문제 해결을 하는 과정 전체를 요약한 글을 올리는 게 좋습니다. 결국 무엇이 문제였는지 적어주세요. 어떤 방법이 해결책으로 작용했고, *해결책을 적은 후에* 해결책을 찾으면서 잘못 들어섰던 막다른 길들을 미리 알고 피해 갈 수 있도록 소개해야 합니다. 이런 막다른 길들은 올바른 해결책과 기타 요점들 이후에 제시되어야지, 그렇지 않으면 글이 탐정 추리물이 되어버립니다. 도와준 사람들의 이름을 언급하세요. 그러면서 친구들을 만들 수 있을 겁니다.
 
 <!-- Besides being courteous and informative, this sort of followup will help others searching the archive of the mailing-list/newsgroup/forum to know exactly which solution helped you and thus may also help them. -->
-정중한 태도와 알찬 내용을 떠나서, 이런 형태로 팔로우업을 쓰게 되면 다른 사람들이 메일링 리스트/뉴스그룹/포럼 의 과거 기록을 검색할 때 정확히 어떤 해결책이 당신에게 도움이 되었는지 쉽게 알 수 있도록 도움이 되고, 그 사람들에게 도움이 될겁니다.
+정중한 태도와 알찬 내용을 떠나서, 이런 형태로 팔로우업을 쓰게 되면 다른 사람들이 메일링 리스트/뉴스그룹/포럼의 과거 기록을 검색할 때 정확히 어떤 해결책이 당신에게 도움이 되었는지 쉽게 알 수 있도록 도움이 되고, 그 사람들에게 도움이 될 겁니다.
 
 <!-- Last, and not least, this sort of followup helps everybody who assisted feel a satisfying sense of closure about the problem. If you are not a techie or hacker yourself, trust us that this feeling is very important to the gurus and experts you tapped for help. Problem narratives that trail off into unresolved nothingness are frustrating things; hackers itch to see them resolved. The goodwill that scratching that itch earns you will be very, very helpful to you next time you need to pose a question. -->
-마지막으로 중요한 이유 하나를 얘기하자면, 이런 식으로 후기를 작성하게 되면 도움을 준 사람들이 문제가 해결 되었다는 것에서 오는 만족감을 느낍니다. 당신이 공돌이나 해커가 아니라서 이게 그렇게 중요한지 잘 모르겠다면, 우리를 믿어야 합니다. 당신들이 도움을 달라고 했던 현자(guru)들이나 전문가들 에게는 매우 중요합니다. 문제 상황이 아무 것도 해결되지 않고 흐지부지 끝나버리는 식으로 흘러가는건 매우 실망스럽습니다. 해커들은 이런 상황에 염증을 느끼고, 문제가 해결이 되는것을 보고싶어합니다. 해커들의 가려운 부분을 긁어주려는 선의는 당신이 나중에 질문을 작성할 때 좋은 일로 다시 돌아오게 되어있습니다.
+마지막으로 중요한 이유 하나를 얘기하자면, 이런 식으로 후기를 작성하게 되면 도움을 준 사람들이 문제가 해결되었다는 것에서 오는 만족감을 느낍니다. 당신이 공돌이나 해커가 아니라서 이게 그렇게 중요한지 잘 모르겠다면, 우리를 믿어야 합니다. 당신들이 도움을 달라고 했던 현자(guru)들이나 전문가들에게는 매우 중요합니다. 문제 상황이 아무것도 해결되지 않고 흐지부지 끝나버리는 식으로 흘러가는 건 매우 실망스럽습니다. 해커들은 이런 상황에 염증을 느끼고, 문제가 해결되는 것을 보고 싶어 합니다. 해커들의 가려운 부분을 긁어주려는 선의는 당신이 나중에 질문을 작성할 때 좋은 일로 다시 돌아오게 되어있습니다.
 
 <!-- Consider how you might be able to prevent others from having the same problem in the future. Ask yourself if a documentation or FAQ patch would help, and if the answer is yes send that patch to the maintainer. -->
-다른 사람들이 나중에 같은 문제를 겪지 않도록 방지하기 위해서 무엇을 해야할지 생각을 해보세요. 스스로 공식 문서나 FAQ에 내용을 추가하는게 도움이 될지 생각을 해보고, 만약 그렇다는 판단이 선다면 관리자에게 수정 사항을 보내주세요.
+다른 사람들이 나중에 같은 문제를 겪지 않도록 방지하기 위해서 무엇을 해야 할지 생각을 해보세요. 스스로 공식 문서나 FAQ에 내용을 추가하는 게 도움이 될지 생각을 해보고, 만약 그렇다는 판단이 선다면 관리자에게 수정 사항을 보내주세요.
 
 <!-- Among hackers, this sort of good followup behavior is actually more important than conventional politeness. It's how you get a reputation for playing well with others, which can be a very valuable asset. -->
-해커들 사이에서는, 이런식으로 좋은 후기를 남기는것이 통상적으로 여겨지는 예의바른 모습보다 더 중요합니다. 당신이 다른 사람들과 일을 잘 할수 있다는 평판을 얻는데 중요하게 작용하고, 이런 좋은 평판은 매우 귀한 자산입니다.
+해커들 사이에서는, 이런 식으로 좋은 후기를 남기는 것이 통상적으로 여겨지는 예의 바른 모습보다 더 중요합니다. 당신이 다른 사람들과 일을 잘할 수 있다는 평판을 얻는 데 중요하게 작용하고, 이런 좋은 평판은 매우 귀한 자산입니다.
 
 <div id='answers'/>
 
@@ -802,19 +802,19 @@ FooDraw 프로그램에서 RGB hex 값을 보기 위한 color-picker를 어떻�
 *STFW : Search The Fucking Web 의 약자입니다. ~인터넷은 장식이냐?~*  
 
 <!-- There is an ancient and hallowed tradition: if you get a reply that reads “RTFM”, the person who sent it thinks you should have Read The Fucking Manual. He or she is almost certainly right. Go read it. -->
-이 바닥에는 오래전부터 내려오는 신성한 전통이 하나 있습니다. 만약 당신이 "RTFM" 이라는 답변을 받는다면, 해당 답변을 단 사람은 당신에게 "공식 문서좀 읽으세요 병신아" 라는 의견을 표하는 겁니다. 해당 답변을 단 사람이 거의 항상 옳습니다. 공식 문서를 읽으러 가세요.
+이 바닥에는 오래전부터 내려오는 신성한 전통이 하나 있습니다. 만약 당신이 "RTFM"이라는 답변을 받는다면, 해당 답변을 단 사람은 당신에게 "공식 문서 좀 읽으세요. 병신아"라는 의견을 표하는 겁니다. 해당 답변을 단 사람이 거의 항상 옳습니다. 공식 문서를 읽으러 가세요.
 
 <!-- RTFM has a younger relative. If you get a reply that reads “STFW”, the person who sent it thinks you should have Searched The Fucking Web. He or she is almost certainly right. Go search it. (The milder version of this is when you are told “Google is your friend!”) -->
-RTFM 은 약간 더 어린 친척 동생이 하나 있습니다. 당신이 "STFW" 이라는 답변을 받았다면, 해당 답변을 단 사람은 인터넷은 장식이냐고 물어보는 겁니다. 이것 또한 해당 답변을 단 사람이 거의 항상 옳습니다. 검색을 하러 가세요. (조금 더 순한맛으로는 "구글은 당신의 친구랍니다!" 같은 답변입니다.)
+RTFM은 약간 더 어린 친척 동생이 하나 있습니다. 당신이 "STFW" 이라는 답변을 받았다면, 해당 답변을 단 사람은 인터넷은 장식이냐고 물어보는 겁니다. 이것 또한 해당 답변을 단 사람이 거의 항상 옳습니다. 검색하러 가세요. (조금 더 순한 맛으로는 "구글은 당신의 친구랍니다!" 같은 답변이 있습니다.)
 
 <!-- In Web forums, you may also be told to search the forum archives. In fact, someone may even be so kind as to provide a pointer to the previous thread where this problem was solved. But do not rely on this consideration; do your archive-searching before asking. -->
-웹 포럼에서는 포럼의 과거 게시물들을 찾아보라는 말을 들을수도 있습니다. 개중 친철한 몇 사람들은 해당 문제가 해결되었다는 후기가 달린 스레드로 가는 포인터를 알려줄수도 있습니다. 하지만 이런 친절함에 너무 의존하지는 마세요. 질문하기 전에 아카이브를 반드시 검색하세요.
+웹 포럼에서는 포럼의 과거 게시물들을 찾아보라는 말을 들을 수도 있습니다. 개중 친절한 몇 사람들은 해당 문제가 해결되었다는 후기가 달린 스레드로 가는 포인터를 알려줄 수도 있습니다. 하지만 이런 친절함에 너무 의존하지는 마세요. 질문하기 전에 아카이브를 반드시 검색하세요.
 
 <!-- Often, the person telling you to do a search has the manual or the web page with the information you need open, and is looking at it as he or she types. These replies mean that the responder thinks (a) the information you need is easy to find, and (b) you will learn more if you seek out the information than if you have it spoon-fed to you. -->
-당신보고 공식 문서나 웹 페이지를 찾아보라고 하는 사람들 중에 당신이 열어봐야 하는 페이지들을 작성한 당사자가 있는 경우가 종종 있습니다. 답변을 다는 도중에도 해당 문서를 작성하고 있을 가능성도 있습니다. 공식 문서나 웹 페이지를 찾아보라는 식의 답변은 답변자가 (a) 해당 정보는 찾으면 바로 나오거나 (b) 당신에게 답변을 목구멍까지 떠먹여주는 것보다 문제를 해결하기 위해 정보를 찾아가는 과정에서 배우는게 많다는 생각을 의미합니다.
+당신보고 공식 문서나 웹 페이지를 찾아보라고 하는 사람 중에 당신이 열어봐야 하는 페이지들을 작성한 당사자가 있는 경우가 종종 있습니다. 답변을 다는 도중에도 해당 문서를 작성하고 있을 가능성도 있습니다. 공식 문서나 웹 페이지를 찾아보라는 식의 답변은 답변자가 (a) 해당 정보는 찾으면 바로 나오거나 (b) 당신에게 답변을 목구멍까지 떠먹여 주는 것보다 문제를 해결하기 위해 정보를 찾아가는 과정에서 배우는 게 많다는 생각을 의미합니다.
 
 <!-- You shouldn't be offended by this; by hacker standards, your respondent is showing you a rough kind of respect simply by not ignoring you. You should instead be thankful for this grandmotherly kindness. -->
-당신은 이를 고깝게 받아들이면 안됩니다. 해커들의 기준으로는, 당신 질문을 무시하고 넘어가지 않은 것 만으로도 어느 정도 투박하게 신경을 써준겁니다. 고깝게 받아들이지 말고, 대신 친절함에 감사해야 합니다.
+당신은 이를 고깝게 받아들이면 안 됩니다. 해커들의 기준으로는, 당신 질문을 무시하고 넘어가지 않은 것만으로도 어느 정도 투박하게 신경을 써준 겁니다. 고깝게 받아들이지 말고, 대신 친절함에 감사해야 합니다.
 
 <div id='lesser'/>
 
@@ -822,10 +822,10 @@ RTFM 은 약간 더 어린 친척 동생이 하나 있습니다. 당신이 "STFW
 ### 이해가 되지 않는다면
 
 <!-- If you don't understand the answer, do not immediately bounce back a demand for clarification. Use the same tools that you used to try and answer your original question (manuals, FAQs, the Web, skilled friends) to understand the answer. Then, if you still need to ask for clarification, exhibit what you have learned. -->
-답변이 이해가 잘 안된다고 해서 즉각적으로 추가 설명을 요구하지 마세요. 답변을 이해하기 위해서 당신이 가졌던 원래 질문을 해결하기 위해 사용했던 방법들(공식 문서, FAQ, 인터넷, 실력있는 친구들)을 똑같이 사용하세요. 그러고 나서도 풀리지 않는 점에 대해서 추가 질문을 해야하는 상황이라면, 당신이 추가 질문을 하기 전까지 새로 배웠던 사실들을 보여주세요.
+답변이 이해가 잘 안된다고 해서 즉각적으로 추가 설명을 요구하지 마세요. 답변을 이해하기 위해서 당신이 가졌던 원래 질문을 해결하기 위해 사용했던 방법들(공식 문서, FAQ, 인터넷, 실력 있는 친구들)을 똑같이 사용하세요. 그러고 나서도 풀리지 않는 점에 대해서 추가 질문을 해야 하는 상황이라면, 당신이 추가 질문을 하기 전까지 새로 배웠던 사실들을 보여주세요.
 
 <!-- For example, suppose I tell you: “It sounds like you've got a stuck zentry; you'll need to clear it.” Then: here's a _bad_ followup question: “What's a zentry?” Here's a _good_ followup question: “OK, I read the man page and zentries are only mentioned under the -z and -p switches. Neither of them says anything about clearing zentries. Is it one of these or am I missing something here?” -->
-예를 들어서, 제가 "zentry 가 막혀있는거 같습니다. zentry를 초기화 해야 될 것 같습니다" 라는 답변을 남겼다고 합시다. 여기에 대해서 *나쁜* 후속 질문은 "zentry가 뭐에요?" 입니다. 좋은 후속 질문 예시는 "말씀을 듣고 man page를 읽어봤습니다. zentry는 -z 하고 -p 옵션에만 언급이 되어있는걸 확인했는데요, 두 옵션 모두 zentry를 초기화 하는 방법에 대해서 안내하는건 없었습니다. 두 옵션 중 하나가 초기화를 하는건가요, 아니면 제가 놓친게 있나요?" 입니다.
+예를 들어서, 제가 "zentry 가 막혀있는 거 같습니다. zentry를 초기화 해야 할 것 같습니다."라는 답변을 남겼다고 합시다. 여기에 대해서 *나쁜* 후속 질문은 "zentry가 뭐에요?"입니다. 좋은 후속 질문 예시는 "말씀을 듣고 man page를 읽어봤습니다. zentry는 -z 하고 -p 옵션에만 언급이 되어있는 걸 확인했는데요, 두 옵션 모두 zentry를 초기화하는 방법에 대해서 안내하는 건 없었습니다. 두 옵션 중 하나가 초기화하는 건가요, 아니면 제가 놓친 게 있나요?"입니다.
 
 <div id='keepcool'/>
 
@@ -833,57 +833,74 @@ RTFM 은 약간 더 어린 친척 동생이 하나 있습니다. 당신이 "STFW
 ### 싸가지 없음에 대처하는 법
 
 <!-- Much of what looks like rudeness in hacker circles is not intended to give offense. Rather, it's the product of the direct, cut-through-the-bullshit communications style that is natural to people who are more concerned about solving problems than making others feel warm and fuzzy. -->
-해커 집단들이 싸가지 없다는 느낌을 주는 경우가 있는데, 대다수는 당신의 기분을 나쁘게 하려고 하는게 아닙니다. 오히려 이는 직설적으로, 잡설을 치우고 거두절미하여 의미를 전달하는 방식의 의사소통 스타일의 결과물 입니다. 이런 스타일은 다른 사람들을 따뜻하지만 혼란스럽게 만드는 것 보다 실질적으로 문제를 해결하는걸 훨씬 중요시 하는 사람들 에게는 당연한 겁니다.
+해커 집단들이 싸가지 없다고 느끼게 하는 경우가 있는데, 대다수는 당신의 기분을 나쁘게 하려고 하는 게 아닙니다. 오히려 이는 직설적으로, 잡설을 치우고 거두절미하여 의미를 전달하는 방식의 의사소통 스타일의 결과물입니다. 이런 스타일은 다른 사람들을 따뜻하지만 혼란스럽게 만드는 것보다 실질적으로 문제를 해결하는 걸 훨씬 중요시하는 사람들에게는 당연한 겁니다.
 
 <!-- When you perceive rudeness, try to react calmly. If someone is really acting out, it is very likely a senior person on the list or newsgroup or forum will call him or her on it. If that _doesn't_ happen and you lose your temper, it is likely that the person you lose it at was behaving within the hacker community's norms and _you_ will be considered at fault. This will hurt your chances of getting the information or help you want. -->
-싸가지 없다는 느낌을 받았을때는 차분히 대응하려고 하세요. 어떤 사람이 정말로 시비를 거는거라면 해당 뉴스그룹이나 포럼의 시니어가 그 사람에게 조치를 취할겁니다. 만약 그런 경우가 아니고 당신이 성질을 내게 된다면, 해커 커뮤니티의 행동 양식을 따르고 있었던 사람에게 당신이 화를 낸 경우가 되기 때문에 화를 낸 당신의 잘못으로 흘러갈겁니다. 이는 당신을 도와줄 수 있는 사람이 도움을 줄 확률을 낮춥니다.
+싸가지 없다는 느낌을 받았을 때는 차분히 대응하려고 하세요. 어떤 사람이 정말로 시비를 거는 거라면 해당 뉴스그룹이나 포럼의 시니어가 그 사람에게 대응할 겁니다. 만약 그런 경우가 아니고 당신이 성질을 내게 된다면, 해커 커뮤니티의 행동 양식을 따르고 있었던 사람에게 당신이 화를 낸 경우가 되기 때문에 화를 낸 당신의 잘못으로 흘러갈 겁니다. 이는 당신을 도와줄 수 있는 사람이 도움을 줄 확률을 낮춥니다.
 
 <!-- On the other hand, you will occasionally run across rudeness and posturing that is quite gratuitous. The flip-side of the above is that it is acceptable form to slam real offenders quite hard, dissecting their misbehavior with a sharp verbal scalpel. Be very, very sure of your ground before you try this, however. The line between correcting an incivility and starting a pointless flamewar is thin enough that hackers themselves not infrequently blunder across it; if you are a newbie or an outsider, your chances of avoiding such a blunder are low. If you're after information rather than entertainment, it's better to keep your fingers off the keyboard than to risk this. -->
-다른 한 편으로는, 당신은 때때로 진심으로 무례한 경우를 마주하게 될것이고, 그럴때도 억지로 차분히 대응할 필요는 없습니다. 위에서 했던 말을 뒤집어 얘기하자면, 진짜 시비를 거는 사람들을 수술용 메스와 같은 날카로운 말로 절단내버리는 것은 합리적이란 얘기가 됩니다. 다만 매우, 매우 확실할때만 이 방법을 써야합니다. 미개함을 교정하려는 것과 무의미한 말싸움을 벌이는 것의 차이는 종이 한 장 처럼이나 얇습니다. 해커들이 스스로 실수하지 않기 위해서 신경을 쓸 정도로 얇습니다. 따라서 당신이 뉴비거나 아웃사이더라면 실수를 피해 갈 확률이 낮습니다. 당신이 만약 키보드 배틀을 벌이며 즐거움을 얻기 보다는 정보를 얻는걸 추구한다면, 실수 할 위험을 감수하기 보다는 키보드에서 손을 떼는게 낫습니다.
+다른 한 편으로는, 당신은 때때로 진심으로 무례한 경우를 마주하게 될 것이고, 그럴 때도 억지로 차분히 대응할 필요는 없습니다. 위에서 했던 말을 뒤집어 얘기하자면, 진짜 시비를 거는 사람들을 수술용 메스와 같은 날카로운 말로 절단내버리는 것은 합리적이란 얘기가 됩니다. 다만 매우, 매우 확실할 때만 이 방법을 써야 합니다. 미개함을 교정하려는 것과 무의미한 말싸움을 벌이는 것의 차이는 종이 한 장처럼이나 얇습니다. 해커들이 스스로 실수하지 않기 위해서 신경을 쓸 정도로 얇습니다. 따라서 당신이 뉴비거나 아웃사이더라면 실수를 피해 갈 확률이 낮습니다. 당신이 만약 키보드 배틀을 벌이며 즐거움을 얻기보다는 정보를 얻는 걸 추구한다면, 실수할 위험을 감수하기보다는 키보드에서 손을 떼는 게 낫습니다.
 
 
 <!-- (Some people assert that many hackers have a mild form of autism or Asperger's Syndrome, and are actually missing some of the brain circuitry that lubricates “normal” human social interaction. This may or may not be true. If you are not a hacker yourself, it may help you cope with our eccentricities if you think of us as being brain-damaged. Go right ahead. We won't care; we _like_ being whatever it is we are, and generally have a healthy skepticism about clinical labels.) -->
-(어떤 사람들은 많은 해커들이 순화된 버전의 자폐증이나 아스퍼거 증후군을 앓고 있다고 주장하며, '정상적인' 인간 사회 소통을 원활하게 하는 것을 담당하는 뇌 영역이 없다고 생각합니다. 이는 사실일수도 있고, 아닐수도 있습니다. 당신이 해커가 아니라면, 우리들의 개성을 받아들이기 위해서 우리의 뇌가 멀쩡하지 않다고 생각해도 됩니다. 그렇게 하세요. 우리는 신경 안씁니다. 우리는 우리 있는 그대로가 마음에 들고, 병명을 붙이는데 있어서 건전한 형태의 회의론적 관점을 가지고 있습니다.)
+(어떤 사람들은 많은 해커가 순화된 버전의 자폐증이나 아스퍼거 증후군을 앓고 있다고 주장하며, '정상적인' 인간 사회 소통을 원활하게 하는 것을 담당하는 뇌 영역이 없다고 생각합니다. 이는 사실일 수도 있고, 아닐 수도 있습니다. 당신이 해커가 아니라면, 우리들의 개성을 받아들이기 위해서 우리의 뇌가 멀쩡하지 않다고 생각해도 됩니다. 그렇게 하세요. 우리는 신경 안 씁니다. 우리는 우리 있는 그대로가 마음에 들고, 병명을 붙이는 데 있어서 건전한 형태의 회의론적 관점을 가지고 있습니다.)
 
 
 <!-- Jeff Bigler's observations about [tact filters](http://www.mit.edu/~jcb/tact.html) are also relevant and worth reading. -->
-Jeff Bigler은 일반인과 '너드'의 눈치가 어떻게 다른지 관찰한 글을 남긴적이 있습니다. 이 문제와 관련이 있고, 읽어볼만한 가치가 있습니다.  
+Jeff Bigler은 일반인과 '너드'의 눈치가 무엇이 다른지 관찰한 글을 남긴 적이 있습니다. 이 문제와 관련이 있고, 읽어볼 만한 가치가 있습니다.  
 <http://www.mit.edu/~jcb/tact.html>  
 (*역주: 해당 글의 내용에 매우 동의합니다.*)
 
 
 <!-- In the next section, we'll talk about a different issue; the kind of “rudeness” you'll see when _you_ misbehave. -->
-다음 장에서는 우리는 조금 다른 문제를 다룰겁니다. 바로 *당신이* 잘못했을때 마주치게될 "싸가지 없음" 말이죠.
+다음 장에서는 우리는 조금 다른 문제를 다룰 겁니다. 바로 *당신이* 잘못했을 때 마주치게 될 "싸가지 없음" 말이죠.
 
-On Not Reacting Like A Loser
+<div id='not_losing'/>
+
+<!-- On Not Reacting Like A Loser -->
+병신같이 대응하지 않는 방법
 ----------------------------
 
-Odds are you'll screw up a few times on hacker community forums — in ways detailed in this article, or similar. And you'll be told exactly how you screwed up, possibly with colourful asides. In public.
+<!-- Odds are you'll screw up a few times on hacker community forums — in ways detailed in this article, or similar. And you'll be told exactly how you screwed up, possibly with colourful asides. In public. -->
+때때로 여러분들은 이 문서에 자세하게 적은 사례들이나 그와 비슷한 방식의 실수를 해커 포럼에서 저지를 수도 있습니다. 그리고 당신은 그게 왜 실수인지 아주 화려하게 까이면서 알게 될 겁니다.
 
-When this happens, the worst thing you can do is whine about the experience, claim to have been verbally assaulted, demand apologies, scream, hold your breath, threaten lawsuits, complain to people's employers, leave the toilet seat up, etc. Instead, here's what you do:
+<!-- When this happens, the worst thing you can do is whine about the experience, claim to have been verbally assaulted, demand apologies, scream, hold your breath, threaten lawsuits, complain to people's employers, leave the toilet seat up, etc. Instead, here's what you do: -->
+이런 일이 벌어지는 경우 할 수 있는 가장 최악의 행동은 이런 것을 겪었다고 징징거리기, 언어적으로 공격당했다고 주장하며 사과를 요구하기, 소리 지르기, 사과받을 때까지 숨 참기, 법적 조치를 들먹이기, 해당 사람들의 고용주들에게 민원 넣기, 변기 의자를 올려놓기 등이 있습니다. 대신에 해야 할 행동은 다음과 같습니다:
 
-Get over it. It's normal. In fact, it's healthy and appropriate.
+<!-- Get over it. It's normal. In fact, it's healthy and appropriate. -->
+넘어가세요. 늘 일어나는 일입니다. 사실, 이는 건전하고 적절합니다.
 
-Community standards do not maintain themselves: They're maintained by people actively applying them, visibly, _in public_. Don't whine that all criticism should have been conveyed via private e-mail: That's not how it works. Nor is it useful to insist you've been personally insulted when someone comments that one of your claims was wrong, or that his views differ. Those are loser attitudes.
+<!-- Community standards do not maintain themselves: They're maintained by people actively applying them, visibly, _in public_. Don't whine that all criticism should have been conveyed via private e-mail: That's not how it works. Nor is it useful to insist you've been personally insulted when someone comments that one of your claims was wrong, or that his views differ. Those are loser attitudes. -->
+커뮤니티의 규칙은 스스로 알아서 관리되지 않습니다. 대신 그 규칙을 적극적으로, 보이는 장소에서, 공개적으로 적용하는 사람들에 의해서 관리됩니다. 모든 비판은 개인 이메일을 통해 비공개적으로 전달되어야 하는 거 아니냐고 징징거리지 마세요. 그런 식으로 될 수 있는 일이 아닙니다. 해당 인물이 당신의 주장이 잘못되었거나 다른 의견을 제시했을 때 개인적으로 모욕을 당했다고 주장하는 것 또한 좋지 못한 행동입니다. 이런 짓들은 병신들이 취하는 태도입니다.
 
-There have been hacker forums where, out of some misguided sense of hyper-courtesy, participants are banned from posting any fault-finding with another's posts, and told “Don't say anything if you're unwilling to help the user.” The resulting departure of clueful participants to elsewhere causes them to descend into meaningless babble and become useless as technical forums.
+<!-- There have been hacker forums where, out of some misguided sense of hyper-courtesy, participants are banned from posting any fault-finding with another's posts, and told “Don't say anything if you're unwilling to help the user.” The resulting departure of clueful participants to elsewhere causes them to descend into meaningless babble and become useless as technical forums. -->
+예전에 극단적으로 예의를 갖추는 것을 추구하던 해커 포럼들이 있었습니다. 거기서는 다른 사람의 글에서 잘못된 것을 지적하는 것이 금지되었고, "그 사람을 도와줄 게 아니라면 아무 말도 하지 마세요."라는 규칙이 적용되었습니다. 이는 문제의 실마리를 찾아줄 능력이 되는 사람들이 커뮤니티를 떠나게 했고, 알맹이 없는 아기 옹알이 수준의 답변이 오가는 곳으로 수준이 떨어지면서 기술적 수준에서 의미가 없는 포럼이 되어버렸습니다.
 
-Exaggeratedly “friendly” (in that fashion) or useful: Pick one.
+<!-- Exaggeratedly “friendly” (in that fashion) or useful: Pick one. -->
+의식적으로 "친절"(그러나 쓸모는 없는) 하거나, 쓸모가 있던가 둘 중의 하나만 하세요.
 
-Remember: When that hacker tells you that you've screwed up, and (no matter how gruffly) tells you not to do it again, he's acting out of concern for (1) you and (2) his community. It would be much easier for him to ignore you and filter you out of his life. If you can't manage to be grateful, at least have a little dignity, don't whine, and don't expect to be treated like a fragile doll just because you're a newcomer with a theatrically hypersensitive soul and delusions of entitlement.
+<!-- Remember: When that hacker tells you that you've screwed up, and (no matter how gruffly) tells you not to do it again, he's acting out of concern for (1) you and (2) his community. It would be much easier for him to ignore you and filter you out of his life. If you can't manage to be grateful, at least have a little dignity, don't whine, and don't expect to be treated like a fragile doll just because you're a newcomer with a theatrically hypersensitive soul and delusions of entitlement. -->
+명심하세요. 만약 어떤 해커가 당신이 잘못되었다는 걸 얘기하면서 (얼마나 걸걸하게 얘기했는지와 상관 없이) 당신에게 똑같은 문제를 일으키지 말라고 할 때, 그 사람은 (1) 당신과 (2) 커뮤니티 전체를 위해 신경을 쓰는 겁니다. 그 사람은 당신을 무시하고 평생 차단을 해버리는 게 훨씬 쉽습니다. 당신이 이를 너그럽게 받아들일 수 없다면, 그러나 최소한의 자존심이 있다면 징징거리지는 마세요. 당신이 새로 온 사람이며 연극배우들만큼이나 여린 감수성을 가졌으며 대우받을 권리가 있다는 망상을 가지고 깨지기 쉬운 인형처럼 애지중지 대우를 받기를 바라지 마세요.
 
-Sometimes people will attack you personally, flame without an apparent reason, etc., even if you don't screw up (or have only screwed up in their imagination). In this case, complaining is the way to _really_ screw up.
+<!-- Sometimes people will attack you personally, flame without an apparent reason, etc., even if you don't screw up (or have only screwed up in their imagination). In this case, complaining is the way to _really_ screw up. -->
+때때로 사람들은 당신을 명백한 이유 없이 개인적으로 공격할 수도 있습니다. 당신이 설령 잘못한 게 없더라도 말이죠. (아니면 당신이 그 사람들 상상 속에서는 잘못을 했을 수도 있고요) 이런 경우에는 불만을 표하는 게 *진짜로* 바람직하지 못합니다.
 
-These flamers are either lamers who don't have a clue but believe themselves to be experts, or would-be psychologists testing whether you'll screw up. The other readers either ignore them, or find ways to deal with them on their own. The flamers' behavior creates problems for themselves, which don't have to concern you.
+<!-- These flamers are either lamers who don't have a clue but believe themselves to be experts, or would-be psychologists testing whether you'll screw up. The other readers either ignore them, or find ways to deal with them on their own. The flamers' behavior creates problems for themselves, which don't have to concern you. -->
+그렇게 시비를 걸고 다니는 사람들은 아무것도 할 줄 아는 게 없지만 스스로를 전문가라고 여기는 병신이거나, 당신이 잘못했는지 밝혀내고자 하는 정신과 의사 흉내쟁이들입니다. 다른 사람들은 그 사람들을 무시하거나, 개인적으로 처리할 방법을 찾을 겁니다. 시비를 걸고 다니는 사람들은 스스로 화를 불러일으킬 것이며, 이는 당신이 걱정하지 않아도 되는 문제입니다.
 
-Don't let yourself be drawn into a flamewar, either. Most flames are best ignored — after you've checked whether they are really flames, not pointers to the ways in which you have screwed up, and not cleverly ciphered answers to your real question (this happens as well).
+<!-- Don't let yourself be drawn into a flamewar, either. Most flames are best ignored — after you've checked whether they are really flames, not pointers to the ways in which you have screwed up, and not cleverly ciphered answers to your real question (this happens as well). -->
+하지만 다툼에 휘말리지 않도록 주의하세요. 모든 분탕질은 무시되는 게 제일 좋습니다. (*역주: '병먹금' 이라는 유행어가 있습니다.*) 당신의 문제에 대해서 참고 자료가 없으며, 당신이 진짜 물어보고 싶은 바를 새롭게 밝혀주는 내용이 전혀 없고 그냥 분탕질이라는 게 확실하다면 말이죠.
 
-Questions Not To Ask
+<div id='classic'/>
+
+<!-- Questions Not To Ask -->
+해서는 안되는 질문
 --------------------
 
-Here are some classic stupid questions, and what hackers are thinking when they don't answer them.
+<!-- Here are some classic stupid questions, and what hackers are thinking when they don't answer them. -->
+아래에는 유구한 전통을 자랑하는 멍청한 질문들과, 해커들이 해당 질문을 읽고 생각하는 바를 적어놓았습니다.
 
-Q: [Where can I find program or resource X?](#idm551)
+Q: [Where can I find program or resource X?](#q1)
 
 Q: [How can I use X to do Y?](#idm557)
 
@@ -903,10 +920,10 @@ Q: [How can I crack root/steal channel-ops privileges/read someone's e-mail?](#i
 
 |     |     |
 | --- | --- |
-| **Q:** | Where can I find program or resource X? |
-| **A:** | The same place I'd find it, fool — at the other end of a web search. Ghod, doesn't everybody know how to use [Google](http://www.google.com/) yet? |
-| **Q:** | How can I use X to do Y? |
-| **A:** | If what you want is to do Y, you should ask that question without pre-supposing the use of a method that may not be appropriate. Questions of this form often indicate a person who is not merely ignorant about X, but confused about what problem Y they are solving and too fixated on the details of their particular situation. It is generally best to ignore such people until they define their problem better. |
+| **Q:** | <div id='q1'/> <!-- Where can I find program or resource X?--> X 프로그램이나 리소스는 어디서 찾나요? |
+| **A:** | <!-- The same place I'd find it, fool — at the other end of a web search. Ghod, doesn't everybody know how to use [Google](http://www.google.com/) yet? --> 내가 인터넷 검색을 해서 찾아낼 곳과 똑같은 곳이겠지 멍청아. [구글](https://www.google.com)을 쓸줄 모르는 사람이 아직도 있나? |
+| **Q:** | <!-- How can I use X to do Y? --> Y를 하기 위해서 X를 어떻게 써야하나요? |
+| **A:** | <!-- If what you want is to do Y, you should ask that question without pre-supposing the use of a method that may not be appropriate. Questions of this form often indicate a person who is not merely ignorant about X, but confused about what problem Y they are solving and too fixated on the details of their particular situation. It is generally best to ignore such people until they define their problem better.--> 너가 하고싶은게 Y라면  |
 | **Q:** | How can I configure my shell prompt? |
 | **A:** | If you're smart enough to ask this question, you're smart enough to [RTFM](#rtfm "RTFM and STFW: How To Tell You've Seriously Screwed Up") and find out yourself. |
 | **Q:** | Can I convert an AcmeCorp document into a TeX file using the Bass-o-matic file converter? |
