@@ -843,11 +843,17 @@ RTFM 은 약간 더 어린 친척 동생이 하나 있습니다. 당신이 "STFW
 
 
 <!-- (Some people assert that many hackers have a mild form of autism or Asperger's Syndrome, and are actually missing some of the brain circuitry that lubricates “normal” human social interaction. This may or may not be true. If you are not a hacker yourself, it may help you cope with our eccentricities if you think of us as being brain-damaged. Go right ahead. We won't care; we _like_ being whatever it is we are, and generally have a healthy skepticism about clinical labels.) -->
+(어떤 사람들은 많은 해커들이 순화된 버전의 자폐증이나 아스퍼거 증후군을 앓고 있다고 주장하며, '정상적인' 인간 사회 소통을 원활하게 하는 것을 담당하는 뇌 영역이 없다고 생각합니다. 이는 사실일수도 있고, 아닐수도 있습니다. 당신이 해커가 아니라면, 우리들의 개성을 받아들이기 위해서 우리의 뇌가 멀쩡하지 않다고 생각해도 됩니다. 그렇게 하세요. 우리는 신경 안씁니다. 우리는 우리 있는 그대로가 마음에 들고, 병명을 붙이는데 있어서 건전한 형태의 회의론적 관점을 가지고 있습니다.)
 
 
-Jeff Bigler's observations about [tact filters](http://www.mit.edu/~jcb/tact.html) are also relevant and worth reading.
+<!-- Jeff Bigler's observations about [tact filters](http://www.mit.edu/~jcb/tact.html) are also relevant and worth reading. -->
+Jeff Bigler은 일반인과 '너드'의 눈치가 어떻게 다른지 관찰한 글을 남긴적이 있습니다. 이 문제와 관련이 있고, 읽어볼만한 가치가 있습니다.  
+<http://www.mit.edu/~jcb/tact.html>  
+(*역주: 해당 글의 내용에 매우 동의합니다.*)
 
-In the next section, we'll talk about a different issue; the kind of “rudeness” you'll see when _you_ misbehave.
+
+<!-- In the next section, we'll talk about a different issue; the kind of “rudeness” you'll see when _you_ misbehave. -->
+다음 장에서는 우리는 조금 다른 문제를 다룰겁니다. 바로 *당신이* 잘못했을때 마주치게될 "싸가지 없음" 말이죠.
 
 On Not Reacting Like A Loser
 ----------------------------
