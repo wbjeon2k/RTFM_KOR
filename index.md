@@ -794,6 +794,8 @@ FooDraw 프로그램에서 RGB hex 값을 보기 위한 color-picker를 어떻�
 질문을 해석하는 방법
 ------------------------
 
+<div id='rtfm'/>
+
 <!-- ### RTFM and STFW: How To Tell You've Seriously Screwed Up -->
 ### RTFM 과 STFW : 당신에게 심각한 문제가 있는지 알 수 있는 방법
 
@@ -902,41 +904,41 @@ Jeff Bigler은 일반인과 '너드'의 눈치가 무엇이 다른지 관찰한 
 
 Q: [Where can I find program or resource X?](#q1)
 
-Q: [How can I use X to do Y?](#idm557)
+Q: [How can I use X to do Y?](#q2)
 
-Q: [How can I configure my shell prompt?](#idm562)
+Q: [How can I configure my shell prompt?](#q3)
 
-Q: [Can I convert an AcmeCorp document into a TeX file using the Bass-o-matic file converter?](#idm568)
+Q: [Can I convert an AcmeCorp document into a TeX file using the Bass-o-matic file converter?](#q4)
 
-Q: [My {program, configuration, SQL statement} doesn't work](#idm573)
+Q: [My {program, configuration, SQL statement} doesn't work](#q5)
 
-Q: [I'm having problems with my Windows machine. Can you help?](#idm585)
+Q: [I'm having problems with my Windows machine. Can you help?](#q6)
 
-Q: [My program doesn't work. I think system facility X is broken.](#idm592)
+Q: [My program doesn't work. I think system facility X is broken.](#q7)
 
-Q: [I'm having problems installing Linux or X. Can you help?](#idm597)
+Q: [I'm having problems installing Linux or X. Can you help?](#q8)
 
-Q: [How can I crack root/steal channel-ops privileges/read someone's e-mail?](#idm606)
+Q: [How can I crack root/steal channel-ops privileges/read someone's e-mail?](#q9)
 
 |     |     |
 | --- | --- |
 | **Q:** | <div id='q1'/> <!-- Where can I find program or resource X?--> X 프로그램이나 리소스는 어디서 찾나요? |
 | **A:** | <!-- The same place I'd find it, fool — at the other end of a web search. Ghod, doesn't everybody know how to use [Google](http://www.google.com/) yet? --> 내가 인터넷 검색을 해서 찾아낼 곳과 똑같은 곳이겠지 멍청아. [구글](https://www.google.com)을 쓸줄 모르는 사람이 아직도 있나? |
-| **Q:** | <!-- How can I use X to do Y? --> Y를 하기 위해서 X를 어떻게 써야하나요? |
-| **A:** | <!-- If what you want is to do Y, you should ask that question without pre-supposing the use of a method that may not be appropriate. Questions of this form often indicate a person who is not merely ignorant about X, but confused about what problem Y they are solving and too fixated on the details of their particular situation. It is generally best to ignore such people until they define their problem better.--> 너가 하고싶은게 Y라면  |
-| **Q:** | How can I configure my shell prompt? |
-| **A:** | If you're smart enough to ask this question, you're smart enough to [RTFM](#rtfm "RTFM and STFW: How To Tell You've Seriously Screwed Up") and find out yourself. |
-| **Q:** | Can I convert an AcmeCorp document into a TeX file using the Bass-o-matic file converter? |
-| **A:** | Try it and see. If you did that, you'd (a) learn the answer, and (b) stop wasting my time. |
-| **Q:** | My {program, configuration, SQL statement} doesn't work |
-| **A:** | This is not a question, and I'm not interested in playing Twenty Questions to pry your actual question out of you — I have better things to do. On seeing something like this, my reaction is normally of one of the following:<br><br>*do you have anything else to add to that?<br>    <br>* oh, that's too bad, I hope you get it fixed.<br>    <br>* and this has exactly what to do with me? |
-| **Q:** | I'm having problems with my Windows machine. Can you help? |
-| **A:** | Yes. Throw out that Microsoft trash and install an open-source operating system like Linux or BSD.<br><br>Note: you _can_ ask questions related to Windows machines if they are about a program that does have an official Windows build, or interacts with Windows machines (i.e., Samba). Just don't be surprised by the reply that the problem is with Windows and not the program, because Windows is so broken in general that this is very often the case. |
-| **Q:** | My program doesn't work. I think system facility X is broken. |
+| **Q:** | <div id='q2'/> <!-- How can I use X to do Y? --> Y를 하기 위해서 X를 어떻게 써야하나요? |
+| **A:** | <!-- If what you want is to do Y, you should ask that question without pre-supposing the use of a method that may not be appropriate. Questions of this form often indicate a person who is not merely ignorant about X, but confused about what problem Y they are solving and too fixated on the details of their particular situation. It is generally best to ignore such people until they define their problem better.--> 너가 하고싶은게 Y라면, Y를 하는데 필요 없을수도 있는 X를 반드시 써야한다는 것을 미리 넘겨짚고 물어보지 마세요. 이런 질문은 흔히 X에 대해서 잘 모르는 것 뿐만 아니라 자기가 해결할려고 하는 문제 Y가 뭔지도 잘 모르는 사람들이 하며, 자기들이 처한 상황의 지엽적인 사실에 묶여있는 경우가 많습니다. 일반적으로 제일 좋은 방법은 이 사람들이 자기 문제를 더 잘 정의 해올 때 까지 답변을 하지 않는겁니다. |
+| **Q:** | <div id='q3'/> <!-- How can I configure my shell prompt? --> 쉘 프롬프트창 설정은 어떻게 하나요? |
+| **A:** | <!-- If you're smart enough to ask this question, you're smart enough to [RTFM](#rtfm "RTFM and STFW: How To Tell You've Seriously Screwed Up") and find out yourself. --> 당신이 그런걸 물어볼 정도의 지능이 있다면 [RTFM](#rtfm) 하시고 알아서 좀 찾아보세요. |
+| **Q:** | <div id='q4'/> <!-- Can I convert an AcmeCorp document into a TeX file using the Bass-o-matic file converter? --> AcmeCorp 파일을 Bass-o-matic 변환기를 통해 TeX 파일로 바꿀 수 있나요? |
+| **A:** | <!-- Try it and see. If you did that, you'd (a) learn the answer, and (b) stop wasting my time. --> 어떻게 되는지 한 번 시도를 해보세요. 만약 해봤다면 당신은 (a) 어떻게 되는지 알게되고 (b) 제 시간을 낭비하는걸 멈출 수 있습니다.|
+| **Q:** | <div id='q5'/> <!-- My {program, configuration, SQL statement} doesn't work --> {프로그램, 설정, SQL 문구 등}이 안돼요 ㅠ |
+| **A:** | <!-- This is not a question, and I'm not interested in playing Twenty Questions to pry your actual question out of you — I have better things to do. On seeing something like this, my reaction is normally of one of the following:<br><br>*do you have anything else to add to that?<br>    <br>* oh, that's too bad, I hope you get it fixed.<br>    <br>* and this has exactly what to do with me?--> 이건 심지어 질문이 아닙니다. 그리고 저는 당신이랑 스무고개 하면서 실질적인 질문을 이끌어 내는데는 관심이 없습니다. 저는 더 중요한 일들이 많거든요.  <br><br>이런 질문들을 보면, 제 반응은 다음 중 하나에 해당하는 경우가 다반사 입니다:  <br><br># 더 해야할 말이 있지 않을까요? <br><br># 안됐네요. 해결되면 좋겠습니다.  <br><br># 나랑 무슨 상관이지?|
+| **Q:** | <div id='q6'/> <!-- I'm having problems with my Windows machine. Can you help?--> 제 윈도우 컴퓨터가 문제가 있는거 같은데요 도와주실수 있나요? |
+| **A:** | <!--Yes. Throw out that Microsoft trash and install an open-source operating system like Linux or BSD.<br><br>Note: you _can_ ask questions related to Windows machines if they are about a program that does have an official Windows build, or interacts with Windows machines (i.e., Samba). Just don't be surprised by the reply that the problem is with Windows and not the program, because Windows is so broken in general that this is very often the case.--> 네, Microsoft사의 쓰레기는 갖다버리고 Linux나 BSD같은 오픈소스 OS를 설치하세요.<br><br>주의: 공식적인 Windows 빌드가 있는 프로그램, 또는 Samba와 같이 Windows 머신과 상호작용을 하는 프로그램의 경우에는 *충분히 질문을 할 수 있습니다*. 프로그램의 문제가 아니라 Windows의 문제라는 답변에 놀라시지만 않으면 됩니다. Windows는 상당히 나사빠진 경우가 많아서 실제로 매우 높은 확률로 Windows의 문제가 맞는 경우가 많습니다.|
+| **Q:** | <div id='q7'/> <!--My program doesn't work. I think system facility X is broken.-->  |
 | **A:** | While it is possible that you are the first person to notice an obvious deficiency in system calls and libraries heavily used by hundreds or thousands of people, it is rather more likely that you are utterly clueless. Extraordinary claims require extraordinary evidence; when you make a claim like this one, you must back it up with clear and exhaustive documentation of the failure case. |
-| **Q:** | I'm having problems installing Linux or X. Can you help? |
+| **Q:** | <div id='q8'/> <!--I'm having problems installing Linux or X. Can you help?--> |
 | **A:** | No. I'd need hands-on access to your machine to troubleshoot this. Go ask your local Linux user group for hands-on help. (You can find a list of user groups [here](http://www.linux.org/groups/index.html).)<br><br>Note: questions about installing Linux may be appropriate if you're on a forum or mailing list about a particular distribution, and the problem is with _that_ distro; or on local user groups forums. In this case, be sure to describe the exact details of the failure. But do careful searching first, with "linux" and _all_ suspicious pieces of hardware. |
-| **Q:** | How can I crack root/steal channel-ops privileges/read someone's e-mail? |
+| **Q:** | <div id='q9'/> <!--How can I crack root/steal channel-ops privileges/read someone's e-mail?--> |
 | **A:** | You're a lowlife for wanting to do such things and a moron for asking a hacker to help you. |
 
 Good and Bad Questions
