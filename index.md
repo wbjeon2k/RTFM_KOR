@@ -758,7 +758,7 @@ FooDraw 프로그램에서 RGB hex 값을 보기 위한 color-picker를 어떻�
 <!-- (We must note that the only serious objection we've received from veteran hackers to this HOWTO is with respect to our previous recommendation to use “Thanks in advance”. Some hackers feel this connotes an intention not to thank anybody afterwards. Our recommendation is to either say “Thanks in advance” first _and_ thank respondents afterwards, or express courtesy in a different way, such as by saying “Thanks for your attention” or “Thanks for your consideration”.) -->
 (한 가지 공지를 해야 하는 것은, 해당 HOWTO 문서에서 베테랑 해커들에게서 유일하게 반대 의견을 받았던 부분은 이전 버전에서 추천했던 "Thanks in advance" 표현 관련 부분입니다. 일부 해커들은 해당 표현이 아무에게도 감사를 표하지 않는다는 뜻을 내포한다고 느끼기 때문입니다. 따라서 우리의 추천 방식은 "Thanks in advance"를 맨 처음에 쓰고 *반드시* 뒷부분에 다시 감사를 표하거나, 아니면 애초부터 다른 표현을 쓰는 것을 권장합니다. 예를 들어 "관심을 가져주셔서 감사합니다" 또는 "생각 해주셔서 감사합니다" 같은 표현들입니다.) (*역주: "Thank you in advance"는 사실상 실례가 되는 내용을 통보하고 양해를 구하는 식으로 많이 사용되는 표현입니다. 우리말로는 실례가 되는 내용을 통보할 때 맨 마지막에 "양해 해주셔서 감사합니다" 같은 식으로 사용되는 표현입니다.*)
 
-<div id='followup'>
+<div id='followup'/>
 
 <!-- ### Follow up with a brief note on the solution -->
 ### 답변을 받고 나서 어떻게 됐는지 후속 상황을 알려주세요
@@ -772,7 +772,6 @@ FooDraw 프로그램에서 RGB hex 값을 보기 위한 color-picker를 어떻�
 <!-- Your followup doesn't have to be long and involved; a simple “Howdy — it was a failed network cable! Thanks, everyone. - Bill” would be better than nothing. In fact, a short and sweet summary is better than a long dissertation unless the solution has real technical depth. Say what action solved the problem, but you need not replay the whole troubleshooting sequence. -->
 팔로우업을 길게 공들여서 쓸 필요는 없습니다. 간단하게 "안녕하세요 - 네트워크 케이블이 망가져서 생긴 문제였습니다! 도와주신 분들 감사합니다. - 홍길동"은 충분히 아무 말이 없는 것보다는 낫습니다. 사실 해결 방법이 엄청나게 기술적으로 심도 있는 내용이 아니라면 짧게 잘 요약된 글이 논문처럼 긴 글보다 낫습니다. 어떤 행동이 문제 해결로 이어지는지 적되, 전체 해결 방법을 전부 다 설명할 필요는 없습니다.
 
-<!-- TODO: 여기서부터 -->
 <!-- For problems with some depth, it is appropriate to post a summary of the troubleshooting history. Describe your final problem statement. Describe what worked as a solution, and indicate avoidable blind alleys _after that_. The blind alleys should come after the correct solution and other summary material, rather than turning the follow-up into a detective story. Name the names of people who helped you; you'll make friends that way. -->
 심도 있는 문제에 대해서는 문제 해결을 하는 과정 전체를 요약한 글을 올리는 게 좋습니다. 결국 무엇이 문제였는지 적어주세요. 어떤 방법이 해결책으로 작용했고, *해결책을 적은 후에* 해결책을 찾으면서 잘못 들어섰던 막다른 길들을 미리 알고 피해 갈 수 있도록 소개해야 합니다. 이런 막다른 길들은 올바른 해결책과 기타 요점들 이후에 제시되어야지, 그렇지 않으면 글이 탐정 추리물이 되어버립니다. 도와준 사람들의 이름을 언급하세요. 그러면서 친구들을 만들 수 있을 겁니다.
 
@@ -934,40 +933,57 @@ Q: [How can I crack root/steal channel-ops privileges/read someone's e-mail?](#q
 | **A:** | <!-- This is not a question, and I'm not interested in playing Twenty Questions to pry your actual question out of you — I have better things to do. On seeing something like this, my reaction is normally of one of the following:<br><br>*do you have anything else to add to that?<br>    <br>* oh, that's too bad, I hope you get it fixed.<br>    <br>* and this has exactly what to do with me?--> 이건 심지어 질문이 아닙니다. 그리고 저는 당신이랑 스무고개 하면서 실질적인 질문을 이끌어 내는데는 관심이 없습니다. 저는 더 중요한 일들이 많거든요.  <br><br>이런 질문들을 보면, 제 반응은 다음 중 하나에 해당하는 경우가 다반사 입니다:  <br><br># 더 해야할 말이 있지 않을까요? <br><br># 안됐네요. 해결되면 좋겠습니다.  <br><br># 나랑 무슨 상관이지?|
 | **Q:** | <div id='q6'/> <!-- I'm having problems with my Windows machine. Can you help?--> 제 윈도우 컴퓨터가 문제가 있는거 같은데요 도와주실수 있나요? |
 | **A:** | <!--Yes. Throw out that Microsoft trash and install an open-source operating system like Linux or BSD.<br><br>Note: you _can_ ask questions related to Windows machines if they are about a program that does have an official Windows build, or interacts with Windows machines (i.e., Samba). Just don't be surprised by the reply that the problem is with Windows and not the program, because Windows is so broken in general that this is very often the case.--> 네, Microsoft사의 쓰레기는 갖다버리고 Linux나 BSD같은 오픈소스 OS를 설치하세요.<br><br>주의: 공식적인 Windows 빌드가 있는 프로그램, 또는 Samba와 같이 Windows 머신과 상호작용을 하는 프로그램의 경우에는 *충분히 질문을 할 수 있습니다*. 프로그램의 문제가 아니라 Windows의 문제라는 답변에 놀라시지만 않으면 됩니다. Windows는 상당히 나사빠진 경우가 많아서 실제로 매우 높은 확률로 Windows의 문제가 맞는 경우가 많습니다.|
-| **Q:** | <div id='q7'/> <!--My program doesn't work. I think system facility X is broken.-->  |
-| **A:** | While it is possible that you are the first person to notice an obvious deficiency in system calls and libraries heavily used by hundreds or thousands of people, it is rather more likely that you are utterly clueless. Extraordinary claims require extraordinary evidence; when you make a claim like this one, you must back it up with clear and exhaustive documentation of the failure case. |
-| **Q:** | <div id='q8'/> <!--I'm having problems installing Linux or X. Can you help?--> |
-| **A:** | No. I'd need hands-on access to your machine to troubleshoot this. Go ask your local Linux user group for hands-on help. (You can find a list of user groups [here](http://www.linux.org/groups/index.html).)<br><br>Note: questions about installing Linux may be appropriate if you're on a forum or mailing list about a particular distribution, and the problem is with _that_ distro; or on local user groups forums. In this case, be sure to describe the exact details of the failure. But do careful searching first, with "linux" and _all_ suspicious pieces of hardware. |
-| **Q:** | <div id='q9'/> <!--How can I crack root/steal channel-ops privileges/read someone's e-mail?--> |
-| **A:** | You're a lowlife for wanting to do such things and a moron for asking a hacker to help you. |
+| **Q:** | <div id='q7'/> <!--My program doesn't work. I think system facility X is broken.--> 제 프로그램이 제대로 동작을 안합니다. 제 생각에 시스템 요소 X에 문제가 있는거 같아요|
+| **A:** | <!-- While it is possible that you are the first person to notice an obvious deficiency in system calls and libraries heavily used by hundreds or thousands of people, it is rather more likely that you are utterly clueless. Extraordinary claims require extraordinary evidence; when you make a claim like this one, you must back it up with clear and exhaustive documentation of the failure case.--> 당신이 수백 수천명의 사람들이 사용하는 시스템콜 이나 라이브러리에 뻔한 문제가 있다는걸 지적하는 첫 번째 사람이 되는 경우가 없지는 않겠지만, 그것 보다는 당신이 문제 원인의 가닥을 잡지 못하고 있을 가능성이 훨씬 높습니다. 상식을 벗어나는 주장은 상식에서 벗어나는 근거를 필요로 합니다. 당신이 이런 주장을 펼치기 위해서는 잘못된 케이스를 찾고 무엇이 잘못된건지 명백하고 구체적으로 설명해야 합니다. |
+| **Q:** | <div id='q8'/> <!--I'm having problems installing Linux or X. Can you help?--> Linux 나 어떤 프로그램 X가 안깔려요 도와주세요|
+| **A:** | <!-- No. I'd need hands-on access to your machine to troubleshoot this. Go ask your local Linux user group for hands-on help. (You can find a list of user groups [here](http://www.linux.org/groups/index.html).)<br><br>Note: questions about installing Linux may be appropriate if you're on a forum or mailing list about a particular distribution, and the problem is with _that_ distro; or on local user groups forums. In this case, be sure to describe the exact details of the failure. But do careful searching first, with "linux" and _all_ suspicious pieces of hardware.--> 안됩니다. 이걸 해결할려면 현장에서 직접 당신의 기계를 만지면서 문제 해결을 해야하기 때문이죠. 당신 근처에 있는 [Linux 사용자 그룹](http://www.linux.org/groups/index.html)에 물어보세요.<br><br>
+참고: Linux 설치에 관한 질문이라면 가능할수도 있습니다. 특정 버전을 위해 만들어진 포럼에 실제로 *해당 버전에서만* 문제가 있는 경우 질문 할 수 있습니다. 근처 지역의 사용자 그룹 포럼에 질문을 해도 됩니다. 설치에 관한 질문이라면 구체적으로 어떻게 설치가 실패하는지 설명을 해야합니다. 다만 먼저 꼼꼼히 문제에 대해 검색을 해야하고, 의심이 되는 *모든* HW 요소들을 확인 해야합니다. |
+| **Q:** | <div id='q9'/> <!--How can I crack root/steal channel-ops privileges/read someone's e-mail?--> 어떻게 하면 root 권한을 뚫거나 특정 권한을 훔칠 수 있나요?|
+| **A:** | <!--You're a lowlife for wanting to do such things and a moron for asking a hacker to help you.--> 그딴걸 하고 싶어하는것 부터 당신은 밑바닥 인생을 살고있으며, 해커들에게 그걸 도와달라는것 자체가 당신은 저능아 새끼란 증거입니다. |
 
-Good and Bad Questions
+<div id='examples'/>
+
+<!-- Good and Bad Questions -->
+좋은 질문과 나쁜 질문들의 예시
 ----------------------
 
-Finally, I'm going to illustrate how to ask questions in a smart way by example; pairs of questions about the same problem, one asked in a stupid way and one in a smart way.
+<!-- Finally, I'm going to illustrate how to ask questions in a smart way by example; pairs of questions about the same problem, one asked in a stupid way and one in a smart way. -->
+마지막으로 저는 똑똑한 질문을 하기 위해서 어떻게 해야하는지 예시를 보여드리며 설명을 드리고자 합니다. 같은 문제에 대해 한 쌍의 질문이 있는데요, 한 쪽은 병신같이 물어보는 예시이고 하나는 똑똑하게 물어보는 예시입니다.
 
-**Stupid:** Where can I find out stuff about the Foonly Flurbamatic?
+<!-- **Stupid:** Where can I find out stuff about the Foonly Flurbamatic? -->
+**멍청한 질문:** Foonly Flurbamatic에 대해 알아볼려면 어디서 찾아봐야 되나요?
 
-This question just begs for ["STFW"](#rtfm "RTFM and STFW: How To Tell You've Seriously Screwed Up") as a reply.
+<!-- This question just begs for ["STFW"](#rtfm "RTFM and STFW: How To Tell You've Seriously Screwed Up") as a reply. -->
+이 질문은 그저 ["STFW"](#rtfm)을 달아달라고 구걸하는 질문입니다.
 
-**Smart:** I used Google to try to find “Foonly Flurbamatic 2600” on the Web, but I got no useful hits. Can I get a pointer to programming information on this device?
+<!-- **Smart:** I used Google to try to find “Foonly Flurbamatic 2600” on the Web, but I got no useful hits. Can I get a pointer to programming information on this device? -->
+**똑똑한 질문:** 구글에 “Foonly Flurbamatic 2600”을 검색해서 관련 내용을 찾아보려고 했는데요, 해당 디바이스에 대한 정보가 없습니다. 해당 디바이스를 프로그래밍 하기 위해 읽어봐야 하는 참조 자료에 대해서 알 수 있을까요?
 
-This one has already STFWed, and sounds like there might be a real problem.
+<!-- This one has already STFWed, and sounds like there might be a real problem. -->
+해당 질문은 이미 인터넷 검색을 시도 했다는 것을 알 수 있으며, 실질적인 의미가 있는 문제인 것 처럼 들립니다.
 
-**Stupid:** I can't get the code from project foo to compile. Why is it broken?
+<!-- **Stupid:** I can't get the code from project foo to compile. Why is it broken? -->
+**멍청한 질문:** 컴파일이 제대로 되는 foo 프로젝트 코드를 찾을수가 없네요. 이거 왜 이렇게 망가져있나요?
 
-The querent assumes that somebody else screwed up. Arrogant git...
+<!-- The querent assumes that somebody else screwed up. Arrogant git... -->
+원고는 해당 문제에 대해서 무고한 사람을 피고인으로 세우는군요. 건방진 새끼...
 
-**Smart:** The code from project foo doesn't compile under Nulix version 6.2. I've read the FAQ, but it doesn't have anything in it about Nulix-related problems. Here's a transcript of my compilation attempt; is it something I did?
+<!-- **Smart:** The code from project foo doesn't compile under Nulix version 6.2. I've read the FAQ, but it doesn't have anything in it about Nulix-related problems. Here's a transcript of my compilation attempt; is it something I did? -->
+**똑똑한 질문:** foo 프로젝트의 코드가 Nulix 6.2 버전에서는 컴파일이 안됩니다. FAQ를 읽어봐도 Nulix와 관련된 문제는 적혀있는게 없었습니다. 컴파일을 어떻게 시도했는지 별도로 적었습니다. 혹시 여기에서 제가 잘못한 부분을 찾을 수 있나요?
 
-The querent has specified the environment, read the FAQ, is showing the error, and is not assuming his problems are someone else's fault. This one might be worth some attention.
+<!-- The querent has specified the environment, read the FAQ, is showing the error, and is not assuming his problems are someone else's fault. This one might be worth some attention. -->
+해당 원고는 실행 환경을 구체적으로 제시하였고, FAQ를 정독 하였으며, 어떤 오류가 발생하는지 제시를 하고있고, 무고한 사람들에게 잘못이 있다고 가정하고 있지도 않습니다. 이 질문은 충분히 관심을 받을만한 가치가 있어 보이는군요.
 
-**Stupid:** I'm having problems with my motherboard. Can anybody help?
+<!-- **Stupid:** I'm having problems with my motherboard. Can anybody help? -->
+**멍청한 질문** 컴퓨터 메인보드에 문제가 있는데 도와주실분?
 
-J. Random Hacker's response to this is likely to be “Right. Do you need burping and diapering, too?” followed by a punch of the delete key.
+<!-- J. Random Hacker's response to this is likely to be “Right. Do you need burping and diapering, too?” followed by a punch of the delete key. -->
+임의의 해커 J.길동씨의 반응은 "그래. 너는 애기니까 등도 토닥여서 트름도 시켜주고 기저귀도 갈아줘야겠다. 그렇지?" 라고 하면서 삭제 버튼을 강타 할겁니다.
 
-**Smart:** I tried X, Y, and Z on the S2464 motherboard. When that didn't work, I tried A, B, and C. Note the curious symptom when I tried C. Obviously the florbish is grommicking, but the results aren't what one might expect. What are the usual causes of grommicking on Athlon MP motherboards? Anybody got ideas for more tests I can run to pin down the problem?
+<!-- **Smart:** I tried X, Y, and Z on the S2464 motherboard. When that didn't work, I tried A, B, and C. Note the curious symptom when I tried C. Obviously the florbish is grommicking, but the results aren't what one might expect. What are the usual causes of grommicking on Athlon MP motherboards? Anybody got ideas for more tests I can run to pin down the problem? -->
+**똑똑한 질문:** 저는 S2464 메인보드에 문제가 있어서 X,Y,Z를 시도 해봤습니다. 해당 방법들이 통하지 않아서 A,B,C를 추가로 시도를 해봤습니다. C를 시도했을때 특이한 증상이 있었습니다. 당연히 grommicking이 문제긴 한데, 이어지는 결과가 예상 외의 것입니다. Athlon MP 메인보드에서 grommicking을 유발하는 주요 원인이 뭔가요? 어떤 테스트를 해야 문제의 원인을 좁혀나갈 수 있나요?
 
+<!-- TODO: 여기서부터 -->
 This person, on the other hand, seems worthy of an answer. He/she has exhibited problem-solving intelligence rather than passively waiting for an answer to drop from on high.
 
 In the last question, notice the subtle but important difference between demanding “Give me an answer” and “Please help me figure out what additional diagnostics I can run to achieve enlightenment.”
